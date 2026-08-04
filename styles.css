@@ -1,0 +1,85 @@
+@font-face{
+            font-family:"MyFont";
+            src: url("/home/jake/Documents/J.T.K Birding Log/Fonts/MyFont.ttf")
+             }
+a{
+  color:black;
+  transition:0.2s
+  }
+  a{
+    text-decoration:none;
+     }
+  a:hover{
+          color:#6B6A74;
+          cursor:pointer;
+          text-decoration:underline;
+             }
+             a:active{
+                       color:blue;
+                       }
+                    
+                           body {
+                                    font-family:"MyFont";
+
+                                    font-size:28px;
+                                         }
+                             
+                              h1{
+                             text-shadow:5px 5px  5px #667A66;
+                             text-align:center;
+                             text-decoration:underline;
+                             }
+                             p{
+                             font-family:'MyFont';
+                             font-size:28px;
+                             text-shadow: 5px 5px 5px #667A66;
+                             }
+                             img{
+                                 border-radius:35px;
+                                 box-shadow: 15px 10px 25px black;
+                                 transition: transform 0.10s; !important;
+                                 border: 2px solid black;
+                                  }
+                                                .birdphoto{
+                                                            float:right;
+                                                            margin:10px 7px 10px 10px;
+                                                            transition:transform 0.3s;
+                                                              }
+                                                              .birdphoto2{
+                                                                          float:left;
+                                                                          margin:10px 10px 0px 10px;
+                                                                          transition: transform 0.3s;
+                                                                           }
+                                                                           .birdphoto2:hover{
+                                                                                             transform:scale(1.06);
+                                                                                               }
+                                                                                               .birdphoto:hover{
+                                                                                                                 transform:scale(1.06);
+                                                                                                                  }
+                                                                                               .logo{
+                                                                                                     float:top;
+                                                                                                     margin: 10px 10px 0px 840px;
+                                                                                                      border:none;
+                                                                                                      box-shadow:none;
+                                                                                                      }
+                                                                                                      
+                                                                                               .navbar{
+                                                                                                   border-radius: 25px;
+                                                                                                   border: 2px solid black;
+                                                                                                   display:inline-block;
+                                                                                                   padding:10px 15px 10px 15px
+                                                                                                   }
+                                                                                            details{
+                                                                                                      text-shadow:10px 10px 10px #667A66;
+                                                                                                      }
+                                                                                                      ul{
+                                                                                                          list-style-type:disc;
+                                                                                                           }
+                                                                                                           li{
+                                                                                                                line-height:1.5;
+                                                                                                                margin-bottom:20px;
+                                                                                                                  }
+                                                                                                                    
+                                                                                                                                                                                                  
+   
+
