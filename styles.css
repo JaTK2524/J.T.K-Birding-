@@ -1,7 +1,4 @@
-@font-face{
-            font-family:"MyFont";
-            src: url("/home/jake/Documents/J.T.K Birding Log/Fonts/MyFont.ttf")
-             }
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
 a{
   color:black;
   transition:0.2s
@@ -19,7 +16,7 @@ a{
                        }
                     
                            body {
-                                    font-family:"MyFont";
+                                    font-family:"Edu SA Beginner";
 
                                     font-size:28px;
                                          }
@@ -30,7 +27,7 @@ a{
                              text-decoration:underline;
                              }
                              p{
-                             font-family:'MyFont';
+                             font-family:'Edu SA Beginner';
                              font-size:28px;
                              text-shadow: 5px 5px 5px #667A66;
                              }
