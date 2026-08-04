@@ -54,8 +54,6 @@ a{
                                                                                                                  transform:scale(1.06);
                                                                                                                   }
                                                                                                .logo{
-                                                                                                     float:top;
-                                                                                                     margin: 10px 10px 0px 840px;
                                                                                                       border:none;
                                                                                                       box-shadow:none;
                                                                                                       }
@@ -76,6 +74,14 @@ a{
                                                                                                                 line-height:1.5;
                                                                                                                 margin-bottom:20px;
                                                                                                                   }
+                                                                                                                  .header{
+                                                                                                                          display:flex;
+                                                                                                                          flex-direction:column;
+                                                                                                                          align-items:center;
+                                                                                                                          }
+                                                                                                                          figure{
+                                                                                                                                 margin:20px 0;
+                                                                                                                                  }
                                                                                                                     
                                                                                                                                                                                                   
    
