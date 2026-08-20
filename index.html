@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>J.T.K Birding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Images/J.T.KBirdingFavicon.png">
+</head>
+
+<body>
+<input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
+
+<div class="bird-page">
+
+    <h1>J.T.K Birding</h1>
+
+    <ul>
+        <li class="bird"><a href="birds/alexandrine-parakeet.html">Alexandrine Parakeet</a></li><li class="bird"><a href="birds/asian-green-bee-eater.html">Asian-Green Bee-eater</a></li><li class="bird"><a href="birds/asian-koel.html">Asian Koel</a></li><li class="bird"><a href="birds/ashy-drongo.html">Ashy Drongo</a></li><li class="bird"><a href="birds/barn-owl.html">Barn Owl</a></li><li class="bird"><a href="birds/black-drongo.html">Black Drongo</a></li><li class="bird"><a href="birds/black-headed-ibis.html">Black-Headed Ibis</a></li><li class="bird"><a href="birds/black-kite.html">Black Kite</a></li><li class="bird"><a href="birds/black-rumped-flameback.html">Black-Rumped Flameback</a></li><li class="bird"><a href="birds/black-winged-kite.html">Black-Winged Kite</a></li><li class="bird"><a href="birds/brown-headed-barbet.html">Brown-Headed Barbet</a></li><li class="bird"><a href="birds/cattle-egret.html">Cattle Egret</a></li><li class="bird"><a href="birds/common-hoopoe.html">Common Hoopoe</a></li><li class="bird"><a href="birds/common-kingfisher.html">Common Kingfisher</a></li><li class="bird"><a href="birds/common-myna.html">Common Myna</a></li><li class="bird"><a href="birds/common-rosefinch.html">Common Rosefinch</a></li><li class="bird"><a href="birds/common-sandpiper.html">Common Sandpiper</a></li><li class="bird"><a href="birds/common-stonechat.html">Common Stonechat</a></li><li class="bird"><a href="birds/coppersmith-barbet.html">Coppersmith Barbet</a></li><li class="bird"><a href="birds/crested-serpent-eagle.html">Crested Serpent Eagle</a></li><li class="bird"><a href="birds/great-hornbill.html">Great Hornbill</a></li><li class="bird"><a href="birds/greater-coucal.html">Greater Coucal</a></li><li class="bird"><a href="birds/indian-golden-oriole.html">Indian Golden Oriole</a></li><li class="bird"><a href="birds/indian-grey-hornbill.html">Indian Grey Hornbill</a></li><li class="bird"><a href="birds/indian-openbill.html">Indian Openbill</a></li><li class="bird"><a href="birds/indian-peafowl.html">Indian Peafowl</a></li><li class="bird"><a href="birds/indian-pitta.html">Indian Pitta</a></li><li class="bird"><a href="birds/indian-roller.html">Indian Roller</a></li><li class="bird"><a href="birds/indian-silverbill.html">Indian Silverbill</a></li><li class="bird"><a href="birds/jungle-babbler.html">Jungle Babbler</a></li><li class="bird"><a href="birds/little-cormorant.html">Little Cormorant</a></li><li class="bird"><a href="birds/little-egret.html">Little Egret</a></li><li class="bird"><a href="birds/little-ringed-plover.html">Little Ringed Plover</a></li><li class="bird"><a href="birds/oriental-magpie-robin.html">Oriental Magpie-Robin</a></li><li class="bird"><a href="birds/painted-stork.html">Painted Stork</a></li><li class="bird"><a href="birds/purple-rumped-sunbird.html">Purple-Rumped Sunbird</a></li><li class="bird"><a href="birds/purple-sunbird.html">Purple Sunbird</a></li><li class="bird"><a href="birds/red-vented-bulbul.html">Red-Vented Bulbul</a></li><li class="bird"><a href="birds/red-whiskered-bulbul.html">Red-Whiskered Bulbul</a></li><li class="bird"><a href="birds/red-wattled-lapwing.html">Red-Wattled Lapwing</a></li><li class="bird"><a href="birds/rose-ringed-parakeet.html">Rose-Ringed Parakeet</a></li><li class="bird"><a href="birds/rufous-treepie.html">Rufous Treepie</a></li><li class="bird"><a href="birds/scaly-breasted-munia.html">Scaly-Breasted Munia</a></li><li class="bird"><a href="birds/shikra.html">Shikra</a></li><li class="bird"><a href="birds/white-breasted-waterhen.html">White-Breasted Waterhen</a></li><li class="bird"><a href="birds/white-rumped-munia.html">White-Rumped Munia</a></li><li class="bird"><a href="birds/white-throated-kingfisher.html">White-Throated Kingfisher</a></li>
+    </ul>
+
+</div>
+<script>
+const search = document.getElementById("search")
+const birds = document.querySelectorAll(".bird")
+
+search.addEventListener("input", function() {
+const text = search.value.toLowerCase();
+birds.forEach(function(bird) {
+const name = bird.textContent.toLowerCase();
+if (name.includes(text)) {
+   bird.style.display = "";
+  } else {
+  bird.style.display = "none";
+  }
+});
+
+ });
+</script>
+
+</body>
+</html>
