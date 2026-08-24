@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>J.T.K Birding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Images/J.T.KBirdingFavicon.png">
+</head>
+
+<body>
+<input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
+
+<div class="bird-page">
+
+    <h1>J.T.K Birding</h1>
+
+    <ul>
+        {{BIRD_LIST}}
+    </ul>
+
+</div>
+<script>
+const search = document.getElementById("search")
+const birds = document.querySelectorAll(".bird")
+
+search.addEventListener("input", function() {
+const text = search.value.toLowerCase();
+birds.forEach(function(bird) {
+const name = bird.textContent.toLowerCase();
+if (name.includes(text)) {
+   bird.style.display = "";
+  } else {
+  bird.style.display = "none";
+  }
+});
+
+ });
+</script>
+
+</body>
+</html>

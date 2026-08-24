@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
+body {
+    background-color: #2F4033;
+    font-family:"Edu SA Beginner", cursive;
+    color: #333333;
+    margin: 0;
+    padding: 40px;
+    font-size:29px;
+    cursor:url("../Images/birdy.png"), auto;
+}
+
+.bird-info {
+    max-width: 1000px;
+    margin: auto;
+    background-color:#E8DFC5;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0,0,0, 0.70);
+    display: flex;
+    gap:30px;
+    align-items:center;
+    flex-direction:column;
+}
+.bird-info img{
+              width:300px;
+              height:auto;
+              display:flex;
+              align-items:center;
+              transform:scale(1.10);
+                  }
+                  img{
+                      border-radius:15px;
+                      border: 1px solid black;
+                      transition: transform 1.0s;
+                       }
+   
+
+h1 {
+    font-family: "Edu SA Beginner", cursive;
+    color: #355E3B;
+    font-size: 42px;
+    margin-bottom: 5px;
+    text-align:center;
+}
+
+h2 {
+    color: #4D6A52;
+    font-weight: normal;
+}
+
+p {
+    font-size: 29px;
+    line-height: 1.6;
+    color:black;
+}
+
+.scientific {
+    font-style: italic;
+}
+a{
+  color:black;
+  text-decoration:none;
+  }
+  a:visited{
+            color:black;
+             }
+             a:hover{
+                   color:dimgray;
+                   cursor:pointer;
+                      }
+                      li{
+                         margin-bottom:25px;
+                         line-height: 1.6;
+                          }
+                          ul{
+                              list-style-type:disc;
+                               }
+                               .navbar{
+                                    border: 2px solid black;
+                                    border-radius:25px;
+                                    display: inline-block;
+                                    padding: 15px 10px 15px 10px;
+                                     }
+                                     button{
+                                     width: 100px;
+                                     height: 50px;
+                                     background-color:#55A967;
+                                     transition: transform 0.15s;
+                                     border-radius:30px;
+                                     font-family:"Edu SA Beginner", cursive;
+                                     font-size:19px;
+                                     }
+                                     button:hover{
+                                    background-color:#4E944F;
+                                    transform: scale(1.09);
+                                    cursor:crosshair;
+                                    }
+                                    .search_bar{
+                                    border-radius:15px;
+                                    height:50px;
+                                    width:400px;
+                                    font-size:20px;
+                                    }
+                                    .serach_bar:hover{
+                                    cursor:text;
+                                    }
