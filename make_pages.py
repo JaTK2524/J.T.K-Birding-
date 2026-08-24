@@ -1,12 +1,21 @@
 template = open("template.html", "r").read()
 
 birds = [
+
     {
         "name": "Alexandrine Parakeet",
         "scientific": "Psittacula eupatria",
         "family": "Psittaculidae",
         "description": "The Alexandrine Parakeet is a large, powerful parakeet with predominantly green plumage, a long tail, and a large red bill. Adult males have a distinctive black-and-pink collar around the neck, while females and younger birds do not show the same complete collar. It is found in forests, woodland, agricultural areas, gardens, and even urban environments. It feeds on fruits, seeds, grains, flowers, buds, and other plant material. Alexandrine Parakeets are highly social and often travel in noisy flocks, their loud calls carrying across the landscape. Their strong bills allow them to crack and manipulate surprisingly hard foods.",
         "image": "AlexandrineParakeet1.jpg"
+    },
+
+    {
+        "name": "Asian Brown Flycatcher",
+        "scientific": "Muscicapa dauurica",
+        "family": "Muscicapidae",
+        "description": "The Asian Brown Flycatcher is a small, inconspicuous insect-eating bird with brownish upperparts, pale underparts, a relatively large dark eye, and a delicate bill. It is commonly associated with woodland, forest edges, gardens, plantations, and other areas containing suitable perches. The bird usually hunts from a branch, watching carefully for insects before making a quick flight to capture them in the air or from nearby vegetation. Its subdued plumage provides excellent camouflage among branches and leaves. Although it may not have the spectacular colours of some tropical birds, its precise movements and efficient fly-catching behaviour make it an interesting species to observe.",
+        "image": "AsianBrownFlycatcher1.jpg"
     },
 
     {
@@ -19,9 +28,9 @@ birds = [
 
     {
         "name": "Asian Koel",
-        "scientific": "Scientific name: Eudynamys scolopaceus",
+        "scientific": "Eudynamys scolopaceus",
+        "family": "Cuculidae",
         "description": "The Asian Koel is a familiar member of the cuckoo family and is particularly famous for its loud, far-carrying calls. The male is glossy black with a striking red eye, while the female is brown with extensive pale spotting and streaking. Asian Koels are strongly associated with trees, gardens, groves, and urban areas where fruiting trees are available. They feed largely on fruits and berries and may spend long periods hidden among dense foliage. Like many cuckoos, the Asian Koel has a fascinating breeding strategy in which it lays its eggs in the nests of other birds. Its unmistakable call is often one of the first signs that a koel is nearby.",
-        "family": "Family: Cuculidae",
         "image": "AsianKoel1.jpg"
     },
 
@@ -59,8 +68,8 @@ birds = [
 
     {
         "name": "Black Kite",
+        "scientific": "Milvus migrans",
         "family": "Accipitridae",
-        "scientific": "Milvus Migrans",
         "description": "The Black Kite is a widespread and highly adaptable bird of prey often seen soaring effortlessly over towns, fields, rivers, coastlines, and busy urban areas. It has long wings and a characteristic forked tail that helps it manoeuvre while gliding on rising air currents. Black Kites are opportunistic feeders and may hunt small animals, but they also make extensive use of carrion and food scraps. Their ability to live successfully alongside humans has made them one of the most familiar raptors in many parts of the world. Large numbers may gather where food is plentiful, creating impressive groups circling high above the ground.",
         "image": "BlackKite1.jpg"
     },
@@ -82,6 +91,22 @@ birds = [
     },
 
     {
+        "name": "Brahminy Kite",
+        "scientific": "Haliastur indus",
+        "family": "Accipitridae",
+        "description": "The Brahminy Kite is a striking medium-sized raptor recognised by its rich chestnut-brown body, contrasting white head and breast, broad wings, and powerful hooked bill. It is strongly associated with coastal areas, rivers, lakes, wetlands, estuaries, and other places where fish and aquatic prey are available. It feeds on fish, crabs, carrion, and other small animals, often soaring low over water while searching for food. Its graceful flight and sharply contrasting plumage make it particularly easy to identify. Brahminy Kites are also closely associated with South Asian landscapes and are a familiar sight around waterways.",
+        "image": "BrahminyKite1.jpg"
+    },
+
+    {
+        "name": "Brahminy Starling",
+        "scientific": "Sturnia pagodarum",
+        "family": "Sturnidae",
+        "description": "The Brahminy Starling is a medium-sized starling with a pale grey body, darker wings, a black crest, and warm buff-orange colouring around the head and breast. It is commonly found in open woodland, scrub, gardens, farmland, and areas near human habitation. It feeds on fruits, seeds, insects, and other small food items and may forage both on the ground and among vegetation. Its pointed crest and contrasting plumage make it distinctive among the starlings of the Indian subcontinent. During the breeding season, pairs may become particularly active around suitable nesting sites.",
+        "image": "BrahminyStarling1.jpg"
+    },
+
+    {
         "name": "Brown-Headed Barbet",
         "scientific": "Psilopogon zeylanicus",
         "family": "Megalaimidae",
@@ -99,8 +124,8 @@ birds = [
 
     {
         "name": "Common Hoopoe",
-        "family": "Upupidae",
         "scientific": "Upupa epops",
+        "family": "Upupidae",
         "description": "The Common Hoopoe is an unmistakable bird with a long, slender bill, warm buff-orange plumage, boldly black-and-white striped wings, and a magnificent fan-shaped crest. It spends much of its time on the ground, probing soil with its long bill in search of insects and other small creatures. When disturbed or excited, it can raise its crest into a striking crown of feathers. In flight, the broad black-and-white wings produce a distinctive pattern that makes the bird easy to identify. Hoopoes occur in open woodland, farmland, gardens, grassland, and other habitats where soft ground provides suitable feeding areas.",
         "image": "CommonHoopoe1.jpg"
     },
@@ -115,7 +140,7 @@ birds = [
 
     {
         "name": "Common Myna",
-        "scientific": "Acridotheres Tristis",
+        "scientific": "Acridotheres tristis",
         "family": "Sturnidae",
         "description": "The Common Myna is a familiar and highly adaptable bird found around towns, gardens, farmland, roadsides, buildings, and open woodland. It has a dark brown body, blackish head, yellow bill and legs, and conspicuous white patches on the wings that become particularly noticeable in flight. Common Mynas are opportunistic feeders and eat insects, fruits, grains, scraps, and many other foods. Their adaptability allows them to thrive in landscapes heavily modified by humans. They are often seen walking confidently across lawns and roadsides while searching for food, and their loud calls contribute greatly to the everyday soundscape of towns and villages.",
         "image": "CommonMyna1.jpg"
@@ -146,6 +171,14 @@ birds = [
     },
 
     {
+        "name": "Common Tailorbird",
+        "scientific": "Orthotomus sutorius",
+        "family": "Cisticolidae",
+        "description": "The Common Tailorbird is a tiny, active songbird named for its remarkable nesting behaviour, in which it uses plant fibres and spider silk to stitch or bind leaves together to form a secure nest. It has greenish upperparts, pale underparts, a long tail that is often cocked upward, and a slender pointed bill. It is common in gardens, scrub, plantations, woodland edges, and urban areas containing dense vegetation. The bird feeds mainly on insects and other small invertebrates, moving rapidly through leaves and branches while searching for prey. Its sharp calls and restless movements often reveal its presence before the bird can be located.",
+        "image": "CommonTailorbird1.jpg"
+    },
+
+    {
         "name": "Coppersmith Barbet",
         "scientific": "Psilopogon haemacephalus",
         "family": "Megalaimidae",
@@ -171,10 +204,42 @@ birds = [
 
     {
         "name": "Greater Coucal",
-        "family": "Cuculidae",
         "scientific": "Centropus sinensis",
+        "family": "Cuculidae",
         "description": "The Greater Coucal is a large, heavy-bodied member of the cuckoo family with glossy black plumage, rich chestnut-brown wings, a long tail, and a deep, resonant call. Unlike many cuckoos, it spends much of its time close to the ground, moving slowly through thick vegetation, scrub, gardens, farmland, and woodland edges. It feeds on insects, frogs, lizards, small animals, and a variety of other food items. Its large size and slow movements can make it look almost crow-like at first glance, but its rich brown wings and distinctive call reveal its identity. The Greater Coucal is often heard before it is seen because it prefers dense cover.",
         "image": "GreaterCoucal1.jpg"
+    },
+
+    {
+        "name": "Greater Racket-Tailed Drongo",
+        "scientific": "Dicrurus paradiseus",
+        "family": "Dicruridae",
+        "description": "The Greater Racket-Tailed Drongo is a striking forest bird with glossy black plumage, a prominent crest, and an extraordinary long tail ending in distinctive racket-shaped extensions. It is found mainly in forests, woodland, plantations, and forest edges, where it spends much of its time in the canopy. It feeds primarily on insects and other small creatures, often making swift aerial sallies from exposed branches to capture prey. This species is also famous for its varied vocal abilities and its capacity to imitate sounds made by other birds. Its spectacular tail, agile flight, and impressive vocal behaviour make it one of the most memorable drongos in South Asia.",
+        "image": "GreaterRacket-TailedDrongo1.jpg"
+    },
+
+    {
+        "name": "Grey Heron",
+        "scientific": "Ardea cinerea",
+        "family": "Ardeidae",
+        "description": "The Grey Heron is a large, elegant wading bird with a long neck, long legs, a powerful pointed bill, and predominantly grey, white, and black plumage. It is found around rivers, lakes, ponds, marshes, estuaries, reservoirs, and coastal wetlands. The bird often stands completely still at the edge of shallow water, waiting patiently before making a rapid strike at fish, frogs, insects, and other aquatic prey. Its long neck allows it to reach into deeper water without moving its body very much. In flight, it folds its neck into a characteristic S-shape while its long legs trail behind, producing the unmistakable silhouette of a large heron.",
+        "image": "GreyHeron1.jpg"
+    },
+
+    {
+        "name": "Grey-Headed Fish Eagle",
+        "scientific": "Icthyophaga ichthyaetus",
+        "family": "Accipitridae",
+        "description": "The Grey-Headed Fish Eagle is a powerful fish-eating raptor associated with rivers, lakes, reservoirs, wetlands, and other freshwater habitats. It has a distinctive grey head, dark brown body, broad wings, and a strong hooked bill designed for handling slippery prey. Fish form an important part of its diet, although it may also take other aquatic animals and carrion. The eagle often watches from a prominent tree or perch near water before swooping down to seize prey. Its broad wings allow it to soar efficiently over large bodies of water, while its powerful talons are well suited to carrying fish away from the surface.",
+        "image": "Grey-HeadedFishEagle1.jpg"
+    },
+
+    {
+        "name": "Indian Cormorant",
+        "scientific": "Phalacrocorax fuscicollis",
+        "family": "Phalacrocoracidae",
+        "description": "The Indian Cormorant is a dark, streamlined waterbird commonly found on rivers, lakes, reservoirs, ponds, and other freshwater bodies. It is an excellent underwater hunter and pursues fish and other aquatic prey by swimming and diving beneath the surface. After feeding, it often sits on exposed branches, rocks, poles, or other perches with its wings spread to dry. Its long neck, relatively slender body, and dark plumage give it a distinctive appearance among Indian waterbirds. It can occur in groups, particularly where food is abundant, and may be seen diving repeatedly in productive waters.",
+        "image": "IndianCormorant1.jpg"
     },
 
     {
@@ -202,11 +267,27 @@ birds = [
     },
 
     {
+        "name": "Indian Paradise Flycatcher",
+        "scientific": "Terpsiphone paradisi",
+        "family": "Monarchidae",
+        "description": "The Indian Paradise Flycatcher is an elegant insect-eating bird famous for the extraordinary long tail streamers of adult males. Males may occur in striking white or rufous plumage, while females are generally shorter-tailed and more subdued in appearance. The species inhabits forests, woodland, gardens, plantations, and shaded areas where flying insects are abundant. It hunts by making rapid aerial sallies from branches, catching insects in mid-air before returning to a perch. Its graceful movements, flowing tail, and contrasting plumage make it one of the most spectacular small birds of South Asian forests.",
+        "image": "IndianParadiseFlycatcher1.jpg"
+    },
+
+    {
         "name": "Indian Peafowl",
         "scientific": "Pavo cristatus",
         "family": "Phasianidae",
         "description": "The Indian Peafowl is one of the most recognisable birds of the Indian subcontinent and the national bird of India. The male, known as the peacock, has an extraordinary train of elongated feathers covered with colourful eye-like markings, which he raises and displays during courtship. Females, known as peahens, are more subdued in colour and lack the spectacular train. Indian Peafowl occur in forests, scrub, farmland, villages, gardens, and areas around human settlements. They feed on seeds, grains, fruits, insects, small reptiles, and other food items. Their loud calls and impressive displays make them among the most memorable birds of the region.",
         "image": "IndianPeafowl1.jpg"
+    },
+
+    {
+        "name": "Indian Pied Starling",
+        "scientific": "Gracupica contra",
+        "family": "Sturnidae",
+        "description": "The Indian Pied Starling is a medium-sized starling with strongly contrasting black-and-white plumage, a pale head, and a distinctive patterned appearance. It is commonly found in open country, farmland, grasslands, towns, villages, and areas with scattered trees. It feeds on insects, fruits, grains, seeds, and other food items and often forages on the ground in open areas. Indian Pied Starlings are social birds and may gather in groups where food is abundant. Their bold black-and-white plumage makes them particularly conspicuous among the many brown and grey birds of open landscapes.",
+        "image": "IndianPiedStarling1.jpg"
     },
 
     {
@@ -216,18 +297,27 @@ birds = [
         "description": "The Indian Pitta is a beautifully coloured forest bird with a green back, blue wing markings, buff-coloured underparts, a reddish lower belly, and a bold dark stripe through the eye. It spends much of its time on the ground or among low vegetation, where it searches through leaf litter for insects, worms, and other small creatures. Despite its bright colours, it can be surprisingly difficult to locate because it prefers dense vegetation and moves quietly between patches of cover. Its strong, repeated calls are often the first indication that a pitta is nearby. It is especially associated with woodland and forest habitats where fallen leaves provide suitable feeding grounds.",
         "image": "IndianPitta1.jpg"
     },
+
     {
-    "name": "Indian Pond Heron",
-    "scientific": "Ardeola grayii",
-    "family": "Ardeidae",
-    "description": "The Indian Pond Heron is a small, stocky heron commonly found around ponds, marshes, rice fields, streams, wetlands, and other shallow-water habitats. It has a deceptively plain appearance when standing still, with streaky brown and buff plumage that provides excellent camouflage among mud, grass, and vegetation. When it takes flight, however, its wings reveal striking white patches that contrast sharply with the darker upperparts. The Indian Pond Heron feeds on fish, frogs, insects, crustaceans, and other small creatures, usually hunting by standing quietly at the edge of shallow water before making a sudden strike. It can also be found in cultivated fields and other human-modified landscapes where suitable feeding areas remain. During the breeding season, its plumage becomes more colourful, with elongated feathers developing around the head, neck, and back. Its ability to remain almost invisible until it suddenly flies away makes it a fascinating and surprisingly easy-to-overlook wetland bird.",
-    "image": "IndianPondHeron1.jpg"
-},
+        "name": "Indian Pond Heron",
+        "scientific": "Ardeola grayii",
+        "family": "Ardeidae",
+        "description": "The Indian Pond Heron is a small, stocky heron commonly found around ponds, marshes, rice fields, streams, wetlands, and other shallow-water habitats. It has a deceptively plain appearance when standing still, with streaky brown and buff plumage that provides excellent camouflage among mud, grass, and vegetation. When it takes flight, however, its wings reveal striking white patches that contrast sharply with the darker upperparts. The Indian Pond Heron feeds on fish, frogs, insects, crustaceans, and other small creatures, usually hunting by standing quietly at the edge of shallow water before making a sudden strike. It can also be found in cultivated fields and other human-modified landscapes where suitable feeding areas remain. During the breeding season, its plumage becomes more colourful, with elongated feathers developing around the head, neck, and back. Its ability to remain almost invisible until it suddenly flies away makes it a fascinating and surprisingly easy-to-overlook wetland bird.",
+        "image": "IndianPondHeron1.jpg"
+    },
+
+    {
+        "name": "Indian Robin",
+        "scientific": "Copsychus fulicatus",
+        "family": "Muscicapidae",
+        "description": "The Indian Robin is a small, active bird of open and semi-open habitats, often found around rocky ground, scrub, gardens, farmland, and human settlements. Males are generally dark with contrasting pale or rufous markings around the lower body, while females are more subdued. It spends much of its time on the ground, hopping between rocks, bushes, and bare patches while searching for insects and other small invertebrates. It frequently raises and flicks its tail while moving through its territory. Its preference for open ground and its active behaviour make the Indian Robin an enjoyable species to watch closely.",
+        "image": "IndianRobin1.jpg"
+    },
 
     {
         "name": "Indian Roller",
-        "family": "Coracias benghalensis",
-        "scientific": "Coraciidae",
+        "scientific": "Coracias benghalensis",
+        "family": "Coraciidae",
         "description": "The Indian Roller is a medium-sized bird famous for its brilliant blue wings, turquoise colouring, and spectacular tumbling displays during the breeding season. When perched, it can appear relatively subdued, but its true beauty becomes obvious when it takes flight and reveals the intense blue and purple colours of its wings. It is commonly found in open woodland, farmland, grassland, roadsides, and urban areas with scattered trees. The Indian Roller feeds on insects, small reptiles, amphibians, and other small animals, often hunting from an exposed perch. Its bold colours and dramatic flight make it one of the most memorable birds of open Indian landscapes.",
         "image": "IndianRoller1.jpg"
     },
@@ -246,6 +336,14 @@ birds = [
         "family": "Leiothrichidae",
         "description": "The Jungle Babbler is a social and noisy bird that usually moves through its habitat in small groups. It has predominantly brownish-grey plumage, a pale underside, and a sturdy appearance. Jungle Babblers are found in woodland, scrub, gardens, farmland, parks, and urban areas with suitable vegetation. They feed on insects, fruits, seeds, and other small food items, often foraging together on the ground and among bushes. Their constant chatter and energetic group behaviour are among their most characteristic features. A group of babblers can seem to occupy an entire patch of vegetation at once, with several birds calling and moving about simultaneously.",
         "image": "JungleBabbler1.jpg"
+    },
+
+    {
+        "name": "Lesser Whistling Duck",
+        "scientific": "Dendrocygna javanica",
+        "family": "Anatidae",
+        "description": "The Lesser Whistling Duck is a small to medium-sized duck with warm brown plumage, a relatively long neck, and a distinctive whistling call. It is strongly associated with freshwater habitats such as ponds, lakes, marshes, flooded fields, rice paddies, and slow-moving waterways. It feeds on aquatic vegetation, seeds, grains, and small aquatic animals and may forage both by dabbling and by searching through shallow water. These ducks are highly social and are often encountered in groups resting on the water or along the shoreline. Their whistling calls and compact shape make them a familiar sight on suitable wetlands.",
+        "image": "LesserWhistlingDuck1.jpg"
     },
 
     {
@@ -273,11 +371,27 @@ birds = [
     },
 
     {
+        "name": "Oriental Darter",
+        "scientific": "Anhinga melanogaster",
+        "family": "Anhingidae",
+        "description": "The Oriental Darter is a long-necked aquatic bird with a slender body, pointed bill, and remarkable swimming ability. It is commonly found on freshwater lakes, ponds, rivers, reservoirs, marshes, and other wetlands. The bird swims with much of its body submerged, leaving only its long neck and head visible above the water, which gives rise to its snake-like appearance. It dives underwater to catch fish and other aquatic prey using its sharp bill. After feeding, it often perches with its wings spread to dry. Its unusual swimming style and long snake-like neck make it one of the most distinctive waterbirds of South Asia.",
+        "image": "OrientalDarter1.jpg"
+    },
+
+    {
         "name": "Oriental Magpie-Robin",
+        "scientific": "Copsychus saularis",
         "family": "Muscicapidae",
         "description": "The Oriental Magpie-Robin is a bold and highly recognisable garden bird with striking black-and-white plumage, a long tail, and a lively personality. Males are predominantly black and white, while females are generally greyer and less strongly marked. It is often seen on the ground or perched on low branches, fences, walls, and other exposed surfaces while searching for insects and other small creatures. A characteristic behaviour is the frequent raising and cocking of its long tail while foraging. The species is also famous for its varied and musical song, particularly during the breeding season, when males can become especially conspicuous.",
-        "scientific": "Copsychus saularis",
         "image": "OrientalMagpie-Robin1.jpg"
+    },
+
+    {
+        "name": "Oriental White-eye",
+        "scientific": "Zosterops palpebrosus",
+        "family": "Zosteropidae",
+        "description": "The Oriental White-eye is a tiny, active bird easily recognised by the conspicuous white ring around its eye. It has greenish upperparts, yellowish underparts, and a short pointed bill suited to feeding on nectar, fruit, and small insects. White-eyes are highly active and often move rapidly through foliage in small groups, searching flowers and leaves for food. They are common in gardens, woodland, plantations, scrub, and urban areas containing flowering plants and trees. Their constant movement and soft social calls make them lively inhabitants of leafy habitats, while their striking eye-ring provides an excellent identification feature.",
+        "image": "OrientalWhite-Eye1.jpg"
     },
 
     {
@@ -286,6 +400,22 @@ birds = [
         "family": "Ciconiidae",
         "description": "The Painted Stork is a large and striking wetland bird with a long slightly curved bill, a mostly white body, black-and-white wings, and attractive pink markings on the lower body and legs. It is commonly found around lakes, marshes, flooded fields, shallow wetlands, and other areas where fish and aquatic prey are abundant. Painted Storks often feed by moving their partly open bills through shallow water, using touch to detect prey such as fish and other aquatic animals. They frequently gather in groups, particularly at productive feeding sites. Their large size and distinctive pattern make them highly conspicuous birds in open wetlands.",
         "image": "PaintedStork1.jpg"
+    },
+
+    {
+        "name": "Pied Kingfisher",
+        "scientific": "Ceryle rudis",
+        "family": "Alcedinidae",
+        "description": "The Pied Kingfisher is a striking black-and-white kingfisher commonly found around rivers, lakes, reservoirs, estuaries, ponds, and other open waters. It is famous for hovering almost motionless above the water before plunging downward to catch fish. Its black-and-white plumage, shaggy crest, long pointed bill, and rapid wingbeats make it easy to recognise. Unlike many kingfishers that rely on low perches, the Pied Kingfisher frequently hunts directly from the air, allowing it to cover large areas of water efficiently. It feeds mainly on fish and other aquatic prey and is often seen hunting in pairs or small groups.",
+        "image": "PiedKingfisher1.jpg"
+    },
+
+    {
+        "name": "Purple Heron",
+        "scientific": "Ardea purpurea",
+        "family": "Ardeidae",
+        "description": "The Purple Heron is a tall, elegant wetland bird with rich brown, purple-grey, and chestnut tones that distinguish it from the more uniformly grey Great Egret and Grey Heron. It is usually found in reedbeds, marshes, riversides, lakes, ponds, flooded fields, and other wetlands with dense vegetation. It feeds on fish, frogs, insects, small mammals, and other aquatic or wetland prey, often standing motionless before striking with its long pointed bill. Its long neck and legs allow it to hunt effectively in shallow water and among reeds. Despite its size, it can blend surprisingly well into dense wetland vegetation.",
+        "image": "PurpleHeron1.jpg"
     },
 
     {
@@ -298,8 +428,8 @@ birds = [
 
     {
         "name": "Purple Sunbird",
-        "family": "Nectariniidae",
         "scientific": "Cinnyris asiaticus",
+        "family": "Nectariniidae",
         "description": "The Purple Sunbird is a tiny, energetic nectar-feeding bird that is particularly common in gardens, scrub, woodland edges, and areas with flowering plants. Breeding males develop glossy, iridescent purplish-black plumage that can shine with different colours in bright sunlight, while females are more subdued yellowish-green. Its slender downward-curved bill is perfectly suited to feeding from flowers, and it may hover briefly while taking nectar. Insects and other small creatures are also eaten, especially when feeding young. Its rapid movements, tiny size, and brilliant male plumage make it one of the most fascinating small birds to watch around flowering plants.",
         "image": "PurpleSunbird1.jpg"
     },
@@ -307,8 +437,8 @@ birds = [
     {
         "name": "Red-Vented Bulbul",
         "scientific": "Pycnonotus cafer",
-        "description": "The Red-Vented Bulbul is a common and highly adaptable songbird found in gardens, towns, farmland, scrub, woodland, and urban areas. It has a dark head with a small crest, a brownish body, a pale underside, and the distinctive red patch beneath the tail that gives the species its name. It feeds on fruits, berries, nectar, insects, and other small food items, making it capable of exploiting a wide variety of habitats. Red-Vented Bulbuls are active and vocal birds and can often be seen moving between shrubs and trees in search of food. Their adaptability has allowed them to thrive even in heavily human-modified landscapes.",
         "family": "Pycnonotidae",
+        "description": "The Red-Vented Bulbul is a common and highly adaptable songbird found in gardens, towns, farmland, scrub, woodland, and urban areas. It has a dark head with a small crest, a brownish body, a pale underside, and the distinctive red patch beneath the tail that gives the species its name. It feeds on fruits, berries, nectar, insects, and other small food items, making it capable of exploiting a wide variety of habitats. Red-Vented Bulbuls are active and vocal birds and can often be seen moving between shrubs and trees in search of food. Their adaptability has allowed them to thrive even in heavily human-modified landscapes.",
         "image": "Red-VentedBulbul1.jpg"
     },
 
@@ -339,8 +469,8 @@ birds = [
     {
         "name": "Rufous Treepie",
         "scientific": "Dendrocitta vagabunda",
-        "description": "The Rufous Treepie is a long-tailed member of the crow family with a striking combination of rufous-brown, black, and grey plumage. It is commonly found in forests, woodland, gardens, farmland, plantations, and open areas containing scattered trees. It feeds on a wide variety of foods, including insects, fruits, small animals, eggs, and scraps, allowing it to adapt to many different environments. Rufous Treepies are active and curious birds and are often seen moving noisily through tree canopies or hopping between branches. Their long tails and contrasting plumage make them easy to recognise, while their varied calls often announce their presence before they are seen.",
         "family": "Corvidae",
+        "description": "The Rufous Treepie is a long-tailed member of the crow family with a striking combination of rufous-brown, black, and grey plumage. It is commonly found in forests, woodland, gardens, farmland, plantations, and open areas containing scattered trees. It feeds on a wide variety of foods, including insects, fruits, small animals, eggs, and scraps, allowing it to adapt to many different environments. Rufous Treepies are active and curious birds and are often seen moving noisily through tree canopies or hopping between branches. Their long tails and contrasting plumage make them easy to recognise, while their varied calls often announce their presence before they are seen.",
         "image": "RufousTreepie1.jpg"
     },
 
@@ -361,11 +491,35 @@ birds = [
     },
 
     {
+        "name": "Spotted Dove",
+        "scientific": "Spilopelia chinensis",
+        "family": "Columbidae",
+        "description": "The Spotted Dove is a medium-sized dove with soft brown and grey plumage and a distinctive black-and-white spotted patch on the sides and back of the neck. It is highly adaptable and can be found in gardens, farmland, woodland edges, parks, villages, and cities. It feeds mainly on seeds and grains, often foraging on the ground in open areas. Spotted Doves are generally calm birds and can often be observed walking slowly while searching for food. Their gentle cooing calls are a familiar sound in many parts of South Asia, especially around gardens and cultivated landscapes.",
+        "image": "SpottedDove1.jpg"
+    },
+
+    {
+        "name": "Stork-Billed Kingfisher",
+        "scientific": "Pelargopsis capensis",
+        "family": "Alcedinidae",
+        "description": "The Stork-Billed Kingfisher is a large and powerful kingfisher with a massive red bill, blue-green wings, a brownish head and body, and pale underparts. It is associated with rivers, lakes, ponds, mangroves, forest streams, and other wet habitats, particularly where substantial trees provide hunting perches. It feeds on fish, frogs, crabs, reptiles, and other small animals, usually watching from a perch before making a forceful dive or descent. Its enormous bill gives it a particularly impressive appearance and allows it to handle prey much larger than those taken by many smaller kingfishers. Despite its size, it can move rapidly and efficiently when hunting.",
+        "image": "Stork-BilledKingfisher1.jpg"
+    },
+
+    {
         "name": "White-Breasted Waterhen",
         "scientific": "Amaurornis phoenicurus",
         "family": "Rallidae",
         "description": "The White-Breasted Waterhen is a dark, chicken-sized wetland bird with a striking white face, throat, breast, and belly. It is commonly found around ponds, streams, marshes, rice fields, gardens, drainage channels, and areas of dense waterside vegetation. Although it can fly, it often prefers to walk quickly through reeds, grasses, bushes, and muddy margins, using its long toes to move over soft ground. It feeds on insects, small aquatic animals, seeds, and other food found around wet vegetation. Its loud and varied calls are often heard from dense cover, making sound an important clue to its presence.",
         "image": "White-BreastedWaterhen1.jpg"
+    },
+
+    {
+        "name": "White-Browed Fantail",
+        "scientific": "Rhipidura aureola",
+        "family": "Rhipiduridae",
+        "description": "The White-Browed Fantail is a small, energetic insect-eating bird recognised by its fan-shaped tail and prominent pale eyebrow. It is commonly found in woodland, scrub, gardens, plantations, and forest edges. The bird frequently spreads and flicks its tail while moving through branches and foliage, behaviour that gives the species its English name. It feeds mainly on insects and other small invertebrates, often catching prey in short aerial sallies from a perch. Its constant movement and tail-fanning behaviour make it an entertaining bird to observe, although its quick movements can make close observation surprisingly challenging.",
+        "image": "White-BrowedFantail1.jpg"
     },
 
     {
@@ -382,8 +536,16 @@ birds = [
         "family": "Alcedinidae",
         "description": "The White-Throated Kingfisher is a large and brilliantly coloured kingfisher with a bright blue back and wings, rich chestnut-brown head and body, white throat and breast, and a powerful red bill. Despite belonging to the kingfisher family, it is not restricted to water and can frequently be found in fields, gardens, woodland edges, plantations, and urban areas. It hunts a wide range of prey, including insects, lizards, frogs, small birds, and other small animals, while fish may also be taken when available. It often sits quietly on an exposed perch before dropping suddenly onto its prey. Its vivid colours and powerful flight make it one of the most impressive kingfishers of South Asia.",
         "image": "White-ThroatedKingfisher1.jpg"
-    }
-]
+    },
+
+    {
+        "name": "Yellow-Footed Green Pigeon",
+        "scientific": "Treron phoenicopterus",
+        "family": "Columbidae",
+        "description": "The Yellow-Footed Green Pigeon is a medium-sized fruit-eating pigeon with predominantly green plumage, yellowish feet, and subtle patches of colour on the wings and body. It is associated with forests, woodland, gardens, plantations, groves, and other habitats containing fruiting trees. Fruits, berries, and figs form an important part of its diet, and the bird may spend long periods quietly feeding in the canopy. Its green plumage provides excellent camouflage among leaves, making it surprisingly difficult to notice despite its size. The species plays an important ecological role by consuming and dispersing seeds from the fruits it eats.",
+        "image": "Yellow-FootedGreenPigeon1.jpg"
+    },
+    ]
 
 for bird in birds:
 
