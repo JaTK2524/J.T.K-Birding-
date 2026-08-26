@@ -529,6 +529,13 @@ birds = [
         "description": "The White-Rumped Munia is a small, social seed-eating finch commonly found in grassland, scrub, agricultural areas, gardens, and other habitats containing tall grasses. Its dark body contrasts with a conspicuous white patch on the rump, which becomes particularly noticeable when the bird flies away. It feeds mainly on grass seeds and other small seeds, often moving through vegetation in pairs or small flocks. White-Rumped Munias are active and sociable, frequently travelling together between feeding areas. Their association with grassy habitats makes them a familiar sight in many rural landscapes.",
         "image": "White-RumpedMunia1.jpg"
     },
+     {
+        "name": "Yellow-Footed Green Pigeon",
+        "scientific": "Treron phoenicopterus",
+        "family": "Columbidae",
+        "description": "The Yellow-Footed Green Pigeon is a medium-sized fruit-eating pigeon with predominantly green plumage, yellowish feet, and subtle patches of colour on the wings and body. It is associated with forests, woodland, gardens, plantations, groves, and other habitats containing fruiting trees. Fruits, berries, and figs form an important part of its diet, and the bird may spend long periods quietly feeding in the canopy. Its green plumage provides excellent camouflage among leaves, making it surprisingly difficult to notice despite its size. The species plays an important ecological role by consuming and dispersing seeds from the fruits it eats.",
+        "image": "Yellow-FootedGreenPigeon1.jpg"
+    },
 
     {
         "name": "White-Throated Kingfisher",
@@ -537,14 +544,77 @@ birds = [
         "description": "The White-Throated Kingfisher is a large and brilliantly coloured kingfisher with a bright blue back and wings, rich chestnut-brown head and body, white throat and breast, and a powerful red bill. Despite belonging to the kingfisher family, it is not restricted to water and can frequently be found in fields, gardens, woodland edges, plantations, and urban areas. It hunts a wide range of prey, including insects, lizards, frogs, small birds, and other small animals, while fish may also be taken when available. It often sits quietly on an exposed perch before dropping suddenly onto its prey. Its vivid colours and powerful flight make it one of the most impressive kingfishers of South Asia.",
         "image": "White-ThroatedKingfisher1.jpg"
     },
-
-    {
-        "name": "Yellow-Footed Green Pigeon",
-        "scientific": "Treron phoenicopterus",
-        "family": "Columbidae",
-        "description": "The Yellow-Footed Green Pigeon is a medium-sized fruit-eating pigeon with predominantly green plumage, yellowish feet, and subtle patches of colour on the wings and body. It is associated with forests, woodland, gardens, plantations, groves, and other habitats containing fruiting trees. Fruits, berries, and figs form an important part of its diet, and the bird may spend long periods quietly feeding in the canopy. Its green plumage provides excellent camouflage among leaves, making it surprisingly difficult to notice despite its size. The species plays an important ecological role by consuming and dispersing seeds from the fruits it eats.",
-        "image": "Yellow-FootedGreenPigeon1.jpg"
+     {
+        "name": "Pied Bushchat",
+        "scientific": "Saxicola caprata",
+        "description": "The Pied Bushchat is a small, lively songbird commonly found in open grasslands, scrublands, farmland, and rocky areas. The male is strikingly dark with a black head, back, wings, and breast, contrasted by a white rump and patches on the wings and lower body. Females are generally brown and less boldly marked. Pied Bushchats often perch prominently on bushes, fences, rocks, and posts while watching for insects. They feed mainly on insects and other small invertebrates, frequently making short flights from a perch to catch prey before returning to the same or another nearby perch.",
+        "family": "Muscicapidae",
+        "image": "PiedBushchat1.jpg"
     },
+    {
+        "name": "Black Redstart",
+        "scientific": "Phoenicurus ochruros",
+        "description": "The Black Redstart is a small and active songbird associated with rocky landscapes, cliffs, mountains, open country, and human settlements. Males are predominantly dark grey or blackish, with a distinctive reddish-orange tail that is especially noticeable when the bird is in flight or flicking its tail. Females and immature birds are generally browner and more subdued in appearance. Black Redstarts frequently perch on rocks, walls, rooftops, and other exposed surfaces while searching for insects. Their characteristic tail movements and habit of repeatedly returning to prominent perches make them an interesting bird to observe.",
+        "family": "Muscicapidae",
+        "image": "BlackRedstart1.jpg"
+    },
+    {
+        "name": "Spotted Owlet",
+        "scientific": "Athene brama",
+        "description": "The Spotted Owlet is a small, familiar owl found across much of the Indian subcontinent. It has a rounded head, bright yellow eyes, pale facial markings, and a brown body covered with numerous white spots and streaks. Unlike many owls, it is often active during the day, particularly around dawn and dusk, and may be seen sitting openly on branches, poles, buildings, and other exposed places. Spotted Owlets feed on insects, small reptiles, rodents, and other small animals. They commonly inhabit gardens, farmland, villages, cities, and wooded areas, making them one of the more easily encountered owls in India.",
+        "family": "Strigidae",
+        "image": "SpottedOwlet1.jpg"
+    },
+    {
+        "name": "Black-Naped Oriole",
+        "scientific": "Oriolus chinensis",
+        "description": "The Black-Naped Oriole is a brightly coloured songbird recognized for its vivid yellow plumage, black wings, and distinctive black marking extending across the nape and around the eye. It inhabits forests, woodland edges, gardens, plantations, and other areas with mature trees. Its strong, melodious whistles can often reveal its presence before the bird itself is spotted among the foliage. Black-Naped Orioles feed on fruits, nectar, and a variety of insects and other small invertebrates. Their brilliant yellow plumage makes them particularly conspicuous when they emerge from the green canopy.",
+        "family": "Oriolidae",
+        "image": "Black-NapedOriole1.jpg"
+    },
+    {
+        "name": "Woolly-Necked Stork",
+        "scientific": "Ciconia episcopus",
+        "description": "The Woolly-Necked Stork is a large and elegant stork distinguished by its dark glossy plumage, contrasting white neck, and long reddish legs. It occurs in wetlands, grasslands, open woodland, agricultural areas, and along the edges of rivers and ponds. The species often forages alone or in small groups, walking slowly through shallow water or damp ground while searching for frogs, fish, insects, reptiles, and other small animals. Its striking combination of black, white, and reddish-brown colours makes it a particularly impressive bird when seen standing in open country or flying overhead.",
+        "family": "Ciconiidae",
+        "image": "Woolly-NeckedStork1.jpg"
+    },
+    {
+        "name": "Common Iora",
+        "scientific": "Aegithina tiphia",
+        "description": "The Common Iora is a small, active songbird of gardens, woodland, forest edges, and areas with dense vegetation. Males are particularly attractive, with bright yellow underparts contrasting with dark wings and upperparts, while females are generally greener and more subdued. Common Ioras spend much of their time moving energetically through foliage in search of insects and other small invertebrates. Their varied songs and calls are an important part of the soundscape of many tropical forests and gardens. They are often easier to hear than to see as they move quickly among leaves and branches.",
+        "family": "Aegithinidae",
+        "image": "CommonIora1.jpg"
+    },
+    {
+        "name": "Jungle Owlet",
+        "scientific": "Glaucidium radiatum",
+        "description": "The Jungle Owlet is a small woodland owl found in forests and wooded habitats of the Indian subcontinent. It has a compact body, a rounded head, bright yellow eyes, and finely barred brown and white plumage that provides excellent camouflage among tree branches. Although primarily active during daylight and twilight hours, it can be surprisingly difficult to spot because it often remains still among dense foliage. Jungle Owlets feed on insects, small reptiles, and other small animals. Their distinctive calls can sometimes reveal their presence deep within woodland before the bird is located.",
+        "family": "Strigidae",
+        "image": "JungleOwlet1.jpg"
+    },
+    {
+        "name": "Black-Hooded Oriole",
+        "scientific": "Oriolus xanthornus",
+        "description": "The Black-Hooded Oriole is a colourful tropical songbird with brilliant yellow plumage and a contrasting dark head and wings. It is commonly associated with forests, woodland, gardens, plantations, and tree-filled urban areas. The species spends much of its time high in the canopy, where it searches for fruits, nectar, insects, and other small food items. Its rich, fluting calls are often heard from among the leaves before the bird comes into view. When sunlight catches its bright yellow body against the green canopy, the Black-Hooded Oriole is one of the more striking birds of the tropical landscape.",
+        "family": "Oriolidae",
+        "image": "Black-HoodedOriole1.jpg"
+    },
+    {
+        "name": "Brown Rock Chat",
+        "scientific": "Oenanthe fusca",
+        "description": "The Brown Rock Chat is a small, sturdy chat associated with rocky terrain, cliffs, dry open country, villages, and human settlements. Its overall brown plumage provides excellent camouflage against rocks and earth, while its pale lower body and darker wings give it a subtly patterned appearance. It frequently perches on rocks, walls, rooftops, and other exposed surfaces while searching for insects and other small invertebrates. Brown Rock Chats are often found close to people, particularly around old buildings and rocky structures, where their quiet but active behaviour makes them an interesting bird to watch.",
+        "family": "Muscicapidae",
+        "image": "BrownRockChat1.jpg"
+    },
+    {
+        "name": "Blue-Tailed Bee-Eater",
+        "scientific": "Merops philippinus",
+        "description": "The Blue-Tailed Bee-Eater is a graceful, brightly coloured bird that specializes in catching flying insects. It has a green body, a yellow and blue throat pattern, a dark eye stripe, and a distinctive blue tail that gives the species its common name. Like other bee-eaters, it often hunts from exposed perches, launching into the air to capture bees, wasps, dragonflies, and other insects before returning to its perch. It can be found in open woodland, grassland, wetlands, riverbanks, and other open habitats, where groups may gather and perform spectacular aerial feeding flights.",
+        "family": "Meropidae",
+        "image": "Blue-TailedBee-Eater1.jpg"
+    },
+
     ]
 
 for bird in birds:
@@ -571,6 +641,8 @@ for bird in birds:
     open("birds/" + filename, "w").write(page)
 
 index_template = open("index_template.html", "r").read()
+
+birds = sorted(birds, key = lambda bird: bird["name"].lower())
 
 bird_list = ""
 
