@@ -644,6 +644,8 @@ index_template = open("index_template.html", "r").read()
 
 birds = sorted(birds, key = lambda bird: bird["name"].lower())
 
+bird_count = len(birds)
+
 bird_list = ""
 
 for bird in birds:
@@ -651,7 +653,8 @@ for bird in birds:
     bird_list += '<li class="bird"><a href="birds/' + filename + '">' + bird["name"] + '</a></li>'
     
 
-index = index_template.replace("{{BIRD_LIST}}", bird_list)
+index = index_template.replace("{{BIRD_COUNT}}", str(bird_count))
+index = index.replace("{{BIRD_LIST}}",bird_list)
 
 open("index.html", "w").write(index)
 
