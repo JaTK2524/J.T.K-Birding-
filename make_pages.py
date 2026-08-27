@@ -1,620 +1,1876 @@
 template = open("template.html", "r").read()
 
 birds = [
-
-    {
-        "name": "Alexandrine Parakeet",
-        "scientific": "Psittacula eupatria",
+{
+    "name": "Alexandrine Parakeet",
+    "scientific": "Psittacula eupatria",
+    "description": "The Alexandrine Parakeet is a large and striking parakeet found across the Indian subcontinent and parts of Southeast Asia. It has predominantly green plumage, a large red bill, and distinctive maroon shoulder patches. Mature males develop a dark neck ring, while females and young birds lack the complete ring. It is an adaptable bird that occurs in forests, woodlands, farmland, plantations, gardens, and urban areas, where it feeds mainly on fruits, seeds, flowers, grains, and buds.",
+    "image": "AlexandrineParakeet1.jpg",
+    "quick_facts": {
         "family": "Psittaculidae",
-        "description": "The Alexandrine Parakeet is a large, powerful parakeet with predominantly green plumage, a long tail, and a large red bill. Adult males have a distinctive black-and-pink collar around the neck, while females and younger birds do not show the same complete collar. It is found in forests, woodland, agricultural areas, gardens, and even urban environments. It feeds on fruits, seeds, grains, flowers, buds, and other plant material. Alexandrine Parakeets are highly social and often travel in noisy flocks, their loud calls carrying across the landscape. Their strong bills allow them to crack and manipulate surprisingly hard foods.",
-        "image": "AlexandrineParakeet1.jpg"
-    },
+        "size": "56–62 cm",
+        "weight": "200–300 g",
+        "wingspan": "Approximately 20–25 cm",
+        "diet": "Fruits, seeds, flowers, grains, buds, and other plant matter",
+        "habitat": "Forests, woodlands, farmland, plantations, gardens, and urban areas",
+        "behaviour": "Social and active; often seen singly, in pairs, or in small groups while feeding in trees",
+        "activity": "Diurnal",
+        "nesting": "Nests in tree cavities, usually using existing holes or abandoned woodpecker nests",
+        "breeding_season": "November to April",
+        "clutch_size": "2–4 eggs",
+        "call": "Loud, harsh and ringing calls, often given while flying or moving between trees",
+        "lifespan": "Up to around 30 years in captivity",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, plantations, farmland, large gardens, and wooded urban areas across India"
+    }
+},
 
-    {
-        "name": "Asian Brown Flycatcher",
-        "scientific": "Muscicapa dauurica",
-        "family": "Muscicapidae",
-        "description": "The Asian Brown Flycatcher is a small, inconspicuous insect-eating bird with brownish upperparts, pale underparts, a relatively large dark eye, and a delicate bill. It is commonly associated with woodland, forest edges, gardens, plantations, and other areas containing suitable perches. The bird usually hunts from a branch, watching carefully for insects before making a quick flight to capture them in the air or from nearby vegetation. Its subdued plumage provides excellent camouflage among branches and leaves. Although it may not have the spectacular colours of some tropical birds, its precise movements and efficient fly-catching behaviour make it an interesting species to observe.",
-        "image": "AsianBrownFlycatcher1.jpg"
-    },
-
-    {
-        "name": "Asian-Green Bee-eater",
-        "scientific": "Merops orientalis",
+{
+    "name": "Asian-Green Bee-eater",
+    "scientific": "Merops orientalis",
+    "description": "The Asian Green Bee-eater is a small, brightly coloured insect-eating bird with vivid green plumage, a slender black bill, and a distinctive black eye stripe. It is an agile aerial hunter that launches from exposed perches to catch insects in flight before returning to the same or another perch. Despite its name, it eats a wide variety of flying insects in addition to bees. It is commonly found in open country, grasslands, agricultural areas, scrub, riverbanks, and lightly wooded habitats.",
+    "image": "Asian-GreenBee-Eater1.jpg",
+    "quick_facts": {
         "family": "Meropidae",
-        "description": "The Asian Green Bee-eater is a small, slender bird with vivid green plumage, a narrow black eye stripe, a pointed bill, and elongated central tail feathers. It is commonly found in open country, grasslands, agricultural areas, scrub, and woodland edges. Bee-eaters are accomplished aerial hunters and frequently sit on exposed branches, wires, or other perches while watching for insects. When prey is spotted, the bird launches into the air and catches it with remarkable precision before returning to its perch. Bees, wasps, dragonflies, and other flying insects form an important part of its diet. Its graceful flight and brilliant green plumage make it one of the most attractive birds of open habitats.",
-        "image": "Asian-GreenBee-eater1.jpg"
-    },
+        "size": "16–18 cm",
+        "weight": "15–20 g",
+        "wingspan": "Approximately 28–32 cm",
+        "diet": "Bees, wasps, dragonflies, butterflies, beetles, and other flying insects",
+        "habitat": "Open woodland, grassland, farmland, scrub, riverbanks, and gardens",
+        "behaviour": "Highly agile aerial hunter that frequently catches insects from the air and returns to a perch",
+        "activity": "Diurnal",
+        "nesting": "Excavates a tunnel in sandy or soft soil, banks, or other suitable ground",
+        "breeding_season": "March to June, varying by region",
+        "clutch_size": "4–8 eggs",
+        "call": "High-pitched, rapid and pleasant twittering calls, often heard in flight",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open fields, farmland, grasslands, scrub, wetlands, riverbanks, and dry open areas across India"
+    }
+},
 
-    {
-        "name": "Asian Koel",
-        "scientific": "Eudynamys scolopaceus",
+{
+    "name": "Asian Koel",
+    "scientific": "Eudynamys scolopaceus",
+    "description": "The Asian Koel is a familiar cuckoo of the Indian subcontinent, famous for its loud and distinctive calls during the breeding season. Adult males are glossy black with striking red eyes, while females are brown with extensive pale spots and streaks. Asian Koels spend much of their time in trees and feed heavily on fruits, berries, and figs. Like other cuckoos, they are brood parasites and lay their eggs in the nests of other birds, particularly crows.",
+    "image": "AsianKoel1.jpg",
+    "quick_facts": {
         "family": "Cuculidae",
-        "description": "The Asian Koel is a familiar member of the cuckoo family and is particularly famous for its loud, far-carrying calls. The male is glossy black with a striking red eye, while the female is brown with extensive pale spotting and streaking. Asian Koels are strongly associated with trees, gardens, groves, and urban areas where fruiting trees are available. They feed largely on fruits and berries and may spend long periods hidden among dense foliage. Like many cuckoos, the Asian Koel has a fascinating breeding strategy in which it lays its eggs in the nests of other birds. Its unmistakable call is often one of the first signs that a koel is nearby.",
-        "image": "AsianKoel1.jpg"
-    },
+        "size": "39–46 cm",
+        "weight": "190–300 g",
+        "wingspan": "Approximately 45–50 cm",
+        "diet": "Fruits, berries, figs, seeds, and occasionally insects",
+        "habitat": "Woodlands, gardens, plantations, parks, forests, and urban areas",
+        "behaviour": "Usually remains in trees and feeds on fruit; males are particularly vocal during breeding",
+        "activity": "Diurnal",
+        "nesting": "Does not build its own nest; lays eggs in the nests of host birds, especially crows",
+        "breeding_season": "March to August, varying by region",
+        "clutch_size": "Usually 1–2 eggs laid in a host nest",
+        "call": "Males produce a loud, repeated rising 'ku-oo' call; females have different harsh calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, wooded neighbourhoods, plantations, forests, and cities across India"
+    }
+},
 
-    {
-        "name": "Ashy Drongo",
-        "scientific": "Dicrurus leucophaeus",
+{
+    "name": "Ashy Drongo",
+    "scientific": "Dicrurus leucophaeus",
+    "description": "The Ashy Drongo is a slender, medium-sized drongo with grey plumage and a distinctive deeply forked tail. Its plumage varies considerably between different populations, with some forms being much darker than others. It is an active aerial hunter that frequently launches from exposed perches to capture insects in flight. The species occurs in forests, open woodland, plantations, gardens, and hilly regions and often perches prominently while scanning for prey.",
+    "image": "AshyDrongo1.jpg",
+    "quick_facts": {
         "family": "Dicruridae",
-        "description": "The Ashy Drongo is a slender, agile bird with mostly grey plumage, a long deeply forked tail, and a sharp, slightly hooked bill. It is found in forests, woodland edges, plantations, and other habitats where it can hunt flying insects. Like other drongos, it is an excellent aerial hunter and frequently launches from an exposed perch to catch insects in mid-air. Its quick movements and alert behaviour make it an active presence in its habitat. Different populations can vary in the exact shade of grey, but the sleek body and characteristic forked tail remain useful identification features.",
-        "image": "AshyDrongo1.jpg"
-    },
+        "size": "25–30 cm",
+        "weight": "40–60 g",
+        "wingspan": "Approximately 35–40 cm",
+        "diet": "Insects and other small invertebrates",
+        "habitat": "Forests, woodland, plantations, gardens, scrub, and hills",
+        "behaviour": "Active and agile; frequently sallies from exposed perches to catch insects in flight",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest, usually placed on a horizontal tree branch",
+        "breeding_season": "April to June",
+        "clutch_size": "Usually 2–4 eggs",
+        "call": "Varied calls including whistles, harsh notes, and chattering sounds",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wooded areas, forests, plantations, gardens, and hill regions across India"
+    }
+},
 
-    {
-        "name": "Barn Owl",
-        "scientific": "Tyto alba",
+{
+    "name": "Barn Owl",
+    "scientific": "Tyto alba",
+    "description": "The Barn Owl is one of the world's most widespread owls and is easily recognized by its pale, heart-shaped facial disc. Its upperparts are generally golden-brown and grey, while the underparts are often pale. It is primarily nocturnal and hunts over open ground, using its exceptional hearing and vision to locate prey. Barn Owls frequently use barns, towers, buildings, tree cavities, and other sheltered places for roosting and nesting and are especially valuable to farmers because they consume large numbers of rodents.",
+    "image": "BarnOwl1.jpg",
+    "quick_facts": {
         "family": "Tytonidae",
-        "description": "The Barn Owl is a distinctive nocturnal bird of prey recognised by its pale plumage and remarkable heart-shaped facial disc. It occurs in open countryside, farmland, grassland, villages, and areas where suitable buildings or cavities provide shelter and nesting sites. Barn Owls hunt mainly at night and rely heavily on their exceptionally sensitive hearing to locate prey in darkness. Small mammals form an important part of their diet, although they may also take other small animals. Their flight is unusually quiet because of specialised feather structures that reduce the sound produced by their wings. The pale face and ghostly appearance of the Barn Owl have made it a memorable bird in folklore across many cultures.",
-        "image": "BarnOwl1.jpg"
-    },
+        "size": "32–40 cm",
+        "weight": "250–550 g",
+        "wingspan": "80–95 cm",
+        "diet": "Small mammals, especially rodents, as well as small birds, reptiles, frogs, and insects",
+        "habitat": "Farmland, grassland, open country, villages, wetlands, and areas around buildings",
+        "behaviour": "Usually hunts low over open ground and relies heavily on hearing to locate prey",
+        "activity": "Primarily nocturnal",
+        "nesting": "Nests in cavities, barns, buildings, towers, tree hollows, and other sheltered locations",
+        "breeding_season": "Varies by region; may breed throughout much of the year where food is plentiful",
+        "clutch_size": "Usually 4–7 eggs",
+        "call": "Harsh hissing, screeching, and rasping calls rather than the classic hoot associated with many other owls",
+        "lifespan": "Around 1–5 years commonly in the wild, with some individuals living considerably longer",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, grasslands, villages, old buildings, barns, and other open areas across India"
+    }
+},
 
-    {
-        "name": "Black Drongo",
-        "scientific": "Dicrurus macrocercus",
+{
+    "name": "Black Drongo",
+    "scientific": "Dicrurus macrocercus",
+    "description": "The Black Drongo is a bold and highly adaptable bird with glossy black plumage and a distinctive deeply forked tail. It is commonly seen perched on wires, poles, fences, and exposed branches while scanning the surroundings for insects. It is an accomplished aerial hunter and can also take prey from the ground or vegetation. Black Drongos are widespread in open country, farmland, grasslands, plantations, and urban areas and are well known for aggressively defending their territories against much larger birds.",
+    "image": "BlackDrongo1.jpg",
+    "quick_facts": {
         "family": "Dicruridae",
-        "description": "The Black Drongo is a glossy black bird with a long, deeply forked tail and a remarkably confident character. It is one of the most familiar birds of open country and is frequently seen perched on wires, fences, poles, and exposed branches. From these vantage points it watches for insects, which it catches in fast and skilful aerial sallies. Black Drongos are also famously bold and may chase much larger birds away from their territories. They occur in farmland, grassland, gardens, villages, and urban areas, adapting readily to landscapes shaped by people. Their combination of intelligence, agility, and fearlessness makes them particularly entertaining to watch.",
-        "image": "BlackDrongo1.jpg"
-    },
+        "size": "28–31 cm",
+        "weight": "70–100 g",
+        "wingspan": "Approximately 35–40 cm",
+        "diet": "Insects and other small invertebrates",
+        "habitat": "Grasslands, farmland, open woodland, plantations, parks, and towns",
+        "behaviour": "Aggressive and territorial; frequently chases larger birds away from its nesting area",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest on a horizontal branch, often high above the ground",
+        "breeding_season": "April to August",
+        "clutch_size": "Usually 2–4 eggs",
+        "call": "Sharp, varied calls including metallic notes, whistles, and harsh sounds",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, grasslands, roadside trees, open woodland, parks, and urban areas across India"
+    }
+},
 
-    {
-        "name": "Black-Headed Ibis",
-        "scientific": "Threskiornis melanocephalus",
+{
+    "name": "Black-Headed Ibis",
+    "scientific": "Threskiornis melanocephalus",
+    "description": "The Black-Headed Ibis is a large wading bird with a mostly white body, a bare black head and neck, and long dark legs. It is commonly found in wetlands, marshes, flooded fields, riverbanks, and agricultural areas, where it searches for prey by probing mud and soft ground with its long, curved bill. It feeds on a wide range of aquatic and terrestrial animals and may forage both in shallow water and on dry ground.",
+    "image": "Black-HeadedIbis1.jpg",
+    "quick_facts": {
         "family": "Threskiornithidae",
-        "description": "The Black-Headed Ibis is a large wading bird with a mostly white body, a dark head and neck, long legs, and a long, gently curved bill. It is associated with wetlands, marshes, flooded fields, riversides, and shallow water where it can search for prey. The ibis probes mud and soft ground with its bill, feeding on insects, frogs, small fish, crustaceans, and other aquatic creatures. It often walks slowly and deliberately while feeding, carefully searching beneath the surface. When flying, its broad wings and long trailing legs give it the unmistakable silhouette of a large wader. Its striking contrast of white body and dark head makes it particularly easy to recognise in open wetlands.",
-        "image": "Black-HeadedIbis1.jpg"
-    },
+        "size": "65–75 cm",
+        "weight": "1.3–1.6 kg",
+        "wingspan": "Approximately 110–125 cm",
+        "diet": "Fish, frogs, insects, crustaceans, worms, molluscs, and other small animals",
+        "habitat": "Wetlands, marshes, flooded fields, riverbanks, grasslands, and agricultural areas",
+        "behaviour": "Forages by walking slowly through shallow water or wet ground and probing with its long bill",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in trees, shrubs, or other vegetation, often in colonies",
+        "breeding_season": "June to October in many parts of India",
+        "clutch_size": "Usually 2–4 eggs",
+        "call": "Generally quiet, producing low grunts and croaks around breeding colonies",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Near Threatened",
+        "where_to_find": "Wetlands, lakes, marshes, flooded agricultural fields, riverbanks, and shallow-water habitats across India"
+    }
+},
 
-    {
-        "name": "Black Kite",
-        "scientific": "Milvus migrans",
+{
+    "name": "Black Kite",
+    "scientific": "Milvus migrans",
+    "description": "The Black Kite is a widespread bird of prey and one of the most familiar raptors around towns and cities in South Asia. Despite its common name, its plumage is generally dark brown rather than truly black, with a somewhat paler head and body. Its long wings and forked tail allow it to soar effortlessly on rising air currents. Black Kites are opportunistic feeders and consume carrion, insects, small animals, fish, and discarded food, allowing them to thrive in a wide variety of habitats.",
+    "image": "BlackKite1.jpg",
+    "quick_facts": {
         "family": "Accipitridae",
-        "description": "The Black Kite is a widespread and highly adaptable bird of prey often seen soaring effortlessly over towns, fields, rivers, coastlines, and busy urban areas. It has long wings and a characteristic forked tail that helps it manoeuvre while gliding on rising air currents. Black Kites are opportunistic feeders and may hunt small animals, but they also make extensive use of carrion and food scraps. Their ability to live successfully alongside humans has made them one of the most familiar raptors in many parts of the world. Large numbers may gather where food is plentiful, creating impressive groups circling high above the ground.",
-        "image": "BlackKite1.jpg"
-    },
+        "size": "55–60 cm",
+        "weight": "560–1000 g",
+        "wingspan": "130–155 cm",
+        "diet": "Carrion, insects, fish, small animals, and discarded food",
+        "habitat": "Cities, farmland, wetlands, grasslands, open woodland, and rubbish sites",
+        "behaviour": "Often soars for long periods and searches for food while flying; highly adaptable around human settlements",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in trees, often reusing the same nesting area in successive years",
+        "breeding_season": "December to April in much of India",
+        "clutch_size": "Usually 2–3 eggs",
+        "call": "High-pitched, drawn-out whistling or screaming calls",
+        "lifespan": "Around 15–20 years or more in favourable conditions",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Cities, towns, farmland, wetlands, riversides, open countryside, and other areas with abundant food across India"
+    }
+},
 
-    {
-        "name": "Black-Rumped Flameback",
-        "scientific": "Dinopium benghalense",
+{
+    "name": "Black-Rumped Flameback",
+    "scientific": "Dinopium benghalense",
+    "description": "The Black-Rumped Flameback is a colourful woodpecker found across much of the Indian subcontinent. It has a bright golden-yellow back and wings, a black rump, and a striking red crest. It uses its powerful bill to hammer into tree trunks and branches in search of insects and their larvae. Its characteristic drumming and calls can reveal its presence even when it is hidden among foliage. The species occurs in forests, wooded areas, gardens, plantations, and urban environments with mature trees.",
+    "image": "Black-RumpedFlameback1.jpg",
+    "quick_facts": {
         "family": "Picidae",
-        "description": "The Black-Rumped Flameback is a brightly coloured woodpecker with golden-yellow wings, a black rump, contrasting dark markings, and a prominent red crest in the male. It is found in forests, woodland, plantations, gardens, and wooded urban areas. Like other woodpeckers, it uses its strong bill to investigate bark and dead wood for insects and their larvae. Its stiff tail feathers help support its body as it climbs tree trunks, while its strong feet allow it to grip vertical surfaces. It may also feed on fruits and other food items. Its vivid plumage and characteristic climbing behaviour make it one of the more spectacular woodpeckers of the Indian subcontinent.",
-        "image": "Black-RumpedFlameback1.jpg"
-    },
+        "size": "26–30 cm",
+        "weight": "90–130 g",
+        "wingspan": "Approximately 40–45 cm",
+        "diet": "Insects, beetle larvae, ants, termites, and other small invertebrates",
+        "habitat": "Forests, woodland, plantations, gardens, orchards, and wooded urban areas",
+        "behaviour": "Climbs tree trunks and branches while hammering into wood to locate insects; often drums on resonant surfaces",
+        "activity": "Diurnal",
+        "nesting": "Excavates a cavity in a tree trunk or branch, usually in dead or decaying wood",
+        "breeding_season": "January to May",
+        "clutch_size": "Usually 2–3 eggs",
+        "call": "Loud, repeated calls accompanied by characteristic drumming on wood",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, wooded gardens, plantations, orchards, parks, and areas with mature trees across India"
+    }
+},
 
-    {
-        "name": "Black-Winged Kite",
-        "scientific": "Elanus caeruleus",
+{
+    "name": "Black-Winged Kite",
+    "scientific": "Elanus caeruleus",
+    "description": "The Black-Winged Kite is a small and elegant bird of prey with a pale grey body, striking black shoulders and wing patches, and bright red eyes. It is often seen hovering almost motionless over grassland and agricultural fields while searching for prey below. Small rodents form an important part of its diet, although it also takes insects, lizards, and small birds. It favours open habitats and frequently perches on poles, wires, and isolated trees from which it can survey the ground.",
+    "image": "Black-WingedKite1.jpg",
+    "quick_facts": {
         "family": "Accipitridae",
-        "description": "The Black-Winged Kite is a small and elegant bird of prey with pale grey-and-white plumage, dark patches on the wings, and striking red eyes. It favours open landscapes such as grasslands, agricultural fields, scrub, and other areas where small prey can be detected from above. One of its most characteristic behaviours is hovering almost motionless in the air while searching the ground below. It feeds on rodents, lizards, insects, and other small animals. After spotting prey, it can drop rapidly from the air to seize it. Its hovering hunting technique makes it an especially fascinating raptor to observe in open country.",
-        "image": "Black-WingedKite1.jpg"
-    },
-
-    {
-        "name": "Brahminy Kite",
-        "scientific": "Haliastur indus",
-        "family": "Accipitridae",
-        "description": "The Brahminy Kite is a striking medium-sized raptor recognised by its rich chestnut-brown body, contrasting white head and breast, broad wings, and powerful hooked bill. It is strongly associated with coastal areas, rivers, lakes, wetlands, estuaries, and other places where fish and aquatic prey are available. It feeds on fish, crabs, carrion, and other small animals, often soaring low over water while searching for food. Its graceful flight and sharply contrasting plumage make it particularly easy to identify. Brahminy Kites are also closely associated with South Asian landscapes and are a familiar sight around waterways.",
-        "image": "BrahminyKite1.jpg"
-    },
-
-    {
-        "name": "Brahminy Starling",
-        "scientific": "Sturnia pagodarum",
-        "family": "Sturnidae",
-        "description": "The Brahminy Starling is a medium-sized starling with a pale grey body, darker wings, a black crest, and warm buff-orange colouring around the head and breast. It is commonly found in open woodland, scrub, gardens, farmland, and areas near human habitation. It feeds on fruits, seeds, insects, and other small food items and may forage both on the ground and among vegetation. Its pointed crest and contrasting plumage make it distinctive among the starlings of the Indian subcontinent. During the breeding season, pairs may become particularly active around suitable nesting sites.",
-        "image": "BrahminyStarling1.jpg"
-    },
-
-    {
-        "name": "Brown-Headed Barbet",
-        "scientific": "Psilopogon zeylanicus",
+        "size": "30–35 cm",
+        "weight": "200–300 g",
+        "wingspan": "75–90 cm",
+        "diet": "Small rodents, insects, lizards, and small birds",
+        "habitat": "Grasslands, farmland, open scrub, savannas, and other open country",
+        "behaviour": "Frequently hovers almost motionless while hunting and may also perch on poles, wires, and isolated trees",
+        "activity": "Diurnal, with increased hunting activity during the cooler parts of the day",
+        "nesting": "Builds a small stick nest in a tree, often using a relatively low branch",
+        "breeding_season": "Varies by region; may breed during much of the year where conditions are favourable",
+        "clutch_size": "Usually 3–5 eggs",
+        "call": "Generally quiet, with soft whistles and squeaks around breeding areas",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open farmland, grasslands, scrub, roadside areas, and agricultural landscapes across India"
+    }
+},
+{
+    "name": "Brown-Headed Barbet",
+    "scientific": "Psilopogon zeylanicus",
+    "description": "The Brown-Headed Barbet is a large green barbet with a brown head and throat and a distinctive red patch around the eye. It is mainly arboreal and spends much of its time in trees, where it feeds on fruits and occasionally insects. Its repeated, resonant call is one of the characteristic sounds of wooded areas in the Indian subcontinent. It is commonly found in forests, gardens, plantations, orchards, and urban areas with mature trees.",
+    "image": "Brown-HeadedBarbet1.jpg",
+    "quick_facts": {
         "family": "Megalaimidae",
-        "description": "The Brown-Headed Barbet is a chunky green bird with a brown head, a powerful bill, and a distinctive deep call. It is commonly found in wooded areas, gardens, plantations, groves, and forest edges. Fruits and berries, particularly figs, form an important part of its diet, although it may also take insects and other small food items. The strong bill is useful not only for feeding but also for excavating cavities in trees in which the birds can nest. Brown-Headed Barbets often remain hidden among foliage, so their repeated calls can be easier to notice than the birds themselves. Their steady presence is an important part of the soundscape of wooded landscapes.",
-        "image": "Brown-HeadedBarbet1.jpg"
-    },
+        "size": "30–34 cm",
+        "weight": "180–250 g",
+        "wingspan": "Approximately 45–50 cm",
+        "diet": "Fruits, berries, figs, and occasionally insects",
+        "habitat": "Forests, gardens, orchards, plantations, and wooded urban areas",
+        "behaviour": "Arboreal and usually solitary or found in pairs; spends much of its time feeding in trees",
+        "activity": "Diurnal",
+        "nesting": "Excavates a cavity in a tree trunk or branch",
+        "breeding_season": "January to June",
+        "clutch_size": "2–4 eggs",
+        "call": "Loud, repetitive and resonant calls repeated for long periods",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wooded gardens, forests, orchards, plantations, and mature trees across India"
+    }
+},
 
-    {
-        "name": "Cattle Egret",
-        "scientific": "Bubulcus ibis",
+{
+    "name": "Cattle Egret",
+    "scientific": "Bubulcus ibis",
+    "description": "The Cattle Egret is a compact white heron that is often seen following cattle and other large animals across fields. The birds take advantage of insects and other small creatures disturbed by the animals as they move through grass. During the breeding season, adults develop orange-buff plumage on the head, neck, and back. It is one of the most adaptable herons and is frequently found far from water.",
+    "image": "CattleEgret1.jpg",
+    "quick_facts": {
         "family": "Ardeidae",
-        "description": "The Cattle Egret is a compact white heron that is unusually comfortable far from traditional wetlands. It is frequently seen walking through grasslands, farmland, fields, and even among grazing cattle and other large animals. Its association with livestock is particularly useful because the movement of cattle disturbs insects and other small creatures, making them easier for the egret to catch. It feeds on insects, frogs, small reptiles, and other prey. During the breeding season, adults develop attractive orange-buff colouring on parts of the head, neck, and back, contrasting with their normal white plumage. Their adaptability has allowed them to become one of the world's most widespread herons.",
-        "image": "CattleEgret1.jpg"
-    },
+        "size": "46–56 cm",
+        "weight": "270–512 g",
+        "wingspan": "88–96 cm",
+        "diet": "Insects, frogs, small reptiles, fish, and other small animals",
+        "habitat": "Grasslands, farmland, wetlands, pastures, and open countryside",
+        "behaviour": "Often follows cattle, buffalo, and other large animals to catch disturbed prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a platform of sticks in trees or shrubs, usually in colonies",
+        "breeding_season": "Varies by region, often during the monsoon or wet season",
+        "clutch_size": "2–5 eggs",
+        "call": "Harsh croaks and grating calls, especially around colonies",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, cattle pastures, grasslands, marshes, lakesides, and village surroundings across India"
+    }
+},
 
-    {
-        "name": "Common Hoopoe",
-        "scientific": "Upupa epops",
+{
+    "name": "Common Hoopoe",
+    "scientific": "Upupa epops",
+    "description": "The Common Hoopoe is a distinctive bird with a long slender bill, boldly patterned black-and-white wings, a warm cinnamon body, and a prominent erectile crest. It usually forages on the ground, probing soil with its long bill for insects and other small prey. Hoopoes are often encountered in open landscapes and cultivated areas, where their striking appearance makes them easy to recognize.",
+    "image": "CommonHoopoe1.jpg",
+    "quick_facts": {
         "family": "Upupidae",
-        "description": "The Common Hoopoe is an unmistakable bird with a long, slender bill, warm buff-orange plumage, boldly black-and-white striped wings, and a magnificent fan-shaped crest. It spends much of its time on the ground, probing soil with its long bill in search of insects and other small creatures. When disturbed or excited, it can raise its crest into a striking crown of feathers. In flight, the broad black-and-white wings produce a distinctive pattern that makes the bird easy to identify. Hoopoes occur in open woodland, farmland, gardens, grassland, and other habitats where soft ground provides suitable feeding areas.",
-        "image": "CommonHoopoe1.jpg"
-    },
+        "size": "25–32 cm",
+        "weight": "46–89 g",
+        "wingspan": "44–48 cm",
+        "diet": "Insects, larvae, worms, and other small invertebrates",
+        "habitat": "Open woodland, farmland, grassland, gardens, and cultivated areas",
+        "behaviour": "Forages mainly on the ground by probing soil and leaf litter with its bill",
+        "activity": "Diurnal",
+        "nesting": "Nests in tree cavities, holes in walls, rocks, or other sheltered cavities",
+        "breeding_season": "February to June in much of its range",
+        "clutch_size": "5–8 eggs",
+        "call": "Distinctive soft, repeated 'oop-oop-oop' calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open fields, gardens, farmland, parks, dry woodland, and village areas"
+    }
+},
 
-    {
-        "name": "Common Kingfisher",
-        "scientific": "Alcedo atthis",
+{
+    "name": "Common Kingfisher",
+    "scientific": "Alcedo atthis",
+    "description": "The Common Kingfisher is a small, brilliantly coloured kingfisher with vivid blue-green upperparts, orange underparts, and a long pointed bill. It usually sits quietly on a branch or other perch overlooking water before plunging rapidly to catch prey. Although widespread across Eurasia, it requires suitable clear water and fish-rich habitats for successful feeding.",
+    "image": "CommonKingfisher1.jpg",
+    "quick_facts": {
         "family": "Alcedinidae",
-        "description": "The Common Kingfisher is a small but spectacular bird famous for its brilliant blue upperparts, orange underparts, and long pointed bill. It is strongly associated with freshwater habitats such as streams, ponds, lakes, canals, and rivers where suitable perches are available. The bird often sits quietly on a low branch overlooking the water before diving suddenly to catch a small fish or other aquatic creature. Its rapid flight close to the water's surface is another characteristic sight. Although it is small enough to fit comfortably in a person's hand, the Common Kingfisher is a remarkably efficient hunter and one of the most vivid birds found near freshwater.",
-        "image": "CommonKingfisher1.jpg"
-    },
+        "size": "17–19 cm",
+        "weight": "34–46 g",
+        "wingspan": "24–26 cm",
+        "diet": "Small fish, aquatic insects, crustaceans, tadpoles, and other small aquatic animals",
+        "habitat": "Rivers, streams, lakes, ponds, canals, and mangrove waterways",
+        "behaviour": "Perches quietly near water and dives rapidly to catch prey",
+        "activity": "Diurnal",
+        "nesting": "Excavates a tunnel in a sandy or earthen bank, ending in a nesting chamber",
+        "breeding_season": "November to March in many parts of India",
+        "clutch_size": "5–7 eggs",
+        "call": "High-pitched, sharp whistling calls, especially during flight",
+        "lifespan": "Around 2–7 years, with some individuals living longer",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Clear streams, rivers, ponds, lakes, canals, and other freshwater bodies"
+    }
+},
 
-    {
-        "name": "Common Myna",
-        "scientific": "Acridotheres tristis",
+{
+    "name": "Common Myna",
+    "scientific": "Acridotheres tristis",
+    "description": "The Common Myna is a highly adaptable bird with a brown body, black head, bright yellow eye patch, and yellow legs and bill. It thrives alongside people and can be found in towns, cities, farmland, gardens, and open countryside. Mynas are opportunistic feeders and eat a remarkably varied diet. They are social and vocal birds, often gathering in groups around feeding and roosting sites.",
+    "image": "CommonMyna1.jpg",
+    "quick_facts": {
         "family": "Sturnidae",
-        "description": "The Common Myna is a familiar and highly adaptable bird found around towns, gardens, farmland, roadsides, buildings, and open woodland. It has a dark brown body, blackish head, yellow bill and legs, and conspicuous white patches on the wings that become particularly noticeable in flight. Common Mynas are opportunistic feeders and eat insects, fruits, grains, scraps, and many other foods. Their adaptability allows them to thrive in landscapes heavily modified by humans. They are often seen walking confidently across lawns and roadsides while searching for food, and their loud calls contribute greatly to the everyday soundscape of towns and villages.",
-        "image": "CommonMyna1.jpg"
-    },
+        "size": "23–26 cm",
+        "weight": "90–140 g",
+        "wingspan": "120–140 cm",
+        "diet": "Insects, fruits, seeds, grains, nectar, small reptiles, and food scraps",
+        "habitat": "Cities, villages, farmland, gardens, grasslands, and open woodland",
+        "behaviour": "Highly social, adaptable, and often seen foraging on the ground in pairs or groups",
+        "activity": "Diurnal",
+        "nesting": "Uses cavities in trees, buildings, walls, roofs, and other structures",
+        "breeding_season": "March to September",
+        "clutch_size": "4–5 eggs",
+        "call": "Loud whistles, chatters, squawks, and varied imitations",
+        "lifespan": "Around 4–12 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Cities, parks, gardens, farmland, villages, markets, and roadsides throughout India"
+    }
+},
 
-    {
-        "name": "Common Rosefinch",
-        "scientific": "Carpodacus erythrinus",
+{
+    "name": "Common Rosefinch",
+    "scientific": "Carpodacus erythrinus",
+    "description": "The Common Rosefinch is a medium-sized finch in which adult males develop a distinctive rosy-red head, breast, and rump. Females and immature birds are more subdued brown and heavily streaked. It feeds mainly on seeds, buds, berries, and other plant material and is generally associated with woodland edges, scrub, gardens, and open areas with suitable vegetation.",
+    "image": "CommonRosefinch1.jpg",
+    "quick_facts": {
         "family": "Fringillidae",
-        "description": "The Common Rosefinch is a small seed-eating finch in which adult males develop attractive rosy-red colouring on the head, breast, and upper body. Females and younger birds are much more subdued, with brownish plumage that provides excellent camouflage among vegetation. The species is associated with scrub, woodland edges, open forest, and areas where seeds and suitable vegetation are available. It feeds mainly on seeds, buds, and plant material, although insects may also be taken. Its seasonal movements mean that its presence can vary considerably from place to place. The colourful male and melodic song make the Common Rosefinch a particularly attractive finch when encountered.",
-        "image": "CommonRose-finch1.jpg"
-    },
+        "size": "13–15 cm",
+        "weight": "20–25 g",
+        "wingspan": "22–26 cm",
+        "diet": "Seeds, buds, berries, grains, and plant material",
+        "habitat": "Scrub, woodland edges, meadows, gardens, and mountain valleys",
+        "behaviour": "Usually forages quietly in vegetation and may occur singly or in small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a cup-shaped nest in shrubs or low trees",
+        "breeding_season": "May to August",
+        "clutch_size": "4–6 eggs",
+        "call": "Soft whistles and varied musical notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Scrub, forest edges, gardens, meadows, and suitable upland habitats"
+    }
+},
 
-    {
-        "name": "Common Sandpiper",
-        "scientific": "Actitis hypoleucos",
+{
+    "name": "Common Sandpiper",
+    "scientific": "Actitis hypoleucos",
+    "description": "The Common Sandpiper is a small wader with brown upperparts, white underparts, and a characteristic habit of bobbing its tail and rear body while walking. It is usually found along the edges of water, where it runs quickly over mud, sand, and stones while searching for small invertebrates. Many individuals seen in India are winter visitors from northern breeding grounds.",
+    "image": "CommonSandpiper1.jpg",
+    "quick_facts": {
         "family": "Scolopacidae",
-        "description": "The Common Sandpiper is a small shorebird that can be found along rivers, ponds, lakes, reservoirs, marshes, and muddy or sandy shorelines. It has brownish upperparts, pale underparts, and a distinctive habit of bobbing its body and tail as it walks. It feeds on insects, worms, small crustaceans, and other tiny creatures found along the water's edge. Rather than wading deeply, it often moves along the shoreline, quickly picking up prey before continuing onward. When disturbed, it flies low over the water with rapid wingbeats, revealing a distinctive pale wing stripe. Its energetic movements make it easy to recognise once its behaviour becomes familiar.",
-        "image": "CommonSandpiper1.jpg"
-    },
+        "size": "18–24 cm",
+        "weight": "20–60 g",
+        "wingspan": "32–35 cm",
+        "diet": "Insects, worms, crustaceans, molluscs, and other small invertebrates",
+        "habitat": "Riverbanks, lakeshores, ponds, mudflats, streams, and coastal areas",
+        "behaviour": "Walks quickly along the water's edge while constantly bobbing its hindquarters",
+        "activity": "Diurnal",
+        "nesting": "Breeds on the ground near freshwater in its northern breeding range",
+        "breeding_season": "May to August in breeding areas",
+        "clutch_size": "3–5 eggs",
+        "call": "Clear, high-pitched whistles, particularly during flight",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Riverbanks, lakes, ponds, reservoirs, wetlands, estuaries, and coastal shores"
+    }
+},
 
-    {
-        "name": "Common Stonechat",
-        "scientific": "Saxicola torquatus",
+{
+    "name": "Common Stonechat",
+    "scientific": "Saxicola torquatus",
+    "description": "The Common Stonechat is a small, upright songbird often seen perched prominently on shrubs, grass stems, fences, and other exposed points. Adult males typically have a dark head, orange breast, and pale collar, while females are more subdued. It feeds mainly on insects and other small invertebrates and prefers open habitats with scattered vegetation.",
+    "image": "CommonStonechat1.jpg",
+    "quick_facts": {
         "family": "Muscicapidae",
-        "description": "The Common Stonechat is a small, upright songbird of open country, often seen perched on exposed stems, fences, bushes, wires, and other prominent points. Males have a dark head and contrasting orange-brown breast, while females and younger birds are generally less strongly marked. The species feeds mainly on insects and other small invertebrates, frequently dropping down from its perch to catch prey before returning to the same or another elevated position. It occurs in grasslands, scrub, agricultural areas, and other open habitats. Its habit of sitting conspicuously on high perches makes it a rewarding bird to search for in open landscapes.",
-        "image": "CommonStonechat1.jpg"
-    },
+        "size": "11–13 cm",
+        "weight": "12–17 g",
+        "wingspan": "18–21 cm",
+        "diet": "Insects, spiders, larvae, and other small invertebrates",
+        "habitat": "Grassland, scrub, farmland, marsh edges, and open countryside",
+        "behaviour": "Perches prominently and makes short flights to catch insects before returning to a perch",
+        "activity": "Diurnal",
+        "nesting": "Builds a cup-shaped nest low in dense vegetation or on the ground",
+        "breeding_season": "March to August in breeding regions",
+        "clutch_size": "4–6 eggs",
+        "call": "Sharp clicking and chattering calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open fields, grasslands, scrub, farmland, marshes, and roadside vegetation"
+    }
+},
 
-    {
-        "name": "Common Tailorbird",
-        "scientific": "Orthotomus sutorius",
-        "family": "Cisticolidae",
-        "description": "The Common Tailorbird is a tiny, active songbird named for its remarkable nesting behaviour, in which it uses plant fibres and spider silk to stitch or bind leaves together to form a secure nest. It has greenish upperparts, pale underparts, a long tail that is often cocked upward, and a slender pointed bill. It is common in gardens, scrub, plantations, woodland edges, and urban areas containing dense vegetation. The bird feeds mainly on insects and other small invertebrates, moving rapidly through leaves and branches while searching for prey. Its sharp calls and restless movements often reveal its presence before the bird can be located.",
-        "image": "CommonTailorbird1.jpg"
-    },
-
-    {
-        "name": "Coppersmith Barbet",
-        "scientific": "Psilopogon haemacephalus",
+{
+    "name": "Coppersmith Barbet",
+    "scientific": "Psilopogon haemacephalus",
+    "description": "The Coppersmith Barbet is a small, colourful green barbet with a red forehead, red throat, and yellow-and-blue facial markings. Its name comes from its repetitive call, which resembles the ringing sound of a coppersmith striking metal. It feeds mainly on fruits and berries and is commonly found in gardens, orchards, wooded parks, and areas with mature fruiting trees.",
+    "image": "CoppersmithBarbet1.jpg",
+    "quick_facts": {
         "family": "Megalaimidae",
-        "description": "The Coppersmith Barbet is a small, chunky green bird with a colourful red-and-yellow face, a strong bill, and a surprisingly powerful voice. It is commonly found in gardens, groves, plantations, wooded areas, and towns where fruiting trees are available. Fruits and berries form an important part of its diet, particularly figs, although insects and other small food items may also be eaten. The species receives its unusual English name from its repeated call, which has been compared to the sound of a coppersmith striking metal with a hammer. Coppersmith Barbets often remain hidden among leaves, but their persistent calls can reveal their presence long before the bird is located.",
-        "image": "CoppersmithBarbet1.jpg"
-    },
+        "size": "16–18 cm",
+        "weight": "30–50 g",
+        "wingspan": "28–32 cm",
+        "diet": "Fruits, berries, figs, and occasionally insects",
+        "habitat": "Gardens, orchards, woodland, plantations, parks, and urban areas",
+        "behaviour": "Arboreal and often remains hidden among foliage while feeding and calling",
+        "activity": "Diurnal",
+        "nesting": "Excavates a cavity in a tree branch or trunk",
+        "breeding_season": "February to June",
+        "clutch_size": "2–4 eggs",
+        "call": "Repeated metallic 'tuk-tuk-tuk' notes resembling a coppersmith at work",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, orchards, parks, plantations, forests, and tree-filled urban areas"
+    }
+},
 
-    {
-        "name": "Crested Serpent Eagle",
-        "scientific": "Spilornis cheela",
+{
+    "name": "Crested Serpent Eagle",
+    "scientific": "Spilornis cheela",
+    "description": "The Crested Serpent Eagle is a medium-sized forest raptor with a broad wingspan, rounded wings, a prominent crest, and a distinctive yellow facial area. It feeds mainly on snakes and other reptiles but also takes frogs, small mammals, birds, and insects. Its loud, ringing call is often heard from forested hills before the bird itself is seen soaring overhead.",
+    "image": "CrestedSerpentEagle1.jpg",
+    "quick_facts": {
         "family": "Accipitridae",
-        "description": "The Crested Serpent Eagle is a powerful forest raptor with broad wings, a strong hooked bill, yellow legs, and a prominent crest that gives the species its name. It is associated with forests, wooded hills, plantations, and forest edges. As its name suggests, snakes form an important part of its diet, although it also hunts lizards, frogs, and other small animals. The eagle often watches from a high perch before making a sudden descent towards prey. Its deep, distinctive call can carry a long way through forests and hills. The combination of its crest, broad wings, and strong hunting abilities makes it an impressive member of the forest raptor community.",
-        "image": "CrestedSerpentEagle1.jpg"
-    },
+        "size": "55–75 cm",
+        "weight": "420–1800 g",
+        "wingspan": "110–140 cm",
+        "diet": "Snakes, lizards, frogs, small mammals, birds, and insects",
+        "habitat": "Forests, woodland, plantations, and forested hills",
+        "behaviour": "Often perches quietly before taking short flights or soaring over forested areas",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in a tree",
+        "breeding_season": "December to May",
+        "clutch_size": "Usually 1 egg",
+        "call": "Loud, repeated, high-pitched whistling or screaming calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, wooded hills, plantations, and forest edges across much of India"
+    }
+},
 
-    {
-        "name": "Great Hornbill",
-        "scientific": "Buceros bicornis",
+{
+    "name": "Great Hornbill",
+    "scientific": "Buceros bicornis",
+    "description": "The Great Hornbill is one of the most spectacular birds of the Indian subcontinent, recognized by its enormous yellow-and-black bill, large casque, black-and-white wings, and white tail. It is strongly associated with mature forests and depends heavily on large trees for nesting and feeding. Fruits form a major part of its diet, although it also takes small animals. Its powerful wingbeats produce a distinctive whooshing sound as it flies through the forest.",
+    "image": "GreatHornbill1.jpg",
+    "quick_facts": {
         "family": "Bucerotidae",
-        "description": "The Great Hornbill is one of the largest and most spectacular birds of the Indian subcontinent. It has a huge yellow-and-black bill topped by a prominent casque, striking black-and-white wings, and a long tail marked with white. It spends much of its time high in the canopy of mature forests, feeding heavily on fruits, especially figs, but also taking small animals when opportunities arise. Its enormous wings produce powerful wingbeats that can sometimes be heard before the bird comes into view. Great Hornbills depend heavily on large mature trees for nesting and feeding, making them an important symbol of healthy tropical forests and one of India's most magnificent birds.",
-        "image": "GreatHornbill1.jpg"
-    },
+        "size": "90–105 cm",
+        "weight": "2.2–4 kg",
+        "wingspan": "150–180 cm",
+        "diet": "Fruits, figs, small mammals, birds, reptiles, and insects",
+        "habitat": "Mature tropical and subtropical forests",
+        "behaviour": "Arboreal and usually found in pairs or small groups; capable of long flights between fruiting trees",
+        "activity": "Diurnal",
+        "nesting": "Female seals herself inside a tree cavity, leaving a narrow opening through which the male feeds her",
+        "breeding_season": "March to July",
+        "clutch_size": "Usually 1–2 eggs",
+        "call": "Loud barking, grunting, and honking calls",
+        "lifespan": "Several decades are possible",
+        "conservation_status": "Vulnerable",
+        "where_to_find": "Large forest tracts with mature fruiting and nesting trees, especially in the Western Ghats and Northeast India"
+    }
+},
 
-    {
-        "name": "Greater Coucal",
-        "scientific": "Centropus sinensis",
+{
+    "name": "Greater Coucal",
+    "scientific": "Centropus sinensis",
+    "description": "The Greater Coucal is a large, heavy cuckoo with a glossy black head and body, chestnut wings, and a long black tail. Unlike many cuckoos, it is a poor flyer and spends much of its time walking and hopping through dense vegetation. It feeds on insects, frogs, reptiles, eggs, nestlings, and various other small animals. Its deep, resonant calls are a familiar sound in scrub and gardens across India.",
+    "image": "GreaterCoucal1.jpg",
+    "quick_facts": {
         "family": "Cuculidae",
-        "description": "The Greater Coucal is a large, heavy-bodied member of the cuckoo family with glossy black plumage, rich chestnut-brown wings, a long tail, and a deep, resonant call. Unlike many cuckoos, it spends much of its time close to the ground, moving slowly through thick vegetation, scrub, gardens, farmland, and woodland edges. It feeds on insects, frogs, lizards, small animals, and a variety of other food items. Its large size and slow movements can make it look almost crow-like at first glance, but its rich brown wings and distinctive call reveal its identity. The Greater Coucal is often heard before it is seen because it prefers dense cover.",
-        "image": "GreaterCoucal1.jpg"
-    },
+        "size": "43–50 cm",
+        "weight": "225–400 g",
+        "wingspan": "Approximately 55–65 cm",
+        "diet": "Insects, frogs, lizards, small snakes, eggs, nestlings, and small animals",
+        "habitat": "Scrub, grassland, gardens, plantations, wetlands, and woodland edges",
+        "behaviour": "Usually walks through dense vegetation rather than flying long distances",
+        "activity": "Diurnal",
+        "nesting": "Builds a large domed nest from grasses and leaves in dense vegetation",
+        "breeding_season": "March to September",
+        "clutch_size": "2–4 eggs",
+        "call": "Deep, resonant 'coop-coop-coop' calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Dense scrub, gardens, grasslands, plantations, wetlands, and forest edges"
+    }
+},
 
-    {
-        "name": "Greater Racket-Tailed Drongo",
-        "scientific": "Dicrurus paradiseus",
-        "family": "Dicruridae",
-        "description": "The Greater Racket-Tailed Drongo is a striking forest bird with glossy black plumage, a prominent crest, and an extraordinary long tail ending in distinctive racket-shaped extensions. It is found mainly in forests, woodland, plantations, and forest edges, where it spends much of its time in the canopy. It feeds primarily on insects and other small creatures, often making swift aerial sallies from exposed branches to capture prey. This species is also famous for its varied vocal abilities and its capacity to imitate sounds made by other birds. Its spectacular tail, agile flight, and impressive vocal behaviour make it one of the most memorable drongos in South Asia.",
-        "image": "GreaterRacket-TailedDrongo1.jpg"
-    },
-
-    {
-        "name": "Grey Heron",
-        "scientific": "Ardea cinerea",
-        "family": "Ardeidae",
-        "description": "The Grey Heron is a large, elegant wading bird with a long neck, long legs, a powerful pointed bill, and predominantly grey, white, and black plumage. It is found around rivers, lakes, ponds, marshes, estuaries, reservoirs, and coastal wetlands. The bird often stands completely still at the edge of shallow water, waiting patiently before making a rapid strike at fish, frogs, insects, and other aquatic prey. Its long neck allows it to reach into deeper water without moving its body very much. In flight, it folds its neck into a characteristic S-shape while its long legs trail behind, producing the unmistakable silhouette of a large heron.",
-        "image": "GreyHeron1.jpg"
-    },
-
-    {
-        "name": "Grey-Headed Fish Eagle",
-        "scientific": "Icthyophaga ichthyaetus",
-        "family": "Accipitridae",
-        "description": "The Grey-Headed Fish Eagle is a powerful fish-eating raptor associated with rivers, lakes, reservoirs, wetlands, and other freshwater habitats. It has a distinctive grey head, dark brown body, broad wings, and a strong hooked bill designed for handling slippery prey. Fish form an important part of its diet, although it may also take other aquatic animals and carrion. The eagle often watches from a prominent tree or perch near water before swooping down to seize prey. Its broad wings allow it to soar efficiently over large bodies of water, while its powerful talons are well suited to carrying fish away from the surface.",
-        "image": "Grey-HeadedFishEagle1.jpg"
-    },
-
-    {
-        "name": "Indian Cormorant",
-        "scientific": "Phalacrocorax fuscicollis",
-        "family": "Phalacrocoracidae",
-        "description": "The Indian Cormorant is a dark, streamlined waterbird commonly found on rivers, lakes, reservoirs, ponds, and other freshwater bodies. It is an excellent underwater hunter and pursues fish and other aquatic prey by swimming and diving beneath the surface. After feeding, it often sits on exposed branches, rocks, poles, or other perches with its wings spread to dry. Its long neck, relatively slender body, and dark plumage give it a distinctive appearance among Indian waterbirds. It can occur in groups, particularly where food is abundant, and may be seen diving repeatedly in productive waters.",
-        "image": "IndianCormorant1.jpg"
-    },
-
-    {
-        "name": "Indian Golden Oriole",
-        "scientific": "Oriolus kundoo",
+{
+    "name": "Indian Golden Oriole",
+    "scientific": "Oriolus kundoo",
+    "description": "The Indian Golden Oriole is a striking yellow-and-black songbird, with adult males showing brilliant golden-yellow plumage and bold black markings around the eye and wings. It spends much of its time in the canopy, feeding on fruits and insects. Its melodious calls are often heard before the bird is located among the leaves.",
+    "image": "IndianGoldenOriole1.jpg",
+    "quick_facts": {
         "family": "Oriolidae",
-        "description": "The Indian Golden Oriole is a striking yellow-and-black bird that spends much of its time high among the leaves of trees. Adult males have brilliant golden-yellow plumage, black wings, and a strong dark stripe through the eye, while females are generally duller and more greenish. The species feeds on fruits, berries, nectar, and insects, moving carefully through the canopy while searching for food. Despite its brilliant colouring, it can be surprisingly difficult to see because the yellow plumage blends with sunlit foliage. Its melodious calls often provide the first clue that an oriole is nearby. It is particularly associated with gardens, groves, woodland, and tree-rich urban areas.",
-        "image": "IndianGoldenOriole1.jpg"
-    },
+        "size": "23–25 cm",
+        "weight": "65–100 g",
+        "wingspan": "Approximately 40–45 cm",
+        "diet": "Fruits, berries, insects, caterpillars, and nectar",
+        "habitat": "Woodland, forests, gardens, orchards, and plantations",
+        "behaviour": "Arboreal and usually stays high in trees while feeding",
+        "activity": "Diurnal",
+        "nesting": "Builds a suspended cup-like nest in a tree fork",
+        "breeding_season": "April to June",
+        "clutch_size": "2–3 eggs",
+        "call": "Clear, fluting and melodious whistles",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wooded gardens, orchards, forests, plantations, and mature trees"
+    }
+},
 
-    {
-        "name": "Indian Grey Hornbill",
-        "scientific": "Ocyceros birostris",
+{
+    "name": "Indian Grey Hornbill",
+    "scientific": "Ocyceros birostris",
+    "description": "The Indian Grey Hornbill is a medium-sized hornbill with grey plumage, a long tail, and a dark bill with a casque. It is well adapted to open woodland and urban environments containing mature trees. Fruits form a major part of its diet, although it also catches insects and small animals. It is frequently seen flying between trees with steady, powerful wingbeats.",
+    "image": "IndianGreyHornbill1.jpg",
+    "quick_facts": {
         "family": "Bucerotidae",
-        "description": "The Indian Grey Hornbill is a medium-sized hornbill with mostly grey plumage, darker wings, a long tail, and a distinctive curved bill topped by a small casque. It is well adapted to open woodland and can often be found in gardens, farmland, villages, and towns where mature trees remain. It feeds on fruits and berries as well as insects and small animals. Indian Grey Hornbills spend considerable time moving through tree canopies, but they may also be seen flying between isolated trees in open country. Their long tails and characteristic hornbill bills make them easy to recognise once they are spotted.",
-        "image": "IndianGreyHornbill1.jpg"
-    },
+        "size": "61 cm",
+        "weight": "350–450 g",
+        "wingspan": "Approximately 80–90 cm",
+        "diet": "Fruits, figs, insects, reptiles, and small birds",
+        "habitat": "Open woodland, gardens, farmland, plantations, and urban areas with mature trees",
+        "behaviour": "Arboreal and usually seen in pairs or small groups",
+        "activity": "Diurnal",
+        "nesting": "Female seals herself inside a tree cavity while the male supplies food",
+        "breeding_season": "February to May",
+        "clutch_size": "2–3 eggs",
+        "call": "Loud squeals, grunts, and hornbill-like calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open forests, gardens, parks, farmland, and large trees in urban areas"
+    }
+},
 
-    {
-        "name": "Indian Openbill",
-        "scientific": "Anastomus oscitans",
+{
+    "name": "Indian Openbill",
+    "scientific": "Anastomus oscitans",
+    "description": "The Indian Openbill is a medium-sized stork named for the noticeable gap between the upper and lower parts of its bill when it is closed. It is mainly associated with wetlands, flooded fields, marshes, and shallow waters, where it feeds largely on freshwater snails and other aquatic animals. It often forages in groups and can be seen walking through shallow water searching for prey.",
+    "image": "IndianOpenbill1.jpg",
+    "quick_facts": {
         "family": "Ciconiidae",
-        "description": "The Indian Openbill is a large wetland stork named for the noticeable gap between the upper and lower parts of its bill when the bill is closed. This unusual bill structure is particularly useful for feeding on freshwater snails, which are an important part of its diet. Indian Openbills are commonly seen in marshes, ponds, flooded fields, rice paddies, shallow wetlands, and other watery habitats. They walk slowly through shallow water while searching for prey and may gather in large numbers when food is plentiful. In flight, their broad wings, long legs, and long neck give them the unmistakable appearance of a stork.",
-        "image": "IndianOpenbill1.jpg"
-    },
+        "size": "68–81 cm",
+        "weight": "1.2–1.6 kg",
+        "wingspan": "Approximately 145–155 cm",
+        "diet": "Freshwater snails, frogs, fish, insects, and other aquatic animals",
+        "habitat": "Marshes, flooded fields, ponds, lakes, wetlands, and rice paddies",
+        "behaviour": "Usually forages by walking through shallow water and probing for aquatic prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in trees, often in colonies",
+        "breeding_season": "July to October in much of India",
+        "clutch_size": "2–4 eggs",
+        "call": "Generally quiet away from colonies, with bill-clattering and other sounds at nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wetlands, rice fields, marshes, ponds, lakes, and flooded agricultural areas"
+    }
+},
 
-    {
-        "name": "Indian Paradise Flycatcher",
-        "scientific": "Terpsiphone paradisi",
-        "family": "Monarchidae",
-        "description": "The Indian Paradise Flycatcher is an elegant insect-eating bird famous for the extraordinary long tail streamers of adult males. Males may occur in striking white or rufous plumage, while females are generally shorter-tailed and more subdued in appearance. The species inhabits forests, woodland, gardens, plantations, and shaded areas where flying insects are abundant. It hunts by making rapid aerial sallies from branches, catching insects in mid-air before returning to a perch. Its graceful movements, flowing tail, and contrasting plumage make it one of the most spectacular small birds of South Asian forests.",
-        "image": "IndianParadiseFlycatcher1.jpg"
-    },
-
-    {
-        "name": "Indian Peafowl",
-        "scientific": "Pavo cristatus",
+{
+    "name": "Indian Peafowl",
+    "scientific": "Pavo cristatus",
+    "description": "The Indian Peafowl is one of the most recognizable birds of the Indian subcontinent. Adult males have an elaborate train of elongated upper-tail coverts decorated with eye-like markings, while females are smaller and more subdued in colour. Peafowl feed on seeds, fruits, insects, reptiles, and other food and are highly adaptable. Males display their train during courtship and produce loud calls that carry over considerable distances.",
+    "image": "IndianPeafowl1.jpg",
+    "quick_facts": {
         "family": "Phasianidae",
-        "description": "The Indian Peafowl is one of the most recognisable birds of the Indian subcontinent and the national bird of India. The male, known as the peacock, has an extraordinary train of elongated feathers covered with colourful eye-like markings, which he raises and displays during courtship. Females, known as peahens, are more subdued in colour and lack the spectacular train. Indian Peafowl occur in forests, scrub, farmland, villages, gardens, and areas around human settlements. They feed on seeds, grains, fruits, insects, small reptiles, and other food items. Their loud calls and impressive displays make them among the most memorable birds of the region.",
-        "image": "IndianPeafowl1.jpg"
-    },
+        "size": "90–230 cm including male's train",
+        "weight": "2.7–6 kg",
+        "wingspan": "Approximately 130–160 cm",
+        "diet": "Seeds, grains, fruits, insects, reptiles, small animals, and plant matter",
+        "habitat": "Open woodland, scrub, farmland, grassland, villages, and parks",
+        "behaviour": "Usually forages on the ground and roosts in trees at night",
+        "activity": "Diurnal",
+        "nesting": "Scrapes a shallow nest on the ground, usually concealed in vegetation",
+        "breeding_season": "April to September, varying with rainfall",
+        "clutch_size": "4–8 eggs",
+        "call": "Loud, harsh and far-carrying calls",
+        "lifespan": "Around 10–20 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Scrub, farmland, open forests, villages, parks, and woodland edges throughout India"
+    }
+},
 
-    {
-        "name": "Indian Pied Starling",
-        "scientific": "Gracupica contra",
-        "family": "Sturnidae",
-        "description": "The Indian Pied Starling is a medium-sized starling with strongly contrasting black-and-white plumage, a pale head, and a distinctive patterned appearance. It is commonly found in open country, farmland, grasslands, towns, villages, and areas with scattered trees. It feeds on insects, fruits, grains, seeds, and other food items and often forages on the ground in open areas. Indian Pied Starlings are social birds and may gather in groups where food is abundant. Their bold black-and-white plumage makes them particularly conspicuous among the many brown and grey birds of open landscapes.",
-        "image": "IndianPiedStarling1.jpg"
-    },
-
-    {
-        "name": "Indian Pitta",
-        "scientific": "Pitta brachyura",
+{
+    "name": "Indian Pitta",
+    "scientific": "Pitta brachyura",
+    "description": "The Indian Pitta is a brightly coloured forest-floor bird with a green back, blue crown, black eye stripe, buff underparts, and red or orange lower body. It is generally shy and spends much of its time moving through leaf litter in search of prey. Its distinctive two-note call is often heard from dense vegetation. The species is especially associated with moist forests and woodland during its breeding range and can be encountered more widely during migration.",
+    "image": "IndianPitta1.jpg",
+    "quick_facts": {
         "family": "Pittidae",
-        "description": "The Indian Pitta is a beautifully coloured forest bird with a green back, blue wing markings, buff-coloured underparts, a reddish lower belly, and a bold dark stripe through the eye. It spends much of its time on the ground or among low vegetation, where it searches through leaf litter for insects, worms, and other small creatures. Despite its bright colours, it can be surprisingly difficult to locate because it prefers dense vegetation and moves quietly between patches of cover. Its strong, repeated calls are often the first indication that a pitta is nearby. It is especially associated with woodland and forest habitats where fallen leaves provide suitable feeding grounds.",
-        "image": "IndianPitta1.jpg"
-    },
+        "size": "15–18 cm",
+        "weight": "40–60 g",
+        "wingspan": "25–28 cm",
+        "diet": "Insects, worms, snails, spiders, and other small invertebrates",
+        "habitat": "Moist forest, woodland, scrub, plantations, and leafy gardens",
+        "behaviour": "Forages mainly on the ground, tossing aside leaf litter while searching for prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a roughly spherical nest of leaves and vegetation close to the ground",
+        "breeding_season": "June to August in much of India",
+        "clutch_size": "4–6 eggs",
+        "call": "Distinctive repeated two-note whistle",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Moist forests, wooded gardens, plantations, forest floors, and leafy habitats"
+    }
+},
 
-    {
-        "name": "Indian Pond Heron",
-        "scientific": "Ardeola grayii",
-        "family": "Ardeidae",
-        "description": "The Indian Pond Heron is a small, stocky heron commonly found around ponds, marshes, rice fields, streams, wetlands, and other shallow-water habitats. It has a deceptively plain appearance when standing still, with streaky brown and buff plumage that provides excellent camouflage among mud, grass, and vegetation. When it takes flight, however, its wings reveal striking white patches that contrast sharply with the darker upperparts. The Indian Pond Heron feeds on fish, frogs, insects, crustaceans, and other small creatures, usually hunting by standing quietly at the edge of shallow water before making a sudden strike. It can also be found in cultivated fields and other human-modified landscapes where suitable feeding areas remain. During the breeding season, its plumage becomes more colourful, with elongated feathers developing around the head, neck, and back. Its ability to remain almost invisible until it suddenly flies away makes it a fascinating and surprisingly easy-to-overlook wetland bird.",
-        "image": "IndianPondHeron1.jpg"
-    },
-
-    {
-        "name": "Indian Robin",
-        "scientific": "Copsychus fulicatus",
-        "family": "Muscicapidae",
-        "description": "The Indian Robin is a small, active bird of open and semi-open habitats, often found around rocky ground, scrub, gardens, farmland, and human settlements. Males are generally dark with contrasting pale or rufous markings around the lower body, while females are more subdued. It spends much of its time on the ground, hopping between rocks, bushes, and bare patches while searching for insects and other small invertebrates. It frequently raises and flicks its tail while moving through its territory. Its preference for open ground and its active behaviour make the Indian Robin an enjoyable species to watch closely.",
-        "image": "IndianRobin1.jpg"
-    },
-
-    {
-        "name": "Indian Roller",
-        "scientific": "Coracias benghalensis",
+{
+    "name": "Indian Roller",
+    "scientific": "Coracias benghalensis",
+    "description": "The Indian Roller is a striking blue and brown bird commonly seen perched on wires, poles, trees, and other exposed locations. Its wings display brilliant shades of blue when it flies, making it especially spectacular in flight. It hunts insects and small animals from a perch and is common in open country, farmland, grassland, and urban areas. During courtship and territorial disputes, it performs dramatic rolling and tumbling flights.",
+    "image": "IndianRoller1.jpg",
+    "quick_facts": {
         "family": "Coraciidae",
-        "description": "The Indian Roller is a medium-sized bird famous for its brilliant blue wings, turquoise colouring, and spectacular tumbling displays during the breeding season. When perched, it can appear relatively subdued, but its true beauty becomes obvious when it takes flight and reveals the intense blue and purple colours of its wings. It is commonly found in open woodland, farmland, grassland, roadsides, and urban areas with scattered trees. The Indian Roller feeds on insects, small reptiles, amphibians, and other small animals, often hunting from an exposed perch. Its bold colours and dramatic flight make it one of the most memorable birds of open Indian landscapes.",
-        "image": "IndianRoller1.jpg"
-    },
+        "size": "30–34 cm",
+        "weight": "130–180 g",
+        "wingspan": "65–75 cm",
+        "diet": "Insects, frogs, lizards, small birds, and other small animals",
+        "habitat": "Open woodland, farmland, grassland, roadside areas, and towns",
+        "behaviour": "Perches in exposed locations and drops down to capture prey from the ground",
+        "activity": "Diurnal",
+        "nesting": "Uses cavities in trees, buildings, cliffs, or other structures",
+        "breeding_season": "March to June",
+        "clutch_size": "3–5 eggs",
+        "call": "Harsh, chattering and crow-like calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, grasslands, roadsides, open woodland, villages, and urban outskirts"
+    }
+},
 
-    {
-        "name": "Indian Silverbill",
-        "scientific": "Euodice malabarica",
+{
+    "name": "Indian Silverbill",
+    "scientific": "Euodice malabarica",
+    "description": "The Indian Silverbill is a small finch-like munia with a pale brown body, whitish underparts, a blackish bill, and a distinctive pale rump. It is usually found in dry grasslands, scrub, agricultural areas, and open woodland, where it feeds mainly on grass seeds. It is social and often travels in small flocks, particularly outside the breeding season.",
+    "image": "IndianSilverbill1.jpg",
+    "quick_facts": {
         "family": "Estrildidae",
-        "description": "The Indian Silverbill is a small, active finch with a short conical bill, pale brown and grey plumage, and a distinctive silvery appearance. It is commonly found in grassland, dry scrub, agricultural fields, gardens, and areas containing tall grasses. Grass seeds and other small seeds form the main part of its diet, and the birds often move through vegetation in small groups while feeding. Their social behaviour means several birds may be seen travelling together from one feeding area to another. The Indian Silverbill is particularly well adapted to warm and relatively dry environments and is a fine example of the specialised seed-eating birds of the grasslands.",
-        "image": "IndianSilverbill1.jpg"
-    },
+        "size": "11–12 cm",
+        "weight": "10–15 g",
+        "wingspan": "16–18 cm",
+        "diet": "Grass seeds, grains, and other small seeds",
+        "habitat": "Grassland, scrub, farmland, dry woodland, and open country",
+        "behaviour": "Social and often seen in small flocks feeding on the ground or among grasses",
+        "activity": "Diurnal",
+        "nesting": "Builds a rounded grass nest in bushes, grass clumps, or other vegetation",
+        "breeding_season": "Throughout much of the year, depending on rainfall",
+        "clutch_size": "4–8 eggs",
+        "call": "Soft chirps and twittering calls",
+        "lifespan": "Several years in captivity; shorter on average in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Dry grasslands, scrub, farmland, village outskirts, and open fields"
+    }
+},
 
-    {
-        "name": "Jungle Babbler",
-        "scientific": "Argya striata",
+{
+    "name": "Jungle Babbler",
+    "scientific": "Argya striata",
+    "description": "The Jungle Babbler is a social, noisy bird commonly seen moving through vegetation in small groups. Its grey-brown plumage is relatively plain, but its lively behaviour and constant chatter make it easy to recognize. Groups forage together on the ground and in shrubs, searching for insects, seeds, fruit, and other food. They are common in gardens, woodland, scrub, farmland, and urban areas.",
+    "image": "JungleBabbler1.jpg",
+    "quick_facts": {
         "family": "Leiothrichidae",
-        "description": "The Jungle Babbler is a social and noisy bird that usually moves through its habitat in small groups. It has predominantly brownish-grey plumage, a pale underside, and a sturdy appearance. Jungle Babblers are found in woodland, scrub, gardens, farmland, parks, and urban areas with suitable vegetation. They feed on insects, fruits, seeds, and other small food items, often foraging together on the ground and among bushes. Their constant chatter and energetic group behaviour are among their most characteristic features. A group of babblers can seem to occupy an entire patch of vegetation at once, with several birds calling and moving about simultaneously.",
-        "image": "JungleBabbler1.jpg"
-    },
+        "size": "23–25 cm",
+        "weight": "60–85 g",
+        "wingspan": "Approximately 30–35 cm",
+        "diet": "Insects, fruits, seeds, grains, and small invertebrates",
+        "habitat": "Scrub, gardens, woodland, farmland, parks, and urban areas",
+        "behaviour": "Highly social and usually travels in noisy groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a cup-shaped nest in dense shrubs or low trees",
+        "breeding_season": "February to September",
+        "clutch_size": "2–4 eggs",
+        "call": "Loud, continuous chattering and harsh contact calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, scrub, farmland, woodland edges, and residential areas"
+    }
+},
 
-    {
-        "name": "Lesser Whistling Duck",
-        "scientific": "Dendrocygna javanica",
-        "family": "Anatidae",
-        "description": "The Lesser Whistling Duck is a small to medium-sized duck with warm brown plumage, a relatively long neck, and a distinctive whistling call. It is strongly associated with freshwater habitats such as ponds, lakes, marshes, flooded fields, rice paddies, and slow-moving waterways. It feeds on aquatic vegetation, seeds, grains, and small aquatic animals and may forage both by dabbling and by searching through shallow water. These ducks are highly social and are often encountered in groups resting on the water or along the shoreline. Their whistling calls and compact shape make them a familiar sight on suitable wetlands.",
-        "image": "LesserWhistlingDuck1.jpg"
-    },
-
-    {
-        "name": "Little Cormorant",
-        "scientific": "Microcarbo niger",
+{
+    "name": "Little Cormorant",
+    "scientific": "Microcarbo niger",
+    "description": "The Little Cormorant is a small dark waterbird that is common across South Asia. It spends much of its time in or around freshwater, diving beneath the surface to catch fish and other aquatic prey. After feeding, it often perches with its wings spread to dry its plumage. It is highly adaptable and occurs in ponds, lakes, rivers, canals, marshes, and flooded fields.",
+    "image": "LittleCormorant1.jpg",
+    "quick_facts": {
         "family": "Phalacrocoracidae",
-        "description": "The Little Cormorant is a small, dark waterbird commonly found on ponds, lakes, rivers, reservoirs, marshes, and flooded fields. It is an excellent swimmer and catches fish and other aquatic creatures by diving beneath the water. After feeding, it is often seen perched on a branch, rock, post, or other exposed surface with its wings spread wide to dry. Cormorants have plumage that is less water-resistant than that of many other waterbirds, helping them swim efficiently underwater. The Little Cormorant is highly adaptable and can occur close to human habitation wherever suitable water and food are available.",
-        "image": "LittleCormorant1.jpg"
-    },
+        "size": "55–60 cm",
+        "weight": "430–800 g",
+        "wingspan": "85–95 cm",
+        "diet": "Fish, frogs, crustaceans, and other aquatic animals",
+        "habitat": "Lakes, ponds, rivers, canals, marshes, reservoirs, and flooded fields",
+        "behaviour": "Excellent underwater swimmer that dives repeatedly to catch prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a platform of sticks in trees, shrubs, or sometimes reed beds, usually in colonies",
+        "breeding_season": "Varies with region and rainfall",
+        "clutch_size": "3–5 eggs",
+        "call": "Usually quiet away from colonies; produces croaks and grunts at nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Freshwater ponds, lakes, rivers, reservoirs, canals, wetlands, and rice fields"
+    }
+},
 
-    {
-        "name": "Little Egret",
-        "scientific": "Egretta garzetta",
+{
+    "name": "Little Egret",
+    "scientific": "Egretta garzetta",
+    "description": "The Little Egret is a graceful white heron with a slender black bill, black legs, and bright yellow feet. It usually forages in shallow water, moving carefully or stirring the bottom to flush out small prey. During the breeding season, adults develop delicate plumes on the head and back. It occurs in freshwater and coastal wetlands and is often seen alone or in small groups.",
+    "image": "LittleEgret1.jpg",
+    "quick_facts": {
         "family": "Ardeidae",
-        "description": "The Little Egret is a slender white heron with long black legs, a long dark bill, and elegant decorative plumes during the breeding season. It occurs around rivers, ponds, lakes, marshes, rice fields, estuaries, and coastal wetlands. The bird often walks slowly through shallow water before suddenly striking at fish, frogs, insects, and other small animals. Its bright yellow feet provide a useful identification feature and contrast strongly with its dark legs. In flight, the Little Egret is graceful and distinctive, with its long neck tucked back and long legs extending behind the body.",
-        "image": "LittleEgret1.jpg"
-    },
+        "size": "55–65 cm",
+        "weight": "250–350 g",
+        "wingspan": "88–106 cm",
+        "diet": "Fish, frogs, crustaceans, insects, and small aquatic animals",
+        "habitat": "Marshes, ponds, rivers, lakes, estuaries, mudflats, and coastal wetlands",
+        "behaviour": "Wades through shallow water and uses quick movements to catch prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in trees, shrubs, reed beds, or colonies",
+        "breeding_season": "Varies by region, often during the wet season",
+        "clutch_size": "3–5 eggs",
+        "call": "Generally quiet, with harsh croaks around breeding colonies",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Ponds, rivers, marshes, estuaries, rice fields, lakes, and coastal wetlands"
+    }
+},
 
-    {
-        "name": "Little Ringed Plover",
-        "scientific": "Charadrius dubius",
+{
+    "name": "Little Ringed Plover",
+    "scientific": "Charadrius dubius",
+    "description": "The Little Ringed Plover is a small wader with a distinctive black-and-white head pattern, yellow eye-ring, and yellowish legs. It is usually found near freshwater, especially along exposed muddy or sandy shores. It runs rapidly across open ground before stopping to pick small prey from the surface. Many birds encountered in parts of India are winter visitors.",
+    "image": "LittleRingedPlover1.jpg",
+    "quick_facts": {
         "family": "Charadriidae",
-        "description": "The Little Ringed Plover is a small, active shorebird usually found beside freshwater, including riverbanks, ponds, reservoirs, muddy shores, and other open wet habitats. It has a distinctive dark band across the chest, a dark mask around the eyes, a white throat, and yellowish legs. It feeds by running quickly across the ground, suddenly stopping, and picking up insects, worms, and other tiny invertebrates. Its small size and sandy-brown upperparts can make it difficult to notice among stones, mud, and bare ground. When disturbed, it can rapidly move along the shoreline or fly to another feeding area.",
-        "image": "Little-RingedPlover1.jpg"
-    },
+        "size": "14–15 cm",
+        "weight": "30–55 g",
+        "wingspan": "35–40 cm",
+        "diet": "Insects, worms, crustaceans, and other small invertebrates",
+        "habitat": "Mudflats, sandy shores, riverbanks, lake edges, gravel beds, and wetlands",
+        "behaviour": "Runs quickly over open ground, frequently stopping to pick prey from the surface",
+        "activity": "Diurnal",
+        "nesting": "Makes a shallow scrape on bare ground, usually among stones or gravel",
+        "breeding_season": "April to July in breeding areas",
+        "clutch_size": "3–4 eggs",
+        "call": "Soft, high-pitched whistles and piping calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Exposed riverbanks, lake margins, mudflats, gravel beds, and shallow wetlands"
+    }
+},
 
-    {
-        "name": "Oriental Darter",
-        "scientific": "Anhinga melanogaster",
-        "family": "Anhingidae",
-        "description": "The Oriental Darter is a long-necked aquatic bird with a slender body, pointed bill, and remarkable swimming ability. It is commonly found on freshwater lakes, ponds, rivers, reservoirs, marshes, and other wetlands. The bird swims with much of its body submerged, leaving only its long neck and head visible above the water, which gives rise to its snake-like appearance. It dives underwater to catch fish and other aquatic prey using its sharp bill. After feeding, it often perches with its wings spread to dry. Its unusual swimming style and long snake-like neck make it one of the most distinctive waterbirds of South Asia.",
-        "image": "OrientalDarter1.jpg"
-    },
-
-    {
-        "name": "Oriental Magpie-Robin",
-        "scientific": "Copsychus saularis",
+{
+    "name": "Oriental Magpie-Robin",
+    "scientific": "Copsychus saularis",
+    "description": "The Oriental Magpie-Robin is a familiar black-and-white songbird of gardens, forests, villages, and urban areas. Males are glossy black with white wing and tail markings, while females are generally greyish. It is an active ground and low-level forager that eats insects and other small invertebrates. Males are especially well known for their varied and melodious songs.",
+    "image": "OrientalMagpie-Robin1.jpg",
+    "quick_facts": {
         "family": "Muscicapidae",
-        "description": "The Oriental Magpie-Robin is a bold and highly recognisable garden bird with striking black-and-white plumage, a long tail, and a lively personality. Males are predominantly black and white, while females are generally greyer and less strongly marked. It is often seen on the ground or perched on low branches, fences, walls, and other exposed surfaces while searching for insects and other small creatures. A characteristic behaviour is the frequent raising and cocking of its long tail while foraging. The species is also famous for its varied and musical song, particularly during the breeding season, when males can become especially conspicuous.",
-        "image": "OrientalMagpie-Robin1.jpg"
-    },
+        "size": "19–21 cm",
+        "weight": "30–45 g",
+        "wingspan": "Approximately 25–30 cm",
+        "diet": "Insects, spiders, worms, small reptiles, and other invertebrates",
+        "habitat": "Gardens, forests, woodland, plantations, parks, and villages",
+        "behaviour": "Active and territorial; frequently forages on the ground and low branches",
+        "activity": "Diurnal",
+        "nesting": "Uses cavities, holes, pipes, boxes, and other sheltered spaces",
+        "breeding_season": "March to August",
+        "clutch_size": "3–5 eggs",
+        "call": "Rich, varied and melodious song with many imitations and phrases",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, forests, plantations, villages, and urban neighbourhoods"
+    }
+},
 
-    {
-        "name": "Oriental White-eye",
-        "scientific": "Zosterops palpebrosus",
-        "family": "Zosteropidae",
-        "description": "The Oriental White-eye is a tiny, active bird easily recognised by the conspicuous white ring around its eye. It has greenish upperparts, yellowish underparts, and a short pointed bill suited to feeding on nectar, fruit, and small insects. White-eyes are highly active and often move rapidly through foliage in small groups, searching flowers and leaves for food. They are common in gardens, woodland, plantations, scrub, and urban areas containing flowering plants and trees. Their constant movement and soft social calls make them lively inhabitants of leafy habitats, while their striking eye-ring provides an excellent identification feature.",
-        "image": "OrientalWhite-Eye1.jpg"
-    },
-
-    {
-        "name": "Painted Stork",
-        "scientific": "Mycteria leucocephala",
+{
+    "name": "Painted Stork",
+    "scientific": "Mycteria leucocephala",
+    "description": "The Painted Stork is a large wading bird with a white body, black wing markings, a pinkish head and neck, and a long yellow-orange bill. It often feeds in shallow water by sweeping its partly open bill from side to side to detect fish and other aquatic animals. It is commonly associated with wetlands, lakes, marshes, and flooded fields and frequently nests in large colonies.",
+    "image": "PaintedStork1.jpg",
+    "quick_facts": {
         "family": "Ciconiidae",
-        "description": "The Painted Stork is a large and striking wetland bird with a long slightly curved bill, a mostly white body, black-and-white wings, and attractive pink markings on the lower body and legs. It is commonly found around lakes, marshes, flooded fields, shallow wetlands, and other areas where fish and aquatic prey are abundant. Painted Storks often feed by moving their partly open bills through shallow water, using touch to detect prey such as fish and other aquatic animals. They frequently gather in groups, particularly at productive feeding sites. Their large size and distinctive pattern make them highly conspicuous birds in open wetlands.",
-        "image": "PaintedStork1.jpg"
-    },
+        "size": "93–102 cm",
+        "weight": "2–3.5 kg",
+        "wingspan": "150–160 cm",
+        "diet": "Fish, frogs, crustaceans, insects, and other aquatic animals",
+        "habitat": "Wetlands, lakes, marshes, flooded fields, rivers, and shallow water bodies",
+        "behaviour": "Forages by sweeping its bill through shallow water and often feeds in groups",
+        "activity": "Diurnal",
+        "nesting": "Builds large stick nests in trees, usually in colonies",
+        "breeding_season": "August to October in many parts of India",
+        "clutch_size": "2–5 eggs",
+        "call": "Generally quiet, with bill-clattering and soft sounds around colonies",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Near Threatened",
+        "where_to_find": "Large wetlands, lakes, marshes, reservoirs, flooded fields, and shallow waterways"
+    }
+},
 
-    {
-        "name": "Pied Kingfisher",
-        "scientific": "Ceryle rudis",
-        "family": "Alcedinidae",
-        "description": "The Pied Kingfisher is a striking black-and-white kingfisher commonly found around rivers, lakes, reservoirs, estuaries, ponds, and other open waters. It is famous for hovering almost motionless above the water before plunging downward to catch fish. Its black-and-white plumage, shaggy crest, long pointed bill, and rapid wingbeats make it easy to recognise. Unlike many kingfishers that rely on low perches, the Pied Kingfisher frequently hunts directly from the air, allowing it to cover large areas of water efficiently. It feeds mainly on fish and other aquatic prey and is often seen hunting in pairs or small groups.",
-        "image": "PiedKingfisher1.jpg"
-    },
-
-    {
-        "name": "Purple Heron",
-        "scientific": "Ardea purpurea",
-        "family": "Ardeidae",
-        "description": "The Purple Heron is a tall, elegant wetland bird with rich brown, purple-grey, and chestnut tones that distinguish it from the more uniformly grey Great Egret and Grey Heron. It is usually found in reedbeds, marshes, riversides, lakes, ponds, flooded fields, and other wetlands with dense vegetation. It feeds on fish, frogs, insects, small mammals, and other aquatic or wetland prey, often standing motionless before striking with its long pointed bill. Its long neck and legs allow it to hunt effectively in shallow water and among reeds. Despite its size, it can blend surprisingly well into dense wetland vegetation.",
-        "image": "PurpleHeron1.jpg"
-    },
-
-    {
-        "name": "Purple-Rumped Sunbird",
-        "scientific": "Leptocoma zeylonica",
+{
+    "name": "Purple-Rumped Sunbird",
+    "scientific": "Leptocoma zeylonica",
+    "description": "The Purple-Rumped Sunbird is a tiny nectar-feeding bird found mainly in the Indian subcontinent. Breeding males display brilliant purple, blue, green, and maroon plumage, while females are much more subdued. It feeds on nectar from flowers and also takes small insects, particularly when feeding young. Its small size and rapid movements make it easy to miss despite its vivid colours.",
+    "image": "Purple-RumpedSunbird1.jpg",
+    "quick_facts": {
         "family": "Nectariniidae",
-        "description": "The Purple-Rumped Sunbird is a tiny nectar-feeding bird commonly found in gardens, plantations, woodland edges, and areas with flowering plants. The male has glossy, iridescent plumage with brilliant purple and other metallic colours that can appear dramatically different depending on the angle of the light. Females are more subdued and generally greenish-yellow. The bird uses its slender, curved bill to reach nectar deep inside flowers and also feeds on small insects, particularly while raising young. It moves rapidly among flowers and may hover briefly while feeding. As a nectar feeder, it also plays an important role in pollination.",
-        "image": "Purple-RumpedSunbird1.jpg"
-    },
+        "size": "10–12 cm",
+        "weight": "6–8 g",
+        "wingspan": "13–15 cm",
+        "diet": "Nectar, small insects, spiders, and other tiny invertebrates",
+        "habitat": "Gardens, forests, plantations, scrub, and flowering trees",
+        "behaviour": "Highly active and frequently moves between flowers while feeding",
+        "activity": "Diurnal",
+        "nesting": "Builds a hanging pouch-like nest from plant fibres, grass, and spider webs",
+        "breeding_season": "November to March in many areas, with regional variation",
+        "clutch_size": "Usually 2 eggs",
+        "call": "High-pitched, rapid and twittering calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Flowering gardens, forests, plantations, scrub, and wooded urban areas"
+    }
+},
 
-    {
-        "name": "Purple Sunbird",
-        "scientific": "Cinnyris asiaticus",
+{
+    "name": "Purple Sunbird",
+    "scientific": "Cinnyris asiaticus",
+    "description": "The Purple Sunbird is a tiny, active nectar feeder and one of the most familiar sunbirds in India. Breeding males can appear almost black in ordinary light but show brilliant purple, blue, and green iridescence when illuminated. Females are olive-yellow and much less conspicuous. The species is highly adaptable and occurs in gardens, forests, scrub, plantations, and cities wherever flowering plants provide food.",
+    "image": "PurpleSunbird1.jpg",
+    "quick_facts": {
         "family": "Nectariniidae",
-        "description": "The Purple Sunbird is a tiny, energetic nectar-feeding bird that is particularly common in gardens, scrub, woodland edges, and areas with flowering plants. Breeding males develop glossy, iridescent purplish-black plumage that can shine with different colours in bright sunlight, while females are more subdued yellowish-green. Its slender downward-curved bill is perfectly suited to feeding from flowers, and it may hover briefly while taking nectar. Insects and other small creatures are also eaten, especially when feeding young. Its rapid movements, tiny size, and brilliant male plumage make it one of the most fascinating small birds to watch around flowering plants.",
-        "image": "PurpleSunbird1.jpg"
-    },
+        "size": "10–11 cm",
+        "weight": "7–10 g",
+        "wingspan": "13–15 cm",
+        "diet": "Nectar, insects, spiders, and other small invertebrates",
+        "habitat": "Gardens, scrub, woodland, plantations, parks, and urban areas",
+        "behaviour": "Active and agile; frequently hovers or perches beside flowers while feeding",
+        "activity": "Diurnal",
+        "nesting": "Builds a hanging pouch-shaped nest from fibres, grass, and spider webs",
+        "breeding_season": "Throughout much of the year, depending on local conditions",
+        "clutch_size": "Usually 2 eggs",
+        "call": "Rapid, high-pitched twittering and chirping",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, flowering trees, scrub, plantations, and urban neighbourhoods"
+    }
+},
 
-    {
-        "name": "Red-Vented Bulbul",
-        "scientific": "Pycnonotus cafer",
+{
+    "name": "Red-Vented Bulbul",
+    "scientific": "Pycnonotus cafer",
+    "description": "The Red-Vented Bulbul is a familiar and adaptable songbird with a black head and crest, brown body, white rump patch, and distinctive red vent. It occurs in almost every type of semi-open habitat, including gardens, farmland, scrub, parks, and cities. It feeds on fruits, berries, nectar, insects, and other foods and is often seen moving actively through bushes and trees.",
+    "image": "Red-VentedBulbul1.jpg",
+    "quick_facts": {
         "family": "Pycnonotidae",
-        "description": "The Red-Vented Bulbul is a common and highly adaptable songbird found in gardens, towns, farmland, scrub, woodland, and urban areas. It has a dark head with a small crest, a brownish body, a pale underside, and the distinctive red patch beneath the tail that gives the species its name. It feeds on fruits, berries, nectar, insects, and other small food items, making it capable of exploiting a wide variety of habitats. Red-Vented Bulbuls are active and vocal birds and can often be seen moving between shrubs and trees in search of food. Their adaptability has allowed them to thrive even in heavily human-modified landscapes.",
-        "image": "Red-VentedBulbul1.jpg"
-    },
+        "size": "19–21 cm",
+        "weight": "30–45 g",
+        "wingspan": "26–30 cm",
+        "diet": "Fruits, berries, nectar, insects, seeds, and flower buds",
+        "habitat": "Gardens, scrub, woodland, farmland, parks, and urban areas",
+        "behaviour": "Active and social; often forages in pairs or small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest in bushes, shrubs, or low trees",
+        "breeding_season": "February to September",
+        "clutch_size": "2–3 eggs",
+        "call": "Varied musical, chattering, and sharp calls",
+        "lifespan": "Around 10 years in favourable conditions",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, scrub, farmland, villages, and cities throughout India"
+    }
+},
 
-    {
-        "name": "Red-Whiskered Bulbul",
-        "scientific": "Pycnonotus jocosus",
+{
+    "name": "Red-Whiskered Bulbul",
+    "scientific": "Pycnonotus jocosus",
+    "description": "The Red-Whiskered Bulbul is an attractive crested bulbul with a black head, white cheek, red ear patch, brown back, and red vent. It is an energetic bird that feeds on fruit, nectar, and insects and is often found in gardens, forest edges, plantations, and scrub. Its pointed crest and red facial markings make it particularly distinctive.",
+    "image": "Red-WhiskeredBulbul1.jpg",
+    "quick_facts": {
         "family": "Pycnonotidae",
-        "description": "The Red-Whiskered Bulbul is an attractive and lively songbird recognised by its pointed black crest, white cheeks, red ear patch, dark upperparts, and red vent. It is commonly found in gardens, scrub, plantations, woodland edges, and areas of human habitation. It feeds on fruits, berries, nectar, insects, and other small food items, often moving actively among shrubs and small trees. Its varied calls and lively behaviour make it a familiar presence in many gardens and wooded areas. The combination of its tall crest, white face, and bright red facial marking makes it particularly distinctive among bulbuls.",
-        "image": "Red-WhiskeredBulbul1.jpg"
-    },
+        "size": "20–22 cm",
+        "weight": "23–42 g",
+        "wingspan": "26–29 cm",
+        "diet": "Fruits, berries, nectar, insects, and flower buds",
+        "habitat": "Gardens, scrub, woodland edges, plantations, and forests",
+        "behaviour": "Active and social, often moving through vegetation in pairs or small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a cup-shaped nest in shrubs, bushes, or small trees",
+        "breeding_season": "January to August, varying by region",
+        "clutch_size": "2–3 eggs",
+        "call": "Clear whistles, chattering notes, and varied calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, forest edges, plantations, scrub, parks, and wooded neighbourhoods"
+    }
+},
 
-    {
-        "name": "Red-Wattled Lapwing",
-        "scientific": "Vanellus indicus",
+{
+    "name": "Red-Wattled Lapwing",
+    "scientific": "Vanellus indicus",
+    "description": "The Red-Wattled Lapwing is a large, conspicuous wader with a black head and breast, white underparts, brown wings, yellow legs, and a distinctive red fleshy wattle at the base of the bill. It is commonly found in open habitats near water but can also live far from wetlands. Its loud alarm call is one of the characteristic sounds of the Indian countryside, especially at night.",
+    "image": "Red-WattledLapwing1.jpg",
+    "quick_facts": {
         "family": "Charadriidae",
-        "description": "The Red-Wattled Lapwing is a large and striking wader with a black head and breast, white underparts, brown wings, and a conspicuous red fleshy wattle near the base of the bill. It is commonly found in open ground, farmland, grassland, wetlands, riverbanks, and even relatively dry landscapes. It feeds mainly on insects and other small invertebrates, walking briskly across open ground while searching for food. Its loud, ringing calls are among the most recognisable sounds of the Indian countryside. Lapwings are extremely alert and may call loudly when they detect people, animals, or potential predators approaching their territory.",
-        "image": "Red-WattledLapwing1.jpg"
-    },
+        "size": "32–35 cm",
+        "weight": "200–300 g",
+        "wingspan": "75–85 cm",
+        "diet": "Insects, worms, molluscs, seeds, and other small invertebrates",
+        "habitat": "Open fields, wetlands, riverbanks, grasslands, farmland, and lake margins",
+        "behaviour": "Alert and territorial; gives loud alarm calls when predators or people approach",
+        "activity": "Diurnal and often active at night",
+        "nesting": "Makes a shallow scrape on open ground, usually with little nest material",
+        "breeding_season": "March to August",
+        "clutch_size": "Usually 3–4 eggs",
+        "call": "Extremely loud, repeated 'did-he-do-it' style alarm calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, grasslands, wetland edges, riverbanks, lakeshores, and open ground"
+    }
+},
 
-    {
-        "name": "Rose-Ringed Parakeet",
-        "scientific": "Psittacula krameri",
+{
+    "name": "Rose-Ringed Parakeet",
+    "scientific": "Psittacula krameri",
+    "description": "The Rose-Ringed Parakeet is a familiar bright-green parakeet with a long pointed tail and large red bill. Adult males develop a narrow dark and rose-coloured neck ring, while females and young birds lack the complete male pattern. It is highly adaptable and thrives in gardens, farmland, forests, plantations, and cities. Large noisy flocks are often seen flying between roosting and feeding areas.",
+    "image": "Rose-RingedParakeet1.jpg",
+    "quick_facts": {
         "family": "Psittaculidae",
-        "description": "The Rose-Ringed Parakeet is a bright green, long-tailed parakeet with a strong red bill and a distinctive appearance. Adult males have a dark-and-pink ring around the neck, while females and younger birds do not develop the same complete collar. The species is highly adaptable and occurs in forests, farmland, gardens, towns, villages, and large cities. It feeds on fruits, seeds, grains, flowers, buds, and other plant material. Rose-Ringed Parakeets are strongly social and often travel in noisy flocks, particularly when moving between feeding and roosting areas. Their fast flight and loud calls make them one of the most noticeable parrots in many Indian landscapes.",
-        "image": "Rose-RingedParakeet1.jpg"
-    },
+        "size": "40–42 cm",
+        "weight": "95–140 g",
+        "wingspan": "42–48 cm",
+        "diet": "Fruits, seeds, grains, flowers, buds, and nectar",
+        "habitat": "Woodland, farmland, gardens, plantations, parks, and cities",
+        "behaviour": "Highly social and often gathers in noisy flocks, particularly at roosts",
+        "activity": "Diurnal",
+        "nesting": "Uses cavities in trees, buildings, walls, and other structures",
+        "breeding_season": "December to May",
+        "clutch_size": "3–5 eggs",
+        "call": "Loud, harsh and repetitive screeches",
+        "lifespan": "Around 15–20 years in favourable conditions",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Cities, gardens, farmland, plantations, parks, and open woodland across India"
+    }
+},
 
-    {
-        "name": "Rufous Treepie",
-        "scientific": "Dendrocitta vagabunda",
+{
+    "name": "Rufous Treepie",
+    "scientific": "Dendrocitta vagabunda",
+    "description": "The Rufous Treepie is a long-tailed member of the crow family with a striking combination of rufous, grey, black, and white plumage. It is an active and opportunistic bird that moves through trees and often visits the ground in search of food. Its varied diet includes fruits, insects, small animals, eggs, and carrion. It is a common inhabitant of forests, gardens, farmland, and urban areas.",
+    "image": "RufousTreepie1.jpg",
+    "quick_facts": {
         "family": "Corvidae",
-        "description": "The Rufous Treepie is a long-tailed member of the crow family with a striking combination of rufous-brown, black, and grey plumage. It is commonly found in forests, woodland, gardens, farmland, plantations, and open areas containing scattered trees. It feeds on a wide variety of foods, including insects, fruits, small animals, eggs, and scraps, allowing it to adapt to many different environments. Rufous Treepies are active and curious birds and are often seen moving noisily through tree canopies or hopping between branches. Their long tails and contrasting plumage make them easy to recognise, while their varied calls often announce their presence before they are seen.",
-        "image": "RufousTreepie1.jpg"
-    },
+        "size": "45–50 cm",
+        "weight": "90–130 g",
+        "wingspan": "Approximately 55–65 cm",
+        "diet": "Fruits, insects, small reptiles, eggs, nestlings, carrion, and food scraps",
+        "habitat": "Forests, woodland, farmland, gardens, plantations, and towns",
+        "behaviour": "Active, curious, and usually seen alone, in pairs, or small family groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a shallow stick nest in trees",
+        "breeding_season": "April to June",
+        "clutch_size": "2–5 eggs",
+        "call": "Loud, varied and distinctive chattering or metallic calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, gardens, plantations, farmland, parks, and wooded urban areas"
+    }
+},
 
-    {
-        "name": "Scaly-Breasted Munia",
-        "scientific": "Lonchura punctulata",
+{
+    "name": "Scaly-Breasted Munia",
+    "scientific": "Lonchura punctulata",
+    "description": "The Scaly-Breasted Munia is a small, compact finch-like bird with a chestnut head and upperparts and strongly scaled markings across the pale breast and belly. It feeds mainly on grass seeds and grains and is often found in flocks in grassland and agricultural areas. It is a common bird of fields, scrub, gardens, and areas of tall grass.",
+    "image": "Scaly-BreastedMunia1.jpg",
+    "quick_facts": {
         "family": "Estrildidae",
-        "description": "The Scaly-Breasted Munia is a small, compact finch with warm brown upperparts and a distinctive scale-like pattern across the pale breast and belly. It is commonly found in grassland, scrub, farmland, gardens, and areas containing tall grasses and seed-producing plants. Grass seeds and other small seeds form the main part of its diet, and the birds often feed in pairs or small groups. They are active and social, moving through vegetation together while giving soft calls. The intricate scale pattern on the underside is particularly noticeable at close range and provides this otherwise small bird with one of its most memorable identification features.",
-        "image": "Scaly-BreastedMunia1.jpg"
-    },
+        "size": "11–12 cm",
+        "weight": "10–15 g",
+        "wingspan": "16–18 cm",
+        "diet": "Grass seeds, grains, and other small seeds",
+        "habitat": "Grassland, farmland, scrub, gardens, and reed beds",
+        "behaviour": "Highly social and often forms flocks while feeding on the ground or in grasses",
+        "activity": "Diurnal",
+        "nesting": "Builds a spherical or dome-shaped nest from grass and plant fibres",
+        "breeding_season": "Throughout much of the year, especially after rains",
+        "clutch_size": "4–8 eggs",
+        "call": "Soft chirps, whistles, and twittering calls",
+        "lifespan": "Several years in captivity and generally shorter in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Grasslands, rice fields, farmland, scrub, gardens, and grassy roadsides"
+    }
+},
 
-    {
-        "name": "Shikra",
-        "scientific": "Accipiter badius",
+{
+    "name": "Shikra",
+    "scientific": "Accipiter badius",
+    "description": "The Shikra is a small woodland hawk with short rounded wings, a long tail, and sharp talons. Adults commonly show grey upperparts and barred underparts, while females are generally larger than males. It is an agile hunter that catches small birds, lizards, rodents, frogs, and insects. Shikras are adaptable and can live in forests, farmland, gardens, plantations, and cities with sufficient tree cover.",
+    "image": "Shikra1.jpg",
+    "quick_facts": {
         "family": "Accipitridae",
-        "description": "The Shikra is a small, agile bird of prey with short rounded wings, a long tail, and sharp eyesight. It occurs in woodland, scrub, farmland, gardens, plantations, and even urban areas where suitable trees provide cover and hunting opportunities. It feeds on small birds, lizards, insects, and other small animals, often relying on surprise and speed to catch prey. A Shikra may sit quietly among foliage or on an exposed branch before suddenly launching into a rapid pursuit. Its ability to manoeuvre quickly between trees makes it an impressive little raptor and an exciting bird for an observer to encounter.",
-        "image": "Shikra1.jpg"
-    },
+        "size": "26–30 cm",
+        "weight": "90–250 g",
+        "wingspan": "50–60 cm",
+        "diet": "Small birds, lizards, rodents, frogs, insects, and other small animals",
+        "habitat": "Woodland, forests, farmland, plantations, gardens, and urban areas",
+        "behaviour": "Fast and agile hunter that often uses surprise attacks from cover",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in a tree, often using an existing structure",
+        "breeding_season": "March to June",
+        "clutch_size": "3–4 eggs",
+        "call": "Repeated high-pitched whistles, particularly around breeding areas",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wooded gardens, forests, plantations, farmland, parks, and urban areas with mature trees"
+    }
+},
 
-    {
-        "name": "Spotted Dove",
-        "scientific": "Spilopelia chinensis",
-        "family": "Columbidae",
-        "description": "The Spotted Dove is a medium-sized dove with soft brown and grey plumage and a distinctive black-and-white spotted patch on the sides and back of the neck. It is highly adaptable and can be found in gardens, farmland, woodland edges, parks, villages, and cities. It feeds mainly on seeds and grains, often foraging on the ground in open areas. Spotted Doves are generally calm birds and can often be observed walking slowly while searching for food. Their gentle cooing calls are a familiar sound in many parts of South Asia, especially around gardens and cultivated landscapes.",
-        "image": "SpottedDove1.jpg"
-    },
-
-    {
-        "name": "Stork-Billed Kingfisher",
-        "scientific": "Pelargopsis capensis",
-        "family": "Alcedinidae",
-        "description": "The Stork-Billed Kingfisher is a large and powerful kingfisher with a massive red bill, blue-green wings, a brownish head and body, and pale underparts. It is associated with rivers, lakes, ponds, mangroves, forest streams, and other wet habitats, particularly where substantial trees provide hunting perches. It feeds on fish, frogs, crabs, reptiles, and other small animals, usually watching from a perch before making a forceful dive or descent. Its enormous bill gives it a particularly impressive appearance and allows it to handle prey much larger than those taken by many smaller kingfishers. Despite its size, it can move rapidly and efficiently when hunting.",
-        "image": "Stork-BilledKingfisher1.jpg"
-    },
-
-    {
-        "name": "White-Breasted Waterhen",
-        "scientific": "Amaurornis phoenicurus",
+{
+    "name": "White-Breasted Waterhen",
+    "scientific": "Amaurornis phoenicurus",
+    "description": "The White-Breasted Waterhen is a dark waterbird with a white face, breast, and belly, a reddish undertail, and long yellowish legs. It is commonly found around freshwater wetlands, ponds, marshes, canals, and overgrown waterways. It often walks through dense vegetation and shallow water searching for insects, molluscs, seeds, and other food. Despite its wetland association, it can occur surprisingly close to human settlements.",
+    "image": "White-BreastedWaterhen1.jpg",
+    "quick_facts": {
         "family": "Rallidae",
-        "description": "The White-Breasted Waterhen is a dark, chicken-sized wetland bird with a striking white face, throat, breast, and belly. It is commonly found around ponds, streams, marshes, rice fields, gardens, drainage channels, and areas of dense waterside vegetation. Although it can fly, it often prefers to walk quickly through reeds, grasses, bushes, and muddy margins, using its long toes to move over soft ground. It feeds on insects, small aquatic animals, seeds, and other food found around wet vegetation. Its loud and varied calls are often heard from dense cover, making sound an important clue to its presence.",
-        "image": "White-BreastedWaterhen1.jpg"
-    },
+        "size": "28–33 cm",
+        "weight": "170–300 g",
+        "wingspan": "45–50 cm",
+        "diet": "Insects, worms, molluscs, seeds, frogs, and small aquatic animals",
+        "habitat": "Marshes, ponds, canals, rice fields, wetlands, and dense vegetation near water",
+        "behaviour": "Walks actively through vegetation and shallow water and may swim when necessary",
+        "activity": "Diurnal and crepuscular",
+        "nesting": "Builds a platform or cup-like nest among reeds, grasses, or waterside vegetation",
+        "breeding_season": "June to September in many parts of India",
+        "clutch_size": "4–9 eggs",
+        "call": "Loud repeated clucks, screams, and harsh calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Ponds, marshes, rice fields, canals, wetlands, and overgrown water edges"
+    }
+},
 
-    {
-        "name": "White-Browed Fantail",
-        "scientific": "Rhipidura aureola",
-        "family": "Rhipiduridae",
-        "description": "The White-Browed Fantail is a small, energetic insect-eating bird recognised by its fan-shaped tail and prominent pale eyebrow. It is commonly found in woodland, scrub, gardens, plantations, and forest edges. The bird frequently spreads and flicks its tail while moving through branches and foliage, behaviour that gives the species its English name. It feeds mainly on insects and other small invertebrates, often catching prey in short aerial sallies from a perch. Its constant movement and tail-fanning behaviour make it an entertaining bird to observe, although its quick movements can make close observation surprisingly challenging.",
-        "image": "White-BrowedFantail1.jpg"
-    },
-
-    {
-        "name": "White-Rumped Munia",
-        "scientific": "Lonchura striata",
+{
+    "name": "White-Rumped Munia",
+    "scientific": "Lonchura striata",
+    "description": "The White-Rumped Munia is a small, social seed-eating bird with dark brown plumage and a contrasting white rump. It usually occurs in grasslands, scrub, cultivated areas, and forest edges and often travels in flocks. It feeds mainly on grass seeds and grains and can be difficult to notice until a group suddenly rises from the vegetation.",
+    "image": "White-RumpedMunia1.jpg",
+    "quick_facts": {
         "family": "Estrildidae",
-        "description": "The White-Rumped Munia is a small, social seed-eating finch commonly found in grassland, scrub, agricultural areas, gardens, and other habitats containing tall grasses. Its dark body contrasts with a conspicuous white patch on the rump, which becomes particularly noticeable when the bird flies away. It feeds mainly on grass seeds and other small seeds, often moving through vegetation in pairs or small flocks. White-Rumped Munias are active and sociable, frequently travelling together between feeding areas. Their association with grassy habitats makes them a familiar sight in many rural landscapes.",
-        "image": "White-RumpedMunia1.jpg"
-    },
-     {
-        "name": "Yellow-Footed Green Pigeon",
-        "scientific": "Treron phoenicopterus",
-        "family": "Columbidae",
-        "description": "The Yellow-Footed Green Pigeon is a medium-sized fruit-eating pigeon with predominantly green plumage, yellowish feet, and subtle patches of colour on the wings and body. It is associated with forests, woodland, gardens, plantations, groves, and other habitats containing fruiting trees. Fruits, berries, and figs form an important part of its diet, and the bird may spend long periods quietly feeding in the canopy. Its green plumage provides excellent camouflage among leaves, making it surprisingly difficult to notice despite its size. The species plays an important ecological role by consuming and dispersing seeds from the fruits it eats.",
-        "image": "Yellow-FootedGreenPigeon1.jpg"
-    },
+        "size": "10–12 cm",
+        "weight": "10–15 g",
+        "wingspan": "16–18 cm",
+        "diet": "Grass seeds, grains, and other small seeds",
+        "habitat": "Grassland, scrub, farmland, woodland edges, and gardens",
+        "behaviour": "Highly social and usually feeds in flocks among grasses",
+        "activity": "Diurnal",
+        "nesting": "Builds a rounded or domed nest from grass and plant fibres",
+        "breeding_season": "Varies by region and rainfall",
+        "clutch_size": "4–7 eggs",
+        "call": "Soft chirping and twittering calls",
+        "lifespan": "Several years in captivity; generally shorter in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Grasslands, fields, scrub, plantations, gardens, and forest edges"
+    }
+},
 
-    {
-        "name": "White-Throated Kingfisher",
-        "scientific": "Halcyon smyrnensis",
+{
+    "name": "White-Throated Kingfisher",
+    "scientific": "Halcyon smyrnensis",
+    "description": "The White-Throated Kingfisher is a large and colourful kingfisher with a bright blue back and wings, chestnut head and body, white throat and breast, and a large red bill. Despite its name, it is not restricted to aquatic habitats and frequently hunts from perches far from water. It catches insects, lizards, frogs, small birds, and other prey and is one of the most widespread kingfishers in India.",
+    "image": "White-ThroatedKingfisher1.jpg",
+    "quick_facts": {
         "family": "Alcedinidae",
-        "description": "The White-Throated Kingfisher is a large and brilliantly coloured kingfisher with a bright blue back and wings, rich chestnut-brown head and body, white throat and breast, and a powerful red bill. Despite belonging to the kingfisher family, it is not restricted to water and can frequently be found in fields, gardens, woodland edges, plantations, and urban areas. It hunts a wide range of prey, including insects, lizards, frogs, small birds, and other small animals, while fish may also be taken when available. It often sits quietly on an exposed perch before dropping suddenly onto its prey. Its vivid colours and powerful flight make it one of the most impressive kingfishers of South Asia.",
-        "image": "White-ThroatedKingfisher1.jpg"
-    },
-     {
-        "name": "Pied Bushchat",
-        "scientific": "Saxicola caprata",
-        "description": "The Pied Bushchat is a small, lively songbird commonly found in open grasslands, scrublands, farmland, and rocky areas. The male is strikingly dark with a black head, back, wings, and breast, contrasted by a white rump and patches on the wings and lower body. Females are generally brown and less boldly marked. Pied Bushchats often perch prominently on bushes, fences, rocks, and posts while watching for insects. They feed mainly on insects and other small invertebrates, frequently making short flights from a perch to catch prey before returning to the same or another nearby perch.",
-        "family": "Muscicapidae",
-        "image": "PiedBushchat1.jpg"
-    },
-    {
-        "name": "Black Redstart",
-        "scientific": "Phoenicurus ochruros",
-        "description": "The Black Redstart is a small and active songbird associated with rocky landscapes, cliffs, mountains, open country, and human settlements. Males are predominantly dark grey or blackish, with a distinctive reddish-orange tail that is especially noticeable when the bird is in flight or flicking its tail. Females and immature birds are generally browner and more subdued in appearance. Black Redstarts frequently perch on rocks, walls, rooftops, and other exposed surfaces while searching for insects. Their characteristic tail movements and habit of repeatedly returning to prominent perches make them an interesting bird to observe.",
-        "family": "Muscicapidae",
-        "image": "BlackRedstart1.jpg"
-    },
-    {
-        "name": "Spotted Owlet",
-        "scientific": "Athene brama",
-        "description": "The Spotted Owlet is a small, familiar owl found across much of the Indian subcontinent. It has a rounded head, bright yellow eyes, pale facial markings, and a brown body covered with numerous white spots and streaks. Unlike many owls, it is often active during the day, particularly around dawn and dusk, and may be seen sitting openly on branches, poles, buildings, and other exposed places. Spotted Owlets feed on insects, small reptiles, rodents, and other small animals. They commonly inhabit gardens, farmland, villages, cities, and wooded areas, making them one of the more easily encountered owls in India.",
-        "family": "Strigidae",
-        "image": "SpottedOwlet1.jpg"
-    },
-    {
-        "name": "Black-Naped Oriole",
-        "scientific": "Oriolus chinensis",
-        "description": "The Black-Naped Oriole is a brightly coloured songbird recognized for its vivid yellow plumage, black wings, and distinctive black marking extending across the nape and around the eye. It inhabits forests, woodland edges, gardens, plantations, and other areas with mature trees. Its strong, melodious whistles can often reveal its presence before the bird itself is spotted among the foliage. Black-Naped Orioles feed on fruits, nectar, and a variety of insects and other small invertebrates. Their brilliant yellow plumage makes them particularly conspicuous when they emerge from the green canopy.",
-        "family": "Oriolidae",
-        "image": "Black-NapedOriole1.jpg"
-    },
-    {
-        "name": "Woolly-Necked Stork",
-        "scientific": "Ciconia episcopus",
-        "description": "The Woolly-Necked Stork is a large and elegant stork distinguished by its dark glossy plumage, contrasting white neck, and long reddish legs. It occurs in wetlands, grasslands, open woodland, agricultural areas, and along the edges of rivers and ponds. The species often forages alone or in small groups, walking slowly through shallow water or damp ground while searching for frogs, fish, insects, reptiles, and other small animals. Its striking combination of black, white, and reddish-brown colours makes it a particularly impressive bird when seen standing in open country or flying overhead.",
-        "family": "Ciconiidae",
-        "image": "Woolly-NeckedStork1.jpg"
-    },
-    {
-        "name": "Common Iora",
-        "scientific": "Aegithina tiphia",
-        "description": "The Common Iora is a small, active songbird of gardens, woodland, forest edges, and areas with dense vegetation. Males are particularly attractive, with bright yellow underparts contrasting with dark wings and upperparts, while females are generally greener and more subdued. Common Ioras spend much of their time moving energetically through foliage in search of insects and other small invertebrates. Their varied songs and calls are an important part of the soundscape of many tropical forests and gardens. They are often easier to hear than to see as they move quickly among leaves and branches.",
-        "family": "Aegithinidae",
-        "image": "CommonIora1.jpg"
-    },
-    {
-        "name": "Jungle Owlet",
-        "scientific": "Glaucidium radiatum",
-        "description": "The Jungle Owlet is a small woodland owl found in forests and wooded habitats of the Indian subcontinent. It has a compact body, a rounded head, bright yellow eyes, and finely barred brown and white plumage that provides excellent camouflage among tree branches. Although primarily active during daylight and twilight hours, it can be surprisingly difficult to spot because it often remains still among dense foliage. Jungle Owlets feed on insects, small reptiles, and other small animals. Their distinctive calls can sometimes reveal their presence deep within woodland before the bird is located.",
-        "family": "Strigidae",
-        "image": "JungleOwlet1.jpg"
-    },
-    {
-        "name": "Black-Hooded Oriole",
-        "scientific": "Oriolus xanthornus",
-        "description": "The Black-Hooded Oriole is a colourful tropical songbird with brilliant yellow plumage and a contrasting dark head and wings. It is commonly associated with forests, woodland, gardens, plantations, and tree-filled urban areas. The species spends much of its time high in the canopy, where it searches for fruits, nectar, insects, and other small food items. Its rich, fluting calls are often heard from among the leaves before the bird comes into view. When sunlight catches its bright yellow body against the green canopy, the Black-Hooded Oriole is one of the more striking birds of the tropical landscape.",
-        "family": "Oriolidae",
-        "image": "Black-HoodedOriole1.jpg"
-    },
-    {
-        "name": "Brown Rock Chat",
-        "scientific": "Oenanthe fusca",
-        "description": "The Brown Rock Chat is a small, sturdy chat associated with rocky terrain, cliffs, dry open country, villages, and human settlements. Its overall brown plumage provides excellent camouflage against rocks and earth, while its pale lower body and darker wings give it a subtly patterned appearance. It frequently perches on rocks, walls, rooftops, and other exposed surfaces while searching for insects and other small invertebrates. Brown Rock Chats are often found close to people, particularly around old buildings and rocky structures, where their quiet but active behaviour makes them an interesting bird to watch.",
-        "family": "Muscicapidae",
-        "image": "BrownRockChat1.jpg"
-    },
-    {
-        "name": "Blue-Tailed Bee-Eater",
-        "scientific": "Merops philippinus",
-        "description": "The Blue-Tailed Bee-Eater is a graceful, brightly coloured bird that specializes in catching flying insects. It has a green body, a yellow and blue throat pattern, a dark eye stripe, and a distinctive blue tail that gives the species its common name. Like other bee-eaters, it often hunts from exposed perches, launching into the air to capture bees, wasps, dragonflies, and other insects before returning to its perch. It can be found in open woodland, grassland, wetlands, riverbanks, and other open habitats, where groups may gather and perform spectacular aerial feeding flights.",
-        "family": "Meropidae",
-        "image": "Blue-TailedBee-Eater1.jpg"
-    },
+        "size": "27–29 cm",
+        "weight": "80–100 g",
+        "wingspan": "42–45 cm",
+        "diet": "Fish, frogs, lizards, insects, small birds, rodents, and other small animals",
+        "habitat": "Open woodland, farmland, gardens, wetlands, villages, and urban areas",
+        "behaviour": "Perches on exposed branches, wires, or poles before diving or dropping onto prey",
+        "activity": "Diurnal",
+        "nesting": "Excavates a tunnel in an earthen bank or similar soft substrate",
+        "breeding_season": "February to July",
+        "clutch_size": "4–7 eggs",
+        "call": "Loud, harsh and rattling calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Farmland, gardens, roadsides, wetlands, villages, parks, and open countryside"
+    }
+},
 
+{
+    "name": "Brahminy Kite",
+    "scientific": "Haliastur indus",
+    "description": "The Brahminy Kite is a striking raptor with a chestnut-brown body, contrasting white head and breast, broad wings, and a rounded tail. It is particularly associated with coastal areas, rivers, wetlands, and other places where fish and carrion are available. It often soars gracefully and can be seen perched near water. Its distinctive plumage makes it one of India's most recognizable birds of prey.",
+    "image": "BrahminyKite1.jpg",
+    "quick_facts": {
+        "family": "Accipitridae",
+        "size": "44–52 cm",
+        "weight": "500–800 g",
+        "wingspan": "110–125 cm",
+        "diet": "Fish, carrion, frogs, insects, crustaceans, and small animals",
+        "habitat": "Coasts, rivers, wetlands, lakes, mangroves, and open woodland",
+        "behaviour": "Often soars over water and scavenges or catches prey near the surface",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in tall trees, often near water",
+        "breeding_season": "December to April",
+        "clutch_size": "Usually 2 eggs",
+        "call": "High-pitched whistles and shrill calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Coastal regions, rivers, lakes, wetlands, mangroves, and areas near fish-rich waters"
+    }
+},
+
+{
+    "name": "Brahminy Starling",
+    "scientific": "Sturnia pagodarum",
+    "description": "The Brahminy Starling is an attractive medium-sized starling with a pale body, black crest, chestnut shoulders, and yellowish bill and legs. It is usually found in open woodland, scrub, farmland, gardens, and dry areas. It feeds on fruits, insects, nectar, and seeds and often moves through trees and bushes in pairs or small groups.",
+    "image": "BrahminyStarling1.jpg",
+    "quick_facts": {
+        "family": "Sturnidae",
+        "size": "19–21 cm",
+        "weight": "55–70 g",
+        "wingspan": "Approximately 35–40 cm",
+        "diet": "Fruits, insects, nectar, seeds, and grains",
+        "habitat": "Open woodland, scrub, farmland, gardens, and dry countryside",
+        "behaviour": "Active and social, usually seen singly, in pairs, or small groups",
+        "activity": "Diurnal",
+        "nesting": "Uses tree cavities and other sheltered holes for nesting",
+        "breeding_season": "April to July",
+        "clutch_size": "3–5 eggs",
+        "call": "Varied whistles, clicks, and chattering notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Scrub, open forests, farmland, gardens, villages, and dry woodland"
+    }
+},
+
+{
+    "name": "Indian Robin",
+    "scientific": "Copsychus fulicatus",
+    "description": "The Indian Robin is a small, active songbird of open and dry habitats. Males are generally dark with a contrasting white shoulder or wing patch, while females are browner. It spends much of its time close to the ground, running between rocks, shrubs, and grass while searching for insects. Its upright posture and habit of flicking its tail are useful identification features.",
+    "image": "IndianRobin1.jpg",
+    "quick_facts": {
+        "family": "Muscicapidae",
+        "size": "17–18 cm",
+        "weight": "20–25 g",
+        "wingspan": "Approximately 25–28 cm",
+        "diet": "Insects, spiders, worms, and other small invertebrates",
+        "habitat": "Dry scrub, rocky areas, grassland, farmland, and open woodland",
+        "behaviour": "Active ground forager that often perches on low rocks and bushes",
+        "activity": "Diurnal",
+        "nesting": "Nests in cavities, holes among rocks, walls, or other sheltered places",
+        "breeding_season": "February to September",
+        "clutch_size": "2–4 eggs",
+        "call": "Short whistles, clicks, and varied song",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Dry scrub, rocky landscapes, open fields, villages, farmland, and gardens"
+    }
+},
+
+{
+    "name": "Common Tailorbird",
+    "scientific": "Orthotomus sutorius",
+    "description": "The Common Tailorbird is a tiny, active warbler named for its remarkable nest-building technique. It stitches or binds large leaves together with plant fibres and spider silk to form a protective structure around its nest. It has a green back, pale underparts, a rusty crown, and a long tail often held upright. It is extremely common in gardens, scrub, plantations, and urban areas.",
+    "image": "CommonTailorbird1.jpg",
+    "quick_facts": {
+        "family": "Cisticolidae",
+        "size": "13–14 cm",
+        "weight": "6–10 g",
+        "wingspan": "13–17 cm",
+        "diet": "Insects, caterpillars, spiders, and other small invertebrates",
+        "habitat": "Gardens, scrub, woodland edges, plantations, parks, and cities",
+        "behaviour": "Highly active and often moves rapidly through leaves and shrubs",
+        "activity": "Diurnal",
+        "nesting": "Stitches or binds leaves together with plant fibres and spider silk",
+        "breeding_season": "Throughout much of the year, especially during the monsoon",
+        "clutch_size": "2–4 eggs",
+        "call": "Loud, repetitive and sharp 'chee-up' style calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, hedges, shrubs, plantations, parks, and urban greenery"
+    }
+},
+
+{
+    "name": "Greater Racket-Tailed Drongo",
+    "scientific": "Dicrurus paradiseus",
+    "description": "The Greater Racket-Tailed Drongo is a spectacular forest bird with glossy black plumage, a prominent crest, and exceptionally long tail feathers ending in racket-shaped tips. It is an agile aerial hunter and also feeds on insects taken from foliage. It is famous for its varied vocal abilities and can imitate the calls of other birds. It usually inhabits forests and mature woodland with dense canopy.",
+    "image": "GreaterRacket-TailedDrongo1.jpg",
+    "quick_facts": {
+        "family": "Dicruridae",
+        "size": "31–36 cm excluding elongated tail feathers",
+        "weight": "70–100 g",
+        "wingspan": "Approximately 40–45 cm",
+        "diet": "Insects and other small invertebrates, with occasional fruit",
+        "habitat": "Forests, mature woodland, plantations, and dense tree cover",
+        "behaviour": "Agile aerial hunter and vocal mimic that may join mixed-species feeding groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest on a tree branch",
+        "breeding_season": "April to June",
+        "clutch_size": "2–4 eggs",
+        "call": "Extremely varied whistles, metallic notes, and imitations of other birds",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, plantations, wooded hills, and mature woodland"
+    }
+},
+
+{
+    "name": "Grey Heron",
+    "scientific": "Ardea cinerea",
+    "description": "The Grey Heron is a large, long-legged wading bird with a long pointed bill, grey wings, white head and neck, and a black crown stripe. It usually hunts from shallow water, standing motionless before striking quickly at fish and other prey. It is widespread across wetlands and can often be seen standing alone along rivers, lakes, ponds, and coastal waters.",
+    "image": "GreyHeron1.jpg",
+    "quick_facts": {
+        "family": "Ardeidae",
+        "size": "84–102 cm",
+        "weight": "1–2 kg",
+        "wingspan": "155–195 cm",
+        "diet": "Fish, frogs, reptiles, small mammals, birds, insects, and crustaceans",
+        "habitat": "Rivers, lakes, ponds, marshes, estuaries, canals, and coastal wetlands",
+        "behaviour": "Usually hunts by standing motionless before making a rapid strike at prey",
+        "activity": "Diurnal and sometimes nocturnal",
+        "nesting": "Builds large stick nests in trees, reeds, or cliffs, often in colonies",
+        "breeding_season": "February to June in many areas",
+        "clutch_size": "3–5 eggs",
+        "call": "Loud harsh croaking calls, especially in flight",
+        "lifespan": "Around 5–15 years, with some individuals living longer",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rivers, lakes, wetlands, estuaries, ponds, canals, and coastal shores"
+    }
+},
+
+{
+    "name": "Grey-Headed Fish Eagle",
+    "scientific": "Icthyophaga ichthyaetus",
+    "description": "The Grey-Headed Fish Eagle is a large fish-eating raptor associated with rivers, lakes, reservoirs, and other freshwater habitats. Adults have a distinctive grey head, dark brown body, powerful yellow bill and legs, and broad wings. It usually hunts by watching from a perch near water and swooping down to seize fish. Its large size and deep wingbeats make it an impressive sight along wooded waterways.",
+    "image": "Grey-HeadedFishEagle1.jpg",
+    "quick_facts": {
+        "family": "Accipitridae",
+        "size": "61–72 cm",
+        "weight": "1.5–2.5 kg",
+        "wingspan": "150–170 cm",
+        "diet": "Fish, frogs, reptiles, waterbirds, and other aquatic animals",
+        "habitat": "Rivers, lakes, reservoirs, wetlands, and forested waterways",
+        "behaviour": "Often watches from a high perch and dives or swoops down to catch fish",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in a tall tree near water",
+        "breeding_season": "November to May",
+        "clutch_size": "Usually 1–2 eggs",
+        "call": "High-pitched whistles and repeated cries",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Near Threatened",
+        "where_to_find": "Large rivers, lakes, reservoirs, wetlands, and forested freshwater habitats"
+    }
+},
+
+{
+    "name": "Indian Cormorant",
+    "scientific": "Phalacrocorax fuscicollis",
+    "description": "The Indian Cormorant is a dark waterbird with a long neck, slender bill, and distinctive greenish facial skin. It is an excellent swimmer and dives underwater to catch fish and other aquatic prey. Groups often perch together on exposed branches, rocks, or posts after feeding. It is widely distributed across freshwater wetlands and is especially common in southern and central India.",
+    "image": "IndianCormorant1.jpg",
+    "quick_facts": {
+        "family": "Phalacrocoracidae",
+        "size": "63–65 cm",
+        "weight": "650–1000 g",
+        "wingspan": "90–105 cm",
+        "diet": "Fish, frogs, crustaceans, and other aquatic animals",
+        "habitat": "Rivers, lakes, reservoirs, ponds, canals, marshes, and wetlands",
+        "behaviour": "Dives underwater to catch fish and often rests with wings spread to dry them",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in trees or shrubs, usually in colonies",
+        "breeding_season": "Varies by region and rainfall",
+        "clutch_size": "3–5 eggs",
+        "call": "Usually quiet away from colonies; produces grunts and croaks at nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rivers, lakes, reservoirs, ponds, canals, and freshwater wetlands"
+    }
+},
+
+{
+    "name": "Indian Paradise Flycatcher",
+    "scientific": "Terpsiphone paradisi",
+    "description": "The Indian Paradise Flycatcher is a striking insect-eating bird with strongly contrasting plumage. Adult males may have long flowing tail feathers and either white or rufous plumage depending on their form, while females are shorter-tailed. It hunts insects from the air and foliage and is especially associated with wooded habitats. Its graceful movements and long tail make it one of India's most beautiful flycatchers.",
+    "image": "IndianParadiseFlycatcher1.jpg",
+    "quick_facts": {
+        "family": "Monarchidae",
+        "size": "19–22 cm, with male tail streamers extending much farther",
+        "weight": "15–25 g",
+        "wingspan": "Approximately 25–30 cm",
+        "diet": "Flying insects, caterpillars, beetles, and other small invertebrates",
+        "habitat": "Forests, woodland, gardens, plantations, and wooded streams",
+        "behaviour": "Agile flycatcher that sallies from perches to catch insects",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest in the fork of a tree or shrub",
+        "breeding_season": "April to August",
+        "clutch_size": "2–4 eggs",
+        "call": "Soft whistles and sharp calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, shaded gardens, plantations, woodland streams, and mature tree cover"
+    }
+},
+
+{
+    "name": "Indian Pied Starling",
+    "scientific": "Gracupica contra",
+    "description": "The Indian Pied Starling is a striking black-and-white starling with a pale bill and distinctive orange or reddish facial skin around the eye. It is a social and adaptable species that often feeds on the ground in groups. It consumes insects, fruits, grains, and other food and is frequently found around villages, farmland, wetlands, and urban areas.",
+    "image": "IndianPiedStarling1.jpg",
+    "quick_facts": {
+        "family": "Sturnidae",
+        "size": "21–23 cm",
+        "weight": "75–100 g",
+        "wingspan": "Approximately 35–40 cm",
+        "diet": "Insects, fruits, grains, seeds, nectar, and food scraps",
+        "habitat": "Farmland, villages, wetlands, gardens, open woodland, and cities",
+        "behaviour": "Social and often forages in groups on open ground",
+        "activity": "Diurnal",
+        "nesting": "Uses tree cavities, buildings, walls, and other sheltered cavities",
+        "breeding_season": "April to September",
+        "clutch_size": "3–5 eggs",
+        "call": "Loud whistles, chatters, and varied calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Villages, farmland, gardens, wetlands, open fields, and urban areas"
+    }
+},
+
+{
+    "name": "Lesser Whistling Duck",
+    "scientific": "Dendrocygna javanica",
+    "description": "The Lesser Whistling Duck is a small, brownish duck with a rounded head and longish neck. It is often seen in large groups on ponds, lakes, marshes, rice fields, and other freshwater habitats. It feeds on aquatic vegetation, seeds, insects, and small aquatic animals. Its high-pitched whistling calls are especially noticeable when groups take flight.",
+    "image": "LesserWhistlingDuck1.jpg",
+    "quick_facts": {
+        "family": "Anatidae",
+        "size": "38–43 cm",
+        "weight": "450–700 g",
+        "wingspan": "75–85 cm",
+        "diet": "Aquatic plants, seeds, grains, insects, and small aquatic animals",
+        "habitat": "Ponds, lakes, marshes, rice fields, reservoirs, and slow-moving waters",
+        "behaviour": "Social and often forms large flocks; spends much time resting on water or banks",
+        "activity": "Mostly nocturnal and crepuscular, though also active by day",
+        "nesting": "Nests among aquatic vegetation, grass, tree cavities, or other sheltered locations",
+        "breeding_season": "June to October in much of India",
+        "clutch_size": "6–12 eggs",
+        "call": "High-pitched whistling calls, especially in flight",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Freshwater ponds, lakes, marshes, rice paddies, reservoirs, and wetlands"
+    }
+},
+
+{
+    "name": "Oriental Darter",
+    "scientific": "Anhinga melanogaster",
+    "description": "The Oriental Darter is a long-necked waterbird that often swims with only its head and neck above the water, giving it the appearance of a snake. It is an excellent underwater hunter and spears fish with its sharp bill. After feeding, it commonly perches with its wings spread to dry its feathers. It is found in freshwater wetlands, rivers, lakes, marshes, and reservoirs.",
+    "image": "OrientalDarter1.jpg",
+    "quick_facts": {
+        "family": "Anhingidae",
+        "size": "85–97 cm",
+        "weight": "1.1–1.4 kg",
+        "wingspan": "110–120 cm",
+        "diet": "Fish, frogs, crustaceans, and other aquatic animals",
+        "habitat": "Lakes, rivers, marshes, reservoirs, ponds, and freshwater wetlands",
+        "behaviour": "Swims with much of its body submerged and spears fish underwater",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in trees or shrubs near water, often in colonies",
+        "breeding_season": "Varies by region and water conditions",
+        "clutch_size": "3–5 eggs",
+        "call": "Generally quiet away from colonies; produces grunts and croaks around nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Near Threatened",
+        "where_to_find": "Large freshwater wetlands, lakes, rivers, reservoirs, and marshes"
+    }
+},
+
+{
+    "name": "Pied Kingfisher",
+    "scientific": "Ceryle rudis",
+    "description": "The Pied Kingfisher is a black-and-white kingfisher famous for hovering above water before diving vertically to catch fish. It has a shaggy crest, long pointed bill, and strongly patterned plumage. It is closely associated with rivers, lakes, reservoirs, estuaries, and other open waters and often hunts from exposed perches as well as by hovering.",
+    "image": "PiedKingfisher1.jpg",
+    "quick_facts": {
+        "family": "Cerylidae",
+        "size": "25–29 cm",
+        "weight": "70–100 g",
+        "wingspan": "46–50 cm",
+        "diet": "Fish, aquatic insects, crustaceans, and other small aquatic animals",
+        "habitat": "Rivers, lakes, reservoirs, estuaries, canals, and coastal waters",
+        "behaviour": "Frequently hovers over water before diving vertically to catch fish",
+        "activity": "Diurnal",
+        "nesting": "Excavates a tunnel in a sandy or earthen bank",
+        "breeding_season": "January to April and sometimes later depending on region",
+        "clutch_size": "3–6 eggs",
+        "call": "Sharp, rapid rattling calls, especially in flight",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rivers, lakes, reservoirs, estuaries, canals, and open coastal waters"
+    }
+},
+
+{
+    "name": "Purple Heron",
+    "scientific": "Ardea purpurea",
+    "description": "The Purple Heron is a large, slender wading bird with rich reddish-brown and purple-grey plumage, a long neck, and long legs. It is generally more secretive than the Grey Heron and often remains hidden among reeds and tall vegetation. It hunts fish, frogs, reptiles, insects, and small mammals in shallow water and wetlands.",
+    "image": "PurpleHeron1.jpg",
+    "quick_facts": {
+        "family": "Ardeidae",
+        "size": "78–97 cm",
+        "weight": "525–1340 g",
+        "wingspan": "120–150 cm",
+        "diet": "Fish, frogs, reptiles, insects, crustaceans, and small mammals",
+        "habitat": "Reed beds, marshes, lakes, rivers, ponds, and flooded wetlands",
+        "behaviour": "Usually hunts slowly and deliberately from shallow water or dense vegetation",
+        "activity": "Diurnal",
+        "nesting": "Builds a platform nest in reeds, shrubs, or trees, often in colonies",
+        "breeding_season": "March to June in many breeding areas",
+        "clutch_size": "4–5 eggs",
+        "call": "Harsh croaks, especially around breeding colonies",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Marshes, reed beds, lakes, rivers, ponds, flooded fields, and dense wetland vegetation"
+    }
+},
+
+{
+    "name": "Spotted Dove",
+    "scientific": "Spilopelia chinensis",
+    "description": "The Spotted Dove is a medium-sized dove with a soft pinkish-grey body, dark wings, and a distinctive black-and-white spotted patch on the sides of its neck. It is a highly adaptable species and commonly occurs in gardens, farmland, woodland, villages, and cities. It feeds mainly on seeds and grains and usually forages on the ground.",
+    "image": "SpottedDove1.jpg",
+    "quick_facts": {
+        "family": "Columbidae",
+        "size": "28–32 cm",
+        "weight": "150–200 g",
+        "wingspan": "45–50 cm",
+        "diet": "Seeds, grains, fruits, and small amounts of plant material",
+        "habitat": "Gardens, farmland, woodland, scrub, villages, and urban areas",
+        "behaviour": "Usually forages on the ground singly or in pairs and may gather in groups around food",
+        "activity": "Diurnal",
+        "nesting": "Builds a flimsy platform of twigs in trees, shrubs, buildings, or ledges",
+        "breeding_season": "Throughout much of the year",
+        "clutch_size": "Usually 2 eggs",
+        "call": "Soft, repetitive cooing song",
+        "lifespan": "Around 5–10 years in favourable conditions",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, parks, farmland, villages, scrub, and urban neighbourhoods"
+    }
+},
+
+{
+    "name": "Stork-Billed Kingfisher",
+    "scientific": "Pelargopsis capensis",
+    "description": "The Stork-Billed Kingfisher is a large and powerful kingfisher with a massive red bill, bright blue wings, chestnut head and body, and pale underparts. It is usually found near rivers, lakes, ponds, mangroves, and forest streams. It hunts fish and other aquatic animals but also takes reptiles, frogs, insects, and small birds. Its large size and heavy bill give it a particularly impressive appearance.",
+    "image": "Stork-BilledKingfisher1.jpg",
+    "quick_facts": {
+        "family": "Alcedinidae",
+        "size": "35–41 cm",
+        "weight": "250–350 g",
+        "wingspan": "65–75 cm",
+        "diet": "Fish, frogs, reptiles, insects, crustaceans, and small birds",
+        "habitat": "Rivers, lakes, ponds, mangroves, forest streams, and wetlands",
+        "behaviour": "Usually waits quietly on a branch before dropping or diving onto prey",
+        "activity": "Diurnal",
+        "nesting": "Excavates a cavity or tunnel in an earthen bank or tree",
+        "breeding_season": "January to August, depending on region",
+        "clutch_size": "2–5 eggs",
+        "call": "Loud, harsh and repetitive calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rivers, forest streams, lakes, ponds, mangroves, and wooded wetlands"
+    }
+},
+
+{
+    "name": "Oriental White-Eye",
+    "scientific": "Zosterops palpebrosus",
+    "description": "The Oriental White-eye is a tiny, active bird with a conspicuous white ring around the eye, olive-green upperparts, and yellowish underparts. It moves rapidly through foliage while searching for insects, nectar, and small fruits. White-eyes are highly social and often travel in small groups. They are common in gardens, forests, plantations, and urban greenery.",
+    "image": "OrientalWhite-Eye1.jpg",
+    "quick_facts": {
+        "family": "Zosteropidae",
+        "size": "8–10 cm",
+        "weight": "7–12 g",
+        "wingspan": "13–16 cm",
+        "diet": "Nectar, insects, small fruits, berries, and flower parts",
+        "habitat": "Gardens, forests, plantations, scrub, parks, and urban greenery",
+        "behaviour": "Highly active and social, usually moving through foliage in small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a tiny cup-shaped nest suspended from a fork in vegetation",
+        "breeding_season": "February to September",
+        "clutch_size": "2–3 eggs",
+        "call": "High-pitched, rapid twittering and chirping",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, flowering trees, forests, plantations, parks, and urban greenery"
+    }
+},
+
+{
+    "name": "White-Browed Fantail",
+    "scientific": "Rhipidura aureola",
+    "description": "The White-Browed Fantail is a small insectivorous bird with a boldly patterned face, pale eyebrow, dark body, and a broad fan-shaped tail. It is an energetic bird that constantly flicks and spreads its tail while moving through foliage. It catches insects by making short aerial sallies from branches and is commonly found in forests, gardens, scrub, and woodland edges.",
+    "image": "White-BrowedFantail1.jpg",
+    "quick_facts": {
+        "family": "Rhipiduridae",
+        "size": "17–19 cm",
+        "weight": "10–15 g",
+        "wingspan": "20–24 cm",
+        "diet": "Flying insects, caterpillars, spiders, and other small invertebrates",
+        "habitat": "Forests, woodland, scrub, plantations, gardens, and forest edges",
+        "behaviour": "Active and acrobatic, frequently spreading and flicking its fan-shaped tail",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest on a branch or in a fork",
+        "breeding_season": "March to August",
+        "clutch_size": "2–3 eggs",
+        "call": "Sharp chirps, whistles, and rapid chattering",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Woodland, forest edges, gardens, plantations, scrub, and parks"
+    }
+},
+
+{
+    "name": "Yellow-Footed Green Pigeon",
+    "scientific": "Treron phoenicopterus",
+    "description": "The Yellow-Footed Green Pigeon is a colourful fruit-eating pigeon with predominantly green plumage, yellow feet, and distinctive patches of yellow, orange, and grey on the wings and body. It spends most of its time in trees, where it feeds on fruit, berries, and figs. It is generally quiet and can be difficult to spot among foliage despite its attractive colours.",
+    "image": "Yellow-FootedGreenPigeon1.jpg",
+    "quick_facts": {
+        "family": "Columbidae",
+        "size": "29–33 cm",
+        "weight": "200–250 g",
+        "wingspan": "45–50 cm",
+        "diet": "Fruits, berries, figs, buds, and seeds",
+        "habitat": "Forests, woodland, gardens, plantations, orchards, and large trees",
+        "behaviour": "Arboreal and usually feeds quietly in fruiting trees, often in small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a flimsy platform of twigs in trees or shrubs",
+        "breeding_season": "March to September, varying by region",
+        "clutch_size": "Usually 2 eggs",
+        "call": "Soft, low-pitched cooing calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, orchards, gardens, plantations, parks, and fruiting trees"
+    }
+},
+
+{
+    "name": "Asian Brown Flycatcher",
+    "scientific": "Muscicapa dauurica",
+    "description": "The Asian Brown Flycatcher is a small, plain-looking insectivorous bird with brown upperparts, pale underparts, and a relatively large dark bill. It usually sits quietly on a branch before making short flights to catch insects in the air. It is a common migrant or passage bird in many parts of India and can be found in wooded habitats, gardens, plantations, and forest edges.",
+    "image": "AsianBrownFlycatcher1.jpg",
+    "quick_facts": {
+        "family": "Muscicapidae",
+        "size": "13–15 cm",
+        "weight": "10–15 g",
+        "wingspan": "20–24 cm",
+        "diet": "Flying insects, beetles, flies, moths, and other small invertebrates",
+        "habitat": "Forests, woodland edges, gardens, plantations, and wooded parks",
+        "behaviour": "Perches quietly before making short aerial sallies to catch insects",
+        "activity": "Diurnal",
+        "nesting": "Builds a small cup-shaped nest in a tree cavity or sheltered site",
+        "breeding_season": "May to July in its northern breeding range",
+        "clutch_size": "3–5 eggs",
+        "call": "Soft whistles and short sharp notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wooded gardens, forest edges, plantations, parks, and forested habitats"
+    }
+},
+
+{
+    "name": "Pied Bushchat",
+    "scientific": "Saxicola caprata",
+    "description": "The Pied Bushchat is a small, upright insect-eating bird commonly seen perched on shrubs, fences, rocks, and other exposed points in open country. Males are predominantly black with white wing and rump markings, while females are brown. It catches insects from perches and is particularly common in grassland, farmland, scrub, and open woodland.",
+    "image": "PiedBushchat1.jpg",
+    "quick_facts": {
+        "family": "Muscicapidae",
+        "size": "13 cm",
+        "weight": "12–17 g",
+        "wingspan": "18–21 cm",
+        "diet": "Insects, spiders, worms, and other small invertebrates",
+        "habitat": "Grassland, scrub, farmland, open woodland, and rocky areas",
+        "behaviour": "Perches prominently and makes short flights to capture insects",
+        "activity": "Diurnal",
+        "nesting": "Nests in cavities, holes, rock crevices, and sheltered spaces near the ground",
+        "breeding_season": "February to August",
+        "clutch_size": "2–4 eggs",
+        "call": "Sharp chirps and short whistles",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Open fields, scrub, farmland, grasslands, rocky areas, and village outskirts"
+    }
+},
+
+{
+    "name": "Black Redstart",
+    "scientific": "Phoenicurus ochruros",
+    "description": "The Black Redstart is a small chat with a dark body, orange-red tail, and characteristic habit of frequently flicking its tail. Plumage varies between males, females, and different populations. It prefers rocky and open habitats and often uses buildings, walls, and cliffs as nesting sites. In India it is primarily encountered in suitable northern and highland habitats during the colder months.",
+    "image": "BlackRedstart1.jpg",
+    "quick_facts": {
+        "family": "Muscicapidae",
+        "size": "14–15 cm",
+        "weight": "14–20 g",
+        "wingspan": "23–26 cm",
+        "diet": "Insects, spiders, worms, berries, and other small food",
+        "habitat": "Rocky slopes, cliffs, open woodland, scrub, villages, and buildings",
+        "behaviour": "Frequently flicks its tail and makes short flights from exposed perches to catch insects",
+        "activity": "Diurnal",
+        "nesting": "Builds a cup-shaped nest in rock crevices, buildings, cavities, or sheltered ledges",
+        "breeding_season": "April to July in breeding areas",
+        "clutch_size": "4–6 eggs",
+        "call": "Short ticking notes and varied whistles",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rocky habitats, highland villages, buildings, cliffs, and open scrub"
+    }
+},
+
+{
+    "name": "Spotted Owlet",
+    "scientific": "Athene brama",
+    "description": "The Spotted Owlet is a small owl with a rounded head, pale facial disc, yellow eyes, and prominent white spotting across its brown plumage. It is highly adaptable and commonly lives around villages, gardens, farmland, parks, and cities. Although mainly active at night, it often emerges during daylight and may sit near the entrance of its nesting cavity.",
+    "image": "SpottedOwlet1.jpg",
+    "quick_facts": {
+        "family": "Strigidae",
+        "size": "19–21 cm",
+        "weight": "100–140 g",
+        "wingspan": "44–48 cm",
+        "diet": "Insects, rodents, lizards, frogs, small birds, and other small animals",
+        "habitat": "Farmland, villages, gardens, open woodland, parks, and urban areas",
+        "behaviour": "Often sits near its roost during daylight and hunts actively after dusk",
+        "activity": "Mostly nocturnal and crepuscular",
+        "nesting": "Uses tree cavities, holes in walls, buildings, and other sheltered cavities",
+        "breeding_season": "November to April",
+        "clutch_size": "3–5 eggs",
+        "call": "Varied hoots, chuckles, whistles, and chattering calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Villages, farmland, gardens, parks, old buildings, and urban areas"
+    }
+},
+
+{
+    "name": "Black-Naped Oriole",
+    "scientific": "Oriolus chinensis",
+    "description": "The Black-Naped Oriole is a bright yellow-and-black songbird with a dark stripe through the eye and nape. It spends most of its time in trees and feeds on fruit, nectar, and insects. Its melodious whistles are often heard from the canopy before the bird is visible. It is associated with forests, plantations, gardens, and wooded urban areas.",
+    "image": "Black-NapedOriole1.jpg",
+    "quick_facts": {
+        "family": "Oriolidae",
+        "size": "23–28 cm",
+        "weight": "65–100 g",
+        "wingspan": "40–45 cm",
+        "diet": "Fruits, berries, insects, caterpillars, and nectar",
+        "habitat": "Forests, gardens, plantations, woodland, and parks",
+        "behaviour": "Arboreal and generally remains in the canopy while feeding",
+        "activity": "Diurnal",
+        "nesting": "Builds a suspended cup-shaped nest in a tree",
+        "breeding_season": "April to July",
+        "clutch_size": "2–3 eggs",
+        "call": "Clear, melodious whistles and fluting notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, plantations, gardens, parks, and mature trees"
+    }
+},
+
+{
+    "name": "Woolly-Necked Stork",
+    "scientific": "Ciconia episcopus",
+    "description": "The Woolly-Necked Stork is a large dark-and-white stork with a distinctive white head and neck contrasting with a dark body. It usually forages alone or in pairs in open wetlands, grasslands, and agricultural fields, searching for frogs, fish, insects, reptiles, and other prey. It is generally less colonial than some other Indian storks and often keeps its distance from human activity.",
+    "image": "Woolly-NeckedStork1.jpg",
+    "quick_facts": {
+        "family": "Ciconiidae",
+        "size": "75–90 cm",
+        "weight": "2.5–4 kg",
+        "wingspan": "150–170 cm",
+        "diet": "Frogs, fish, insects, reptiles, small mammals, and other small animals",
+        "habitat": "Wetlands, grasslands, farmland, marshes, and open woodland",
+        "behaviour": "Usually forages alone or in pairs by walking through open habitats",
+        "activity": "Diurnal",
+        "nesting": "Builds a large stick nest in tall trees, usually away from dense colonies",
+        "breeding_season": "June to September in many parts of India",
+        "clutch_size": "2–4 eggs",
+        "call": "Usually quiet; may produce bill-clattering and soft sounds at nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Near Threatened",
+        "where_to_find": "Wetlands, grasslands, rice fields, open farmland, and shallow-water habitats"
+    }
+},
+
+{
+    "name": "Common Iora",
+    "scientific": "Aegithina tiphia",
+    "description": "The Common Iora is a small, active songbird with bright greenish-yellow plumage and contrasting dark wings in breeding males. It is usually found in trees and shrubs, where it moves rapidly through foliage searching for insects and small invertebrates. Males perform energetic displays during the breeding season, sometimes spreading their wings and tail while singing.",
+    "image": "CommonIora1.jpg",
+    "quick_facts": {
+        "family": "Aegithinidae",
+        "size": "12–13 cm",
+        "weight": "12–15 g",
+        "wingspan": "18–20 cm",
+        "diet": "Insects, caterpillars, spiders, and other small invertebrates",
+        "habitat": "Gardens, forests, woodland, scrub, plantations, and parks",
+        "behaviour": "Active foliage gleaner that moves rapidly among leaves while searching for prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a tiny cup-shaped nest in a fork of a tree or shrub",
+        "breeding_season": "March to September",
+        "clutch_size": "2–3 eggs",
+        "call": "Musical whistles, trills, and varied notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Gardens, forest edges, plantations, scrub, parks, and wooded neighbourhoods"
+    }
+},
+
+{
+    "name": "Jungle Owlet",
+    "scientific": "Glaucidium radiatum",
+    "description": "The Jungle Owlet is a small woodland owl with a rounded head, barred brown-and-white plumage, and yellow eyes. Unlike many owls, it can be active during daylight, especially around dawn and dusk. It hunts insects, small reptiles, rodents, and birds and usually remains within wooded habitats. Its calls can be heard from forest edges and dense vegetation.",
+    "image": "JungleOwlet1.jpg",
+    "quick_facts": {
+        "family": "Strigidae",
+        "size": "20–23 cm",
+        "weight": "100–150 g",
+        "wingspan": "40–45 cm",
+        "diet": "Insects, lizards, rodents, small birds, and other small animals",
+        "habitat": "Forests, woodland, plantations, scrub, and wooded hills",
+        "behaviour": "Often active during daylight and hunts from low perches within dense vegetation",
+        "activity": "Diurnal, crepuscular, and sometimes nocturnal",
+        "nesting": "Uses tree cavities, often taking advantage of old woodpecker holes",
+        "breeding_season": "March to May",
+        "clutch_size": "2–4 eggs",
+        "call": "Repeated whistles, hoots, and sharp notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, wooded hills, plantations, and dense woodland edges"
+    }
+},
+
+{
+    "name": "Black-Hooded Oriole",
+    "scientific": "Oriolus xanthornus",
+    "description": "The Black-Hooded Oriole is a striking yellow-and-black bird with a strongly contrasting black head and bright yellow body. It is an arboreal species that spends much of its time in the canopy, feeding on fruits, nectar, and insects. Its melodious whistles are often heard from tall trees. It occurs in forests, plantations, gardens, and wooded urban areas.",
+    "image": "Black-HoodedOriole1.jpg",
+    "quick_facts": {
+        "family": "Oriolidae",
+        "size": "23–25 cm",
+        "weight": "60–90 g",
+        "wingspan": "40–45 cm",
+        "diet": "Fruits, berries, nectar, insects, and caterpillars",
+        "habitat": "Forests, gardens, plantations, parks, and wooded urban areas",
+        "behaviour": "Arboreal and usually remains high in trees while feeding",
+        "activity": "Diurnal",
+        "nesting": "Builds a suspended cup-shaped nest in a tree fork",
+        "breeding_season": "April to August",
+        "clutch_size": "2–3 eggs",
+        "call": "Clear, melodious whistles and fluting notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Forests, plantations, gardens, parks, and mature trees"
+    }
+},
+
+{
+    "name": "Brown Rock Chat",
+    "scientific": "Oenanthe fusca",
+    "description": "The Brown Rock Chat is a small, dark brown chat associated strongly with rocky landscapes and human structures. It is often seen perched on walls, rocks, roofs, and ruins before dropping down to catch insects. It is particularly well adapted to dry environments and is common around villages, forts, rocky hills, and open scrub.",
+    "image": "BrownRockChat1.jpg",
+    "quick_facts": {
+        "family": "Muscicapidae",
+        "size": "18–20 cm",
+        "weight": "35–45 g",
+        "wingspan": "30–34 cm",
+        "diet": "Insects, spiders, worms, and other small invertebrates",
+        "habitat": "Rocky hills, dry scrub, villages, ruins, cliffs, and open countryside",
+        "behaviour": "Perches on rocks and buildings before making short flights to capture insects",
+        "activity": "Diurnal",
+        "nesting": "Nests in cavities in walls, buildings, rock crevices, and similar sheltered sites",
+        "breeding_season": "March to July",
+        "clutch_size": "2–4 eggs",
+        "call": "Short whistles, clicks, and chattering notes",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Rocky areas, old buildings, forts, villages, dry scrub, and open hills"
+    }
+},
+
+{
+    "name": "Blue-Tailed Bee-Eater",
+    "scientific": "Merops philippinus",
+    "description": "The Blue-Tailed Bee-eater is a colourful aerial insect hunter with a green body, blue tail, yellow throat, black eye stripe, and elongated central tail feathers. It spends much of its time catching flying insects from exposed perches or directly in the air. It is particularly associated with open habitats near water and often gathers in groups.",
+    "image": "Blue-TailedBee-Eater1.jpg",
+    "quick_facts": {
+        "family": "Meropidae",
+        "size": "25–30 cm including elongated tail feathers",
+        "weight": "30–45 g",
+        "wingspan": "35–40 cm",
+        "diet": "Bees, wasps, dragonflies, butterflies, beetles, and other flying insects",
+        "habitat": "Open country, riverbanks, wetlands, farmland, grassland, and scrub",
+        "behaviour": "Highly agile aerial hunter that catches insects in flight and returns to a perch",
+        "activity": "Diurnal",
+        "nesting": "Excavates a tunnel in sandy banks or soft ground, often in colonies",
+        "breeding_season": "March to July",
+        "clutch_size": "4–6 eggs",
+        "call": "High-pitched, rapid and cheerful twittering calls",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Riverbanks, wetlands, open fields, farmland, grasslands, and dry open country"
+    }
+},
+
+{
+    "name": "Indian Pond Heron",
+    "scientific": "Ardeola grayii",
+    "description": "The Indian Pond Heron is a small, stocky heron that appears brown and streaked while standing but reveals striking white wings when it takes flight. It is one of the most familiar wetland birds in India and can be found around ponds, rice fields, marshes, canals, and even small water bodies in towns. It hunts by standing quietly and making rapid strikes at fish, frogs, insects, and other prey.",
+    "image": "IndianPondHeron1.jpg",
+    "quick_facts": {
+        "family": "Ardeidae",
+        "size": "40–50 cm",
+        "weight": "230–350 g",
+        "wingspan": "80–95 cm",
+        "diet": "Fish, frogs, insects, crustaceans, lizards, and other small animals",
+        "habitat": "Ponds, rice fields, marshes, canals, lakes, rivers, and wet grassland",
+        "behaviour": "Usually stands motionless before making a rapid strike at prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a stick nest in trees, shrubs, or reed beds, often in colonies",
+        "breeding_season": "June to September in much of India",
+        "clutch_size": "3–5 eggs",
+        "call": "Usually quiet away from colonies, with harsh croaks around nesting sites",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Ponds, rice fields, marshes, canals, village wetlands, and urban water bodies"
+    }
+},
     ]
 
 for bird in birds:
@@ -624,8 +1880,22 @@ for bird in birds:
     page = page.replace("{{NAME}}", bird["name"])
     page = page.replace("{{SCIENTIFIC}}", bird["scientific"])
     page = page.replace("{{DESCRIPTION}}", bird["description"])
-    page = page.replace("{{FAMILY}}", bird["family"])
     page = page.replace("{{IMAGE}}", bird["image"])
+    page = page.replace("{{WINGSPAN}}",bird["quick_facts"]["wingspan"])
+    page = page.replace("{{FAMILY}}",bird["quick_facts"]["family"])
+    page = page.replace("{{BREEDING_SEASON}}",bird["quick_facts"]["family"])
+    page = page.replace("{{CLUTCH_SIZE}}", bird["quick_facts"]["clutch_size"])
+    page = page.replace("{{ACTIVITY}}",bird["quick_facts"]["activity"])
+    page = page.replace("{{CONSERVATION_STATUS}}", bird["quick_facts"]["conservation_status"])
+    page = page.replace("{{CALL}}", bird["quick_facts"]["call"])
+    page = page.replace("{{LIFESPAN}}", bird["quick_facts"]["lifespan"])
+    page = page.replace("{{NESTING}}",bird["quick_facts"]["nesting"])
+    page = page.replace("{{HABITAT}}", bird["quick_facts"]["habitat"])
+    page = page.replace("{{WHERE_TO_FIND}}",bird["quick_facts"]["where_to_find"])
+    page = page.replace("{{SIZE}}",bird["quick_facts"]["size"])
+    page = page.replace("{{WEIGHT}}",bird["quick_facts"]["weight"])
+    page = page.replace("{{DIET}}",bird["quick_facts"]["diet"])
+    page = page.replace("{{BEHAVIOUR}}",bird["quick_facts"]["behaviour"])
     
     current_index = birds.index(bird)
     if current_index < len(birds) - 1:
@@ -634,8 +1904,14 @@ for bird in birds:
        page = page.replace("{{NEXT_PAGE}}", next_page)
     else:
         page = page.replace("{{NEXT_PAGE}}", "")
-    
-    
+    if current_index > 0:
+       previous_bird = birds[current_index - 1]
+       previous_page = previous_bird["name"].lower().replace(" ", "-") + ".html"
+       page = page.replace("{{PREVIOUS_PAGE}}", previous_page)
+      
+    else:
+         page = page.replace("{{PREVIOUS_PAGE}}","")
+       
     filename = bird["name"].lower().replace(" ", "-") + ".html"
 
     open("birds/" + filename, "w").write(page)

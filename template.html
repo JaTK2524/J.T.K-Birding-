@@ -6,28 +6,55 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../Images/J.T.KBirdingFavicon.png">
 </head>
-
 <body>
 <div class="bird-info">
-<div class="navbar">
-    <div style="text-align:center;"><a href="../index.html">Home</a></div></div>
-    <div class="next_page">
-    <a href="{{NEXT_PAGE}}"><button>
-    Next Page
-    </button>
-    </div>
-<img src="../Images/{{IMAGE}}" atl={{NAME}}">
-
-<h1>{{NAME}}</h1>
-
-<h2><i>{{SCIENTIFIC}}</i></h2>
-
-<p>{{DESCRIPTION}}</p>
-
-<p><b>Family:</b> {{FAMILY}}</p>
+<div class = "navbar">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
 </div>
 </div>
+<a href = "{{NEXT_PAGE}}">
+<button class = "next_page">
+Next Page
+</button>
+</a>
+<a href = "{{PREVIOUS_PAGE}}">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/{{IMAGE}}" alt={{NAME}}">
 
+<h2>{{NAME}}</h2>
+<section class="quick-facts">
+            <h2>Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span>{{SCIENTIFIC}}</li>
+                <li><span class="fact-label">Family:</span> {{FAMILY}}</li>
+                <li><span class="fact-label">Size:</span> {{SIZE}}</li>
+                <li><span class="fact-label">Weight:</span> {{WEIGHT}}</li>
+                <li><span class="fact-label">Wingspan:</span> {{WINGSPAN}}</li>
+                <li><span class="fact-label">Diet:</span> {{DIET}}</li>
+                <li><span class="fact-label">Habitat:</span> {{HABITAT}}</li>
+                <li><span class="fact-label">Behaviour:</span> {{BEHAVIOUR}}</li>
+                <li><span class="fact-label">Activity:</span> {{ACTIVITY}}</li>
+                <li><span class="fact-label">Nesting:</span> {{NESTING}}</li>
+                <li><span class="fact-label">Breeding Season:</span> {{BREEDING_SEASON}}</li>
+                <li><span class="fact-label">Clutch Size:</span> {{CLUTCH_SIZE}}</li>
+                <li><span class="fact-label">Call:</span> {{CALL}}</li>
+                <li><span class="fact-label">Lifespan:</span> {{LIFESPAN}}</li>
+                <li><span class="fact-label">Conservation Status:</span> {{CONSERVATION_STATUS}}</li>
+                <li><span class="fact-label">Where to Find:</span> {{WHERE_TO_FIND}}</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2>About the Bird</h2>
+
+            <p>{{DESCRIPTION}}</p>
+        </section>
+
+</div>
 </body>
-
 </html>
