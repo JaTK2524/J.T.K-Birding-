@@ -1921,7 +1921,7 @@ birds = [
     "name": "Crimson Sunbird",
     "scientific": "Aethopyga siparaja",
     "description": "The Crimson Sunbird is a tiny, brilliantly coloured sunbird found in forests, gardens, and other areas with flowering plants. Males have vivid crimson and scarlet plumage with contrasting dark wings and a long, slender tail, while females are much duller and predominantly olive-green. It feeds mainly on nectar and small insects and is an active visitor to flowers. It can be distinguished from the similar Purple Sunbird by its brighter crimson coloration, more colourful male plumage, and generally smaller appearance.",
-    "image": "Crimson-Sunbird1.jpg",
+    "image": "CrimsonSunbird1.jpg",
     "quick_facts": {
         "family": "Nectariniidae",
         "size": "11–13 cm",
@@ -1944,7 +1944,7 @@ birds = [
     "name": "Golden-Fronted Leafbird",
     "scientific": "Chloropsis aurifrons",
     "description": "The Golden-Fronted Leafbird is a bright green forest bird named for the golden-yellow forehead found on many males. It has a green body, dark face markings, and a strong, slightly curved bill. These birds spend much of their time in the canopy, feeding on fruit, nectar, and insects. Their vivid plumage can make them surprisingly difficult to spot among leaves. It can be distinguished from other green leafbirds by its golden-yellow forehead and the characteristic combination of green plumage and dark facial markings.",
-    "image": "Golden-Fronted Leafbird1.jpg",
+    "image": "Golden-FrontedLeafbird1.jpg",
     "quick_facts": {
         "family": "Chloropseidae",
         "size": "18–20 cm",
@@ -1967,7 +1967,7 @@ birds = [
     "name": "Black Bulbul",
     "scientific": "Hypsipetes leucocephalus",
     "description": "The Black Bulbul is a dark, medium-sized bulbul commonly associated with wooded hills and forests. Its plumage ranges from slate-grey to dark grey, and it has a prominent black crest and a red or orange bill and legs in many populations. It feeds on fruits and berries as well as insects and is often encountered in noisy groups moving through trees. It can be distinguished from other dark bulbuls by its prominent pointed crest, relatively large size, and bright reddish bill and legs.",
-    "image": "Black-Bulbul1.jpg",
+    "image": "BlackBulbul1.jpg",
     "quick_facts": {
         "family": "Pycnonotidae",
         "size": "24–25 cm",
@@ -1990,7 +1990,7 @@ birds = [
     "name": "Grey-Breasted Prinia",
     "scientific": "Prinia hodgsonii",
     "description": "The Grey-Breasted Prinia is a small, active warbler-like bird that inhabits grasslands, scrub, open woodland, and cultivated areas. It has a greyish breast, brown upperparts, and a long, narrow tail that is frequently cocked or moved as it searches for food. It usually stays close to vegetation and feeds on insects and other tiny invertebrates. Its greyish breast and relatively subdued plumage help distinguish it from the more strongly marked Ashy Prinia and the browner Plain Prinia.",
-    "image": "Grey-Breasted-Prinia1.jpg",
+    "image": "GreyBreastedPrinia1.jpg",
     "quick_facts": {
         "family": "Cisticolidae",
         "size": "11–12 cm",
@@ -2013,7 +2013,7 @@ birds = [
     "name": "Ashy Prinia",
     "scientific": "Prinia socialis",
     "description": "The Ashy Prinia is a familiar little bird of grasslands, gardens, scrub, farmland, and urban edges. It has greyish upperparts, pale underparts, a long tail, and a slender pointed bill. It is usually seen moving energetically through low vegetation in search of insects and is particularly noticeable because of its persistent calls. It can be distinguished from the Plain Prinia by its greyer plumage and, in breeding birds, the stronger contrast between its dark head and pale underparts.",
-    "image": "Ashy-Prinia1.jpg",
+    "image": "AshyPrinia1.jpg",
     "quick_facts": {
         "family": "Cisticolidae",
         "size": "13–14 cm",
@@ -2036,7 +2036,7 @@ birds = [
     "name": "Plain Prinia",
     "scientific": "Prinia inornata",
     "description": "The Plain Prinia is a small brownish bird of grasslands, marshes, agricultural fields, and scrub. Its relatively plain plumage helps it blend into dry vegetation, while its long tail and active movements make it easier to recognize. It feeds primarily on insects and frequently climbs through grasses and bushes searching for prey. It can be distinguished from the Ashy Prinia by its generally browner, less grey appearance and plainer overall plumage.",
-    "image": "Plain-Prinia1.jpg",
+    "image": "PlainPrinia1.jpg",
     "quick_facts": {
         "family": "Cisticolidae",
         "size": "13–15 cm",
@@ -2059,7 +2059,7 @@ birds = [
     "name": "Indian Bush Lark",
     "scientific": "Mirafra erythroptera",
     "description": "The Indian Bush Lark is a ground-dwelling lark of dry open country. Its brown, streaked plumage provides excellent camouflage among soil, grasses, and scrub. It spends much of its time on the ground feeding on seeds and insects, but males become especially conspicuous during the breeding season when they perform display flights and sing. It can be distinguished from similar brown larks by its compact appearance, relatively short tail, and preference for dry scrub and open ground.",
-    "image": "Indian-Bush-Lark1.jpg",
+    "image": "IndianBushLark1.jpg",
     "quick_facts": {
         "family": "Alaudidae",
         "size": "15–16 cm",
@@ -2082,7 +2082,7 @@ birds = [
     "name": "Oriental Skylark",
     "scientific": "Alauda gulgula",
     "description": "The Oriental Skylark is a small brown lark found in open grassland, agricultural land, and plains. Its streaked plumage provides excellent camouflage on the ground. Males are famous for their elaborate songs, often delivered during hovering or soaring display flights above the breeding territory. It can be distinguished from other small brown larks by its long, musical aerial song and characteristic crest and streaked plumage.",
-    "image": "Oriental-Skylark1.jpg",
+    "image": "OrientalSkylark1.jpg",
     "quick_facts": {
         "family": "Alaudidae",
         "size": "15–17 cm",
@@ -2105,7 +2105,7 @@ birds = [
     "name": "Common Hawk-Cuckoo",
     "scientific": "Hierococcyx varius",
     "description": "The Common Hawk-Cuckoo is a medium-sized cuckoo famous for its distinctive repeated call, which is often described as sounding like the phrase 'brain-fever'. It resembles a small hawk, with barred underparts and a long tail. It feeds mainly on insects and their larvae and is a brood parasite, laying its eggs in the nests of other birds. Its hawk-like shape and barred underparts distinguish it from many other cuckoos, while its powerful repeated call is one of its most reliable identification features.",
-    "image": "Common-Hawk-Cuckoo1.jpg",
+    "image": "CommonHawkCuckoo1.jpg",
     "quick_facts": {
         "family": "Cuculidae",
         "size": "34–38 cm",
@@ -2128,7 +2128,7 @@ birds = [
     "name": "Pied Cuckoo",
     "scientific": "Clamator jacobinus",
     "description": "The Pied Cuckoo is a striking black-and-white cuckoo and one of the best-known seasonal birds associated with the Indian monsoon. Its arrival and calls are traditionally linked with the beginning of the rains in many parts of India. It feeds mainly on insects and caterpillars and is a brood parasite, laying its eggs in the nests of other birds. Its bold black-and-white plumage, crest, and long tail make it easy to distinguish from the mostly brown or grey cuckoos commonly seen in India.",
-    "image": "Pied-Cuckoo1.jpg",
+    "image": "PiedCuckoo1.jpg",
     "quick_facts": {
         "family": "Cuculidae",
         "size": "33–35 cm",
@@ -2151,7 +2151,7 @@ birds = [
     "name": "Greater Flamingo",
     "scientific": "Phoenicopterus roseus",
     "description": "The Greater Flamingo is the largest flamingo species and a spectacular waterbird of shallow wetlands. Adults are predominantly pale pink and white with black wing tips, long pink legs, and a large downward-curved bill. They feed by filtering tiny organisms from shallow water and mud and often gather in large flocks. It can be distinguished from the smaller Lesser Flamingo by its much larger size, pale pink plumage, and large bill with a mostly pale base and dark tip.",
-    "image": "Greater-Flamingo1.jpg",
+    "image": "GreaterFlamingo1.jpg",
     "quick_facts": {
         "family": "Phoenicopteridae",
         "size": "120–145 cm",
@@ -2174,7 +2174,7 @@ birds = [
     "name": "Indian Courser",
     "scientific": "Cursorius coromandelicus",
     "description": "The Indian Courser is a distinctive ground-dwelling wader of dry open country. It has a slender body, long legs, a short bill, and warm brown and sandy plumage that blends into its surroundings. Unlike many waders, it is more often found far from water and runs rapidly across open ground while searching for insects. Its combination of sandy-brown plumage, long legs, short bill, and terrestrial habits helps distinguish it from more typical water-associated waders.",
-    "image": "Indian-Courser1.jpg",
+    "image": "IndianCourser1.jpg",
     "quick_facts": {
         "family": "Glareolidae",
         "size": "25–28 cm",
@@ -2197,7 +2197,7 @@ birds = [
     "name": "Long-Tailed Shrike",
     "scientific": "Lanius schach",
     "description": "The Long-Tailed Shrike is a striking predatory songbird with a grey head, dark eye mask, brown wings, and a long tail. It occupies open country with scattered bushes and trees, where it hunts insects, small reptiles, and occasionally small birds. Like other shrikes, it often watches from an exposed perch before dropping rapidly onto prey. Its exceptionally long tail, grey head, and dark facial mask help distinguish it from the smaller Bay-Backed Shrike and other Indian shrikes.",
-    "image": "Long-Tailed-Shrike1.jpg",
+    "image": "LongTailedShrike1.jpg",
     "quick_facts": {
         "family": "Laniidae",
         "size": "25–28 cm",
@@ -2220,7 +2220,7 @@ birds = [
     "name": "Bay-Backed Shrike",
     "scientific": "Lanius vittatus",
     "description": "The Bay-Backed Shrike is a small, boldly marked shrike of dry open habitats. It has a grey head, black facial mask, reddish-brown back, and pale underparts. Like other shrikes, it is an efficient predator despite its small size and often waits from a prominent perch before pursuing insects and other small animals. It can be distinguished from the Long-Tailed Shrike by its smaller size, shorter tail, and distinctive rich bay-coloured back.",
-    "image": "Bay-Backed-Shrike1.jpg",
+    "image": "BayBackedShrike1.jpg",
     "quick_facts": {
         "family": "Laniidae",
         "size": "17–18 cm",
@@ -2243,7 +2243,7 @@ birds = [
     "name": "Small Minivet",
     "scientific": "Pericrocotus cinnamomeus",
     "description": "The Small Minivet is a tiny, brightly coloured canopy-dwelling bird. Males have vivid orange-red markings contrasting with black and grey, while females are predominantly yellowish and grey. They are highly active and often travel through the treetops in small groups, catching insects among leaves and branches. Its small size and delicate build distinguish it from larger minivets, while the male's bright orange-red markings and the female's yellowish plumage are useful identification features.",
-    "image": "Small-Minivet1.jpg",
+    "image": "SmallMinivet1.jpg",
     "quick_facts": {
         "family": "Campephagidae",
         "size": "15–16 cm",
@@ -2266,7 +2266,7 @@ birds = [
     "name": "White-Browed Wagtail",
     "scientific": "Motacilla maderaspatensis",
     "description": "The White-Browed Wagtail is a striking black-and-white wagtail that is strongly associated with water and human settlements. It has a prominent white eyebrow, dark upperparts, white underparts, and a long wagging tail. It often walks along the edges of streams, ponds, and other wet areas while searching for insects. Its bold black-and-white pattern and conspicuous white eyebrow distinguish it from the Pied Bushchat and other black-and-white birds that may occur around similar habitats.",
-    "image": "White-Browed-Wagtail1.jpg",
+    "image": "WhiteBrowedWagtail1.jpg",
     "quick_facts": {
         "family": "Motacillidae",
         "size": "21–23 cm",
@@ -2289,7 +2289,7 @@ birds = [
     "name": "Red-Naped Ibis",
     "scientific": "Pseudibis papillosa",
     "description": "The Red-Naped Ibis is a large, dark ibis of open country, wetlands, agricultural land, and grassland. It has a long down-curved bill, long legs, and a distinctive bare red patch on the back of the neck. It often walks steadily across fields and open ground while probing the soil for insects and other food. The bare red patch on the nape, dark body, and reddish legs make it particularly easy to distinguish from other ibises found in India.",
-    "image": "Red-Naped-Ibis1.jpg",
+    "image": "RedNapedIbis1.jpg",
     "quick_facts": {
         "family": "Threskiornithidae",
         "size": "60–68 cm",
@@ -2312,7 +2312,7 @@ birds = [
     "name": "White-Bellied Sea-Eagle",
     "scientific": "Icthyophaga leucogaster",
     "description": "The White-Bellied Sea-Eagle is a large and powerful raptor associated with coasts, rivers, lakes, and other water bodies. Adults have a striking white head, breast, belly, and tail contrasting with dark grey wings and back. It is an accomplished hunter that takes fish and other aquatic prey, often soaring high above its territory. Its bright white head, underparts, and tail contrasting with dark wings make it unmistakable among India's other large eagles.",
-    "image": "White-Bellied-Sea-Eagle1.jpg",
+    "image": "WhiteBelliedSea-Eagle1.jpg",
     "quick_facts": {
         "family": "Accipitridae",
         "size": "75–85 cm",
@@ -2335,7 +2335,7 @@ birds = [
     "name": "Lesser Adjutant",
     "scientific": "Leptoptilos javanicus",
     "description": "The Lesser Adjutant is a large stork with long legs, a long bill, and a mostly bare head and neck. It is generally less social than many other storks and is often seen standing quietly in wetlands, grasslands, or agricultural areas. It feeds on a wide range of animal matter and plays an important role as a scavenger as well as a predator. It can be distinguished from the larger Greater Adjutant by its smaller size, less massive bill, and different head and neck proportions.",
-    "image": "Lesser-Adjutant1.jpg",
+    "image": "LesserAdjutant1.jpg",
     "quick_facts": {
         "family": "Ciconiidae",
         "size": "110–120 cm",
@@ -2358,7 +2358,7 @@ birds = [
     "name": "Malabar Pied Hornbill",
     "scientific": "Anthracoceros coronatus",
     "description": "The Malabar Pied Hornbill is a large black-and-white hornbill of the forests of the Indian subcontinent. Its enormous bill and casque give it a distinctive appearance, while its loud calls can reveal its presence before the bird is seen. It feeds mainly on fruit but also takes insects and other small animals and plays an important role in dispersing seeds. Its large black-and-white body, massive pale bill, and prominent casque distinguish it from smaller pied hornbills and other forest hornbills.",
-    "image": "Malabar-Pied-Hornbill1.jpg",
+    "image": "Malabar-PiedHornbill1.jpg",
     "quick_facts": {
         "family": "Bucerotidae",
         "size": "65–70 cm",
