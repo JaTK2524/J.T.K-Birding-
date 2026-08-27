@@ -1916,7 +1916,7 @@ birds = [
         "conservation_status": "Least Concern",
         "where_to_find": "Dense forest undergrowth, woodland edges, scrub, bamboo thickets, and other habitats with thick ground cover"
     }
-}
+},
     ]
 
 for bird in birds:
@@ -1929,7 +1929,7 @@ for bird in birds:
     page = page.replace("{{IMAGE}}", bird["image"])
     page = page.replace("{{WINGSPAN}}",bird["quick_facts"]["wingspan"])
     page = page.replace("{{FAMILY}}",bird["quick_facts"]["family"])
-    page = page.replace("{{BREEDING_SEASON}}",bird["quick_facts"]["family"])
+    page = page.replace("{{BREEDING_SEASON}}",bird["quick_facts"]["breeding_season"])
     page = page.replace("{{CLUTCH_SIZE}}", bird["quick_facts"]["clutch_size"])
     page = page.replace("{{ACTIVITY}}",bird["quick_facts"]["activity"])
     page = page.replace("{{CONSERVATION_STATUS}}", bird["quick_facts"]["conservation_status"])
