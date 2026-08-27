@@ -1871,6 +1871,52 @@ birds = [
         "where_to_find": "Ponds, rice fields, marshes, canals, village wetlands, and urban water bodies"
     }
 },
+{
+    "name": "Black-Crowned Night Heron",
+    "scientific": "Nycticorax nycticorax",
+    "description": "The Black-Crowned Night Heron is a stocky, medium-sized heron with a distinctive black crown and back, pale grey wings, and a white or pale grey body. Unlike many herons, it is most active around dusk and during the night. It often stands patiently at the edge of ponds, lakes, marshes, and wetlands before striking at fish, amphibians, insects, and other small prey. During the day, it commonly rests quietly among dense vegetation or in communal roosts. Its broad range and adaptable nature allow it to occupy a variety of wetland habitats.",
+    "image": "Black-CrownedNightHeron1.jpg",
+    "quick_facts": {
+        "family": "Ardeidae",
+        "size": "58–66 cm",
+        "weight": "500–1,000 g",
+        "wingspan": "105–112 cm",
+        "diet": "Fish, frogs, insects, crustaceans, small reptiles, and other small animals",
+        "habitat": "Freshwater wetlands, marshes, ponds, lakes, rivers, mangroves, and coastal wetlands",
+        "behaviour": "Patient and stealthy hunter that often remains motionless before quickly striking at prey",
+        "activity": "Mostly crepuscular and nocturnal",
+        "nesting": "Builds a platform nest of sticks and vegetation, often in trees, shrubs, or dense wetland colonies",
+        "breeding_season": "Generally varies by region, often during the wet season or warmer months",
+        "clutch_size": "3–5 eggs",
+        "call": "A distinctive harsh, croaking or squawking call",
+        "lifespan": "Up to around 20 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Wetlands, lakes, ponds, marshes, rivers, and other areas with shallow water and dense vegetation"
+    }
+},
+{
+    "name": "Puff-Throated Babbler",
+    "scientific": "Pellorneum ruficeps",
+    "description": "The Puff-Throated Babbler is a small, ground-dwelling bird found in forests, woodland, scrub, and other areas with dense undergrowth. It has warm brown upperparts, a paler underside, and a characteristic pale throat that can appear puffed out when the bird calls or displays. It spends much of its time searching through leaf litter for insects and other small creatures, often moving through vegetation in small groups. Although it can be difficult to spot because of its secretive habits, its lively calls often reveal its presence.",
+    "image": "Puff-ThroatedBabbler1.jpg",
+    "quick_facts": {
+        "family": "Pellorneidae",
+        "size": "17–18 cm",
+        "weight": "30–40 g",
+        "wingspan": "Approximately 20–23 cm",
+        "diet": "Insects, larvae, spiders, small invertebrates, and occasionally seeds",
+        "habitat": "Dense undergrowth, forests, woodland, bamboo, scrub, and plantations",
+        "behaviour": "Active ground forager that searches through leaf litter and vegetation, often in small groups",
+        "activity": "Diurnal",
+        "nesting": "Builds a domed or ball-shaped nest close to the ground, usually among dense vegetation or leaf litter",
+        "breeding_season": "Usually during the warmer and wetter months, varying across its range",
+        "clutch_size": "2–4 eggs",
+        "call": "A loud, repetitive and musical series of notes, often given by several birds in a group",
+        "lifespan": "Several years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "Dense forest undergrowth, woodland edges, scrub, bamboo thickets, and other habitats with thick ground cover"
+    }
+}
     ]
 
 for bird in birds:
