@@ -1,3 +1,6 @@
+import random
+import datetime
+
 template = open("template.html", "r").read()
 
 birds = [
@@ -2379,6 +2382,8 @@ birds = [
 },
     ]
 
+birds = sorted(birds, key = lambda bird: bird["name"].lower())
+
 for bird in birds:
 
     page = template
@@ -2422,22 +2427,29 @@ for bird in birds:
 
     open("birds/" + filename, "w").write(page)
 
+    
 index_template = open("index_template.html", "r").read()
 
-birds = sorted(birds, key = lambda bird: bird["name"].lower())
 
-bird_count = len(birds)
 
 bird_list = ""
 
 for bird in birds:
     filename = bird["name"].lower().replace(" ", "-") + ".html"
     bird_list += '<li class="bird"><a href="birds/' + filename + '">' + bird["name"] + '</a></li>'
-    
+
+date = datetime.date.today().timetuple().tm_yday
+random.seed(date)
+bird_of_the_day = random.choice(birds)
+bod_image = bird_of_the_day["image"]
+bod_filename = bird_of_the_day["name"].lower().replace(" ","-") + ".html"
+bird_count = len(birds)
 
 index = index_template.replace("{{BIRD_COUNT}}", str(bird_count))
 index = index.replace("{{BIRD_LIST}}",bird_list)
-
+index = index.replace("{{BIRD_OF_THE_DAY}}", bird_of_the_day["name"])
+index = index.replace("{{BOD_FILENAME}}", bod_filename)
+index = index.replace("{{BOD_IMAGE}}", bod_image)
 open("index.html", "w").write(index)
 
 print("Pages Done, Sir")
