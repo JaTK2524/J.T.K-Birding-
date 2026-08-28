@@ -2197,7 +2197,7 @@ birds = [
     "name": "Long-Tailed Shrike",
     "scientific": "Lanius schach",
     "description": "The Long-Tailed Shrike is a striking predatory songbird with a grey head, dark eye mask, brown wings, and a long tail. It occupies open country with scattered bushes and trees, where it hunts insects, small reptiles, and occasionally small birds. Like other shrikes, it often watches from an exposed perch before dropping rapidly onto prey. Its exceptionally long tail, grey head, and dark facial mask help distinguish it from the smaller Bay-Backed Shrike and other Indian shrikes.",
-    "image": "LongTailedShrike1.jpg",
+    "image": "Long-TailedShrike1.jpg",
     "quick_facts": {
         "family": "Laniidae",
         "size": "25–28 cm",
@@ -2220,7 +2220,7 @@ birds = [
     "name": "Bay-Backed Shrike",
     "scientific": "Lanius vittatus",
     "description": "The Bay-Backed Shrike is a small, boldly marked shrike of dry open habitats. It has a grey head, black facial mask, reddish-brown back, and pale underparts. Like other shrikes, it is an efficient predator despite its small size and often waits from a prominent perch before pursuing insects and other small animals. It can be distinguished from the Long-Tailed Shrike by its smaller size, shorter tail, and distinctive rich bay-coloured back.",
-    "image": "BayBackedShrike1.jpg",
+    "image": "Bay-BackedShrike1.jpg",
     "quick_facts": {
         "family": "Laniidae",
         "size": "17–18 cm",
@@ -2266,7 +2266,7 @@ birds = [
     "name": "White-Browed Wagtail",
     "scientific": "Motacilla maderaspatensis",
     "description": "The White-Browed Wagtail is a striking black-and-white wagtail that is strongly associated with water and human settlements. It has a prominent white eyebrow, dark upperparts, white underparts, and a long wagging tail. It often walks along the edges of streams, ponds, and other wet areas while searching for insects. Its bold black-and-white pattern and conspicuous white eyebrow distinguish it from the Pied Bushchat and other black-and-white birds that may occur around similar habitats.",
-    "image": "WhiteBrowedWagtail1.jpg",
+    "image": "White-BrowedWagtail1.jpg",
     "quick_facts": {
         "family": "Motacillidae",
         "size": "21–23 cm",
@@ -2289,7 +2289,7 @@ birds = [
     "name": "Red-Naped Ibis",
     "scientific": "Pseudibis papillosa",
     "description": "The Red-Naped Ibis is a large, dark ibis of open country, wetlands, agricultural land, and grassland. It has a long down-curved bill, long legs, and a distinctive bare red patch on the back of the neck. It often walks steadily across fields and open ground while probing the soil for insects and other food. The bare red patch on the nape, dark body, and reddish legs make it particularly easy to distinguish from other ibises found in India.",
-    "image": "RedNapedIbis1.jpg",
+    "image": "Red-NapedIbis1.jpg",
     "quick_facts": {
         "family": "Threskiornithidae",
         "size": "60–68 cm",
@@ -2312,7 +2312,7 @@ birds = [
     "name": "White-Bellied Sea-Eagle",
     "scientific": "Icthyophaga leucogaster",
     "description": "The White-Bellied Sea-Eagle is a large and powerful raptor associated with coasts, rivers, lakes, and other water bodies. Adults have a striking white head, breast, belly, and tail contrasting with dark grey wings and back. It is an accomplished hunter that takes fish and other aquatic prey, often soaring high above its territory. Its bright white head, underparts, and tail contrasting with dark wings make it unmistakable among India's other large eagles.",
-    "image": "WhiteBelliedSea-Eagle1.jpg",
+    "image": "White-BelliedSea-Eagle1.jpg",
     "quick_facts": {
         "family": "Accipitridae",
         "size": "75–85 cm",
@@ -2358,7 +2358,7 @@ birds = [
     "name": "Malabar Pied Hornbill",
     "scientific": "Anthracoceros coronatus",
     "description": "The Malabar Pied Hornbill is a large black-and-white hornbill of the forests of the Indian subcontinent. Its enormous bill and casque give it a distinctive appearance, while its loud calls can reveal its presence before the bird is seen. It feeds mainly on fruit but also takes insects and other small animals and plays an important role in dispersing seeds. Its large black-and-white body, massive pale bill, and prominent casque distinguish it from smaller pied hornbills and other forest hornbills.",
-    "image": "Malabar-PiedHornbill1.jpg",
+    "image": "MalabarPiedHornbill1.jpg",
     "quick_facts": {
         "family": "Bucerotidae",
         "size": "65–70 cm",
