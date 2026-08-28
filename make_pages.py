@@ -2105,7 +2105,7 @@ birds = [
     "name": "Common Hawk-Cuckoo",
     "scientific": "Hierococcyx varius",
     "description": "The Common Hawk-Cuckoo is a medium-sized cuckoo famous for its distinctive repeated call, which is often described as sounding like the phrase 'brain-fever'. It resembles a small hawk, with barred underparts and a long tail. It feeds mainly on insects and their larvae and is a brood parasite, laying its eggs in the nests of other birds. Its hawk-like shape and barred underparts distinguish it from many other cuckoos, while its powerful repeated call is one of its most reliable identification features.",
-    "image": "CommonHawkCuckoo1.jpg",
+    "image": "CommonHawk-Cuckoo1.jpg",
     "quick_facts": {
         "family": "Cuculidae",
         "size": "34–38 cm",
