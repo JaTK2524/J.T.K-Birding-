@@ -8,10 +8,16 @@
 <body>
 <input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
 
-<div class="bird-page">
-
     <h1 class = "index_heading">J.T.K Birding</h1>
     <p>Birds documented: {{BIRD_COUNT}} and counting</p>
+    <div class = "index_layout">
+         <div class = "bird_list">
+<h2>Browse Birds</h2>
+    <ul>
+        {{BIRD_LIST}}
+    </ul>
+</div>
+<div class = "bird_of_the_day"">
     <figure style = "float: -50px">
     <h2 style = "text-decoration: underline">Bird of the Day</h2>
     <h3><a href = "birds/{{BOD_FILENAME}}">{{BIRD_OF_THE_DAY}}</a></h3>
@@ -20,11 +26,7 @@
          class = "bird_of_the_day_image">
          </a>
          </figure>
-<h2>Browse Birds</h2>
-    <ul>
-        {{BIRD_LIST}}
-    </ul>
-
+         </div>
 </div>
 <script>
 const search = document.getElementById("search")
