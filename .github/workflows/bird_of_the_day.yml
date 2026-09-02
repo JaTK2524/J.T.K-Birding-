@@ -34,8 +34,14 @@ jobs:
 
           git add .
 
-          git commit -m "Update Bird of the Day" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
 
-          git pull --rebase origin main
+          git commit -m "Update Bird of the Day"
 
-          git push origin main
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
