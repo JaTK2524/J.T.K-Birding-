@@ -3,24 +3,30 @@
 <head>
     <title>J.T.K Birding</title>
     <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "Props/J.T.K_Birding_Favicon2.png">
 </head>
 
 <body>
 <input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
-
+<div style = "text-align:center;">
+<nav class = "navbar"
+     style = "padding: 8px;">
+    <a href = "about-us.html">About Us </a>
+    </nav>
+    </div>
     <h1 class = "index_heading">J.T.K Birding</h1>
     <p>Birds documented: {{BIRD_COUNT}} and counting</p>
     <div class = "index_layout">
          <div class = "bird_list">
-<h2>Browse Birds</h2>
+<h2 style = "font-weight:normal;">Browse Birds</h2>
     <ul>
         {{BIRD_LIST}}
     </ul>
 </div>
 <div class = "bird_of_the_day"">
     <figure>
-    <h2 style = "text-decoration: underline">Bird of the Day</h2>
-    <h3><a href = "birds/{{BOD_FILENAME}}">{{BIRD_OF_THE_DAY}}</a></h3>
+    <h2 style = "text-decoration: underline; font-weight:normal;">Bird of the Day</h2>
+    <h3 style = "font-weight:normal;"><a href = "birds/{{BOD_FILENAME}}">{{BIRD_OF_THE_DAY}}</a></h3>
     <a href = "birds/{{BOD_FILENAME}}">
     <img src = "Images/{{BOD_IMAGE}}"
          class = "bird_of_the_day_image">

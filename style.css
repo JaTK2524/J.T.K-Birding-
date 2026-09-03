@@ -47,11 +47,9 @@ h1 {
 
 h2 {
     color: #4D6A52;
-    font-weight: normal;
 }
 h3 {
     color: #4D6A52;
-    font-weight: normal;
 }
 p {
     font-size: 29px;
@@ -76,6 +74,7 @@ a{
                       li{
                          margin-bottom:25px;
                          line-height: 1.6;
+                         color: black;
                           }
                           ul{
                               list-style-type:disc;
@@ -85,6 +84,7 @@ a{
                                     border-radius:25px;
                                     display: inline-block;
                                     padding: 15px 10px 15px 10px;
+                                    text-align:center;
                                      }
                                      button{
                                      width: 100px;
@@ -137,4 +137,5 @@ flex:1;
 .bird_of_the_day{
 width: 480px;
 }
+
 
