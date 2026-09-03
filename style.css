@@ -129,12 +129,12 @@ height:auto;
 .index_layout{
 display: flex;
 align-items: flex-start;
-gap: 50px;
+
 }
 .bird_list{
 flex:1;
 }
 .bird_of_the_day{
-width: 600px;
+width: 480px;
 }
 
