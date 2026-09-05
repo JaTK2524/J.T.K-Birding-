@@ -2439,8 +2439,8 @@ for bird in birds:
     bird_list += '<li class="bird"><a href="birds/' + filename + '">' + bird["name"] + '</a></li>'
 
 date = datetime.date.today().timetuple().tm_yday
-random.seed(date)
-bird_of_the_day = random.choice(birds)
+bod_random = random.Random(date)
+bird_of_the_day = bod_random.choice(birds)
 bod_image = bird_of_the_day["image"]
 bod_filename = bird_of_the_day["name"].lower().replace(" ","-") + ".html"
 bird_count = len(birds)

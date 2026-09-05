@@ -23,6 +23,9 @@
         {{BIRD_LIST}}
     </ul>
 </div>
+<div>
+<button id = "random-bird" class = "random_button">Random Bird</button>
+</div>
 <div class = "bird_of_the_day"">
     <figure>
     <h2 style = "text-decoration: underline; font-weight:normal;">Bird of the Day</h2>
@@ -50,6 +53,14 @@ if (name.includes(text)) {
 });
 
  });
+ 
+
+const birdLinks = document.querySelectorAll(".bird a");
+
+document.getElementById("random-bird").addEventListener("click", function() {
+    const randomBird = birdLinks[Math.floor(Math.random() * birdLinks.length)];
+    window.location.href = randomBird.href;
+});
 </script>
 
 </body>

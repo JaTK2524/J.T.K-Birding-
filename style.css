@@ -43,13 +43,16 @@ h1 {
     font-size: 42px;
     margin-bottom: 5px;
     text-align:center;
+    font-weight:normal;
 }
 
 h2 {
     color: #4D6A52;
+    font-weight:normal;
 }
 h3 {
     color: #4D6A52;
+    font-weight:normal;
 }
 p {
     font-size: 29px;
@@ -137,5 +140,19 @@ flex:1;
 .bird_of_the_day{
 width: 480px;
 }
-
+.bird_site_headings{
+font-weight:bold;
+}
+.random_button{
+color:black;
+background-color:#5F6A32;
+width:100px;
+height:60px;
+transition: all 0.90s;
+}
+.random_button:hover{
+color:black;
+background-color:#4A5926;
+transform:scale(1.09);
+}
 
