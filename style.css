@@ -155,4 +155,26 @@ color:black;
 background-color:#4A5926;
 transform:scale(1.09);
 }
-
+.about_us_link{
+text-decoration:underline;
+}
+.logo{
+transform:none;
+border:none;
+width: 200px;
+height:auto;
+box-shadow:none;
+}
+.logo:hover{
+transform:none;
+}
+.logo_box{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:40px;
+flex-direction:column;
+}
+.index_heading{
+margin-top:2px;
+}
