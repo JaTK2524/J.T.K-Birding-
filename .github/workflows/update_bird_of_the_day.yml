@@ -1,0 +1,43 @@
+name: Update Bird of the Day
+
+on:
+  workflow_dispatch:
+
+ on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "55 11 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-bird:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Run page generator
+        run: python3 make_pages.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Bird of the Day"
+            git push
+          fi
