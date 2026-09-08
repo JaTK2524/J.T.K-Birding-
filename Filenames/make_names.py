@@ -4,26 +4,15 @@ import shutil
 downloads = "/home/jake/Downloads"
 stamping_room = "."
 names = [
-"Crimson Sunbird",
-"Golden-Fronted Leafbird",
-"Black Bulbul",
-"Grey-Breasted Prinia",
-"Ashy Prinia",
-"Plain Prinia",
-"Indian Bush Lark",
-"Oriental Skylark",
-"Common Hawk-Cuckoo",
-"Pied Cuckoo",
-"Greater Flamingo",
-"Indian Courser",
-"Long-Tailed Shrike",
-"Bay-Backed Shrike",
-"Small Minivet",
-"White-Browed Wagtail",
-"Red-Naped Ibis",
-"White-Bellied Sea-Eagle",
-"Lesser Adjutant",
-"Malabar Pied Hornbill",
+"Black-winged Stilt",
+"Eurasian Coot",
+"Indian Spot-billed Duck",
+"House Sparrow",
+"Laughing Dove",
+"Blue-eared Kingfisher",
+"Little Grebe",
+"Chestnut-bellied Sandgrouse",
+"Oriental Turtle Dove",
 ]
 
 things = os.listdir(downloads)

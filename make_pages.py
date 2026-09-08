@@ -2380,6 +2380,269 @@ birds = [
         "where_to_find": "India: Western Ghats and associated forests, especially Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu, with additional populations in central and eastern forests; Sri Lanka: local; Nepal: very local foothills; Bangladesh: local; Bhutan: southern foothills; Myanmar and mainland Southeast Asia: local to widespread."
     }
 },
+{
+    "name": "Black-winged Stilt",
+    "scientific": "Himantopus himantopus",
+    "description": "The Black-winged Stilt is a slender wader with extremely long pink legs, a thin black bill, and a striking black-and-white body. It is commonly found around shallow wetlands, lakes, marshes, flooded fields, mudflats, and other areas of shallow water, where it searches for small aquatic animals. Its unusually long legs allow it to wade through water that is deeper than that used by many other small waders. Compared with the Pied Avocet, the Black-winged Stilt has a straight bill rather than the Avocet's strongly upturned bill. The Little Ringed Plover is much smaller, has much shorter legs, and has a prominent eye-ring that the Black-winged Stilt lacks. The Common Sandpiper is also considerably smaller and has a brown-and-white plumage pattern rather than the Stilt's sharply contrasting black-and-white appearance. The Black-winged Stilt is also more slender and much taller than most small shorebirds that occur in the same wetlands. Its exceptionally long pink legs, narrow straight bill, and upright shape are therefore excellent identification features. Its habit of wading through shallow water further helps distinguish it from smaller shorebirds that usually remain closer to the water's edge.",
+    "image": "Black-wingedStilt1.jpg",
+    "quick_facts": {
+        "family": "Recurvirostridae",
+        "size": "35–40 cm",
+        "weight": "150–200 g",
+        "wingspan": "67–83 cm",
+        "diet": "Aquatic insects, crustaceans, small molluscs, worms, tadpoles, and other small aquatic invertebrates",
+        "habitat": "Freshwater wetlands, marshes, lakes, flooded fields, mudflats, lagoons, and shallow coastal waters",
+        "behaviour": "Active and social; often seen wading through shallow water while searching for prey",
+        "activity": "Diurnal",
+        "nesting": "Builds a shallow nest on the ground, usually close to shallow water",
+        "breeding_season": "March–August",
+        "clutch_size": "3–5 eggs",
+        "call": "Sharp, repeated yapping or barking notes",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread across suitable wetlands, including Rajasthan, Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telangana, Odisha, West Bengal, Assam, Uttar Pradesh, Bihar, Punjab, Haryana and other regions; Pakistan; Nepal; Bangladesh; Sri Lanka; Myanmar; and parts of Southeast Asia."
+    }
+},
+
+{
+    "name": "Eurasian Coot",
+    "scientific": "Fulica atra",
+    "description": "The Eurasian Coot is a dark waterbird with almost entirely black plumage, a white bill, and a distinctive white frontal shield above the bill. It is commonly found on lakes, ponds, reservoirs, marshes, and slow-moving waters, where it swims strongly and often dives for food. It has broad lobed toes rather than fully webbed feet, allowing it to walk across muddy vegetation as well as swim efficiently. Compared with the Common Moorhen, the Eurasian Coot is generally larger and darker, while the Moorhen has a red-and-yellow bill and a conspicuous white flank stripe. The Coot's white frontal shield is also much larger and more prominent than the markings of the Moorhen. Compared with the Grey-headed Swamphen, the Coot is smaller and almost entirely black rather than having the Swamphen's blue-purple plumage and massive red bill. Unlike ducks, the Coot has a rounded body, lobed toes, and a distinctive white frontal shield rather than a typical duck-shaped bill. The Little Grebe is much smaller and has a pointed bill and a different compact body shape. The combination of black plumage, white bill and frontal shield, and strong swimming ability makes the Eurasian Coot readily distinguishable from other common wetland birds.",
+    "image": "EurasianCoot1.jpg",
+    "quick_facts": {
+        "family": "Rallidae",
+        "size": "36–42 cm",
+        "weight": "600–1,000 g",
+        "wingspan": "75–85 cm",
+        "diet": "Aquatic vegetation, algae, seeds, grasses, aquatic insects, molluscs, and other small aquatic animals",
+        "habitat": "Lakes, ponds, reservoirs, marshes, wetlands, slow-moving rivers, and urban water bodies",
+        "behaviour": "Strong swimmer; often dives for food and may gather in large groups on open water",
+        "activity": "Diurnal",
+        "nesting": "Builds a floating or waterside nest from aquatic vegetation",
+        "breeding_season": "March–September",
+        "clutch_size": "5–10 eggs",
+        "call": "Loud, sharp, explosive calls and short repeated notes",
+        "lifespan": "Up to around 15 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread, especially in northern, central and eastern wetlands, including Jammu and Kashmir, Himachal Pradesh, Uttarakhand, Punjab, Haryana, Rajasthan, Uttar Pradesh, Bihar, West Bengal, Assam, Odisha, Gujarat, Maharashtra, Karnataka, Kerala and Tamil Nadu; also found across much of Europe, North Africa and Asia."
+    }
+},
+
+{
+    "name": "Indian Spot-billed Duck",
+    "scientific": "Anas poecilorhyncha",
+    "description": "The Indian Spot-billed Duck is a large dabbling duck with a brown body, pale head and neck, and a distinctive yellow-tipped bill marked with dark patches. It is commonly found in freshwater wetlands, rivers, lakes, ponds, marshes, flooded fields, and other areas with shallow water. It feeds by dabbling in water and by grazing on vegetation, seeds, and other food on land. Compared with the Lesser Whistling Duck, the Indian Spot-billed Duck is larger and heavier, with a differently shaped bill and a more elongated body. The Lesser Whistling Duck has a more rounded head and generally warmer brown plumage, while the Spot-billed Duck has stronger contrasting markings. Compared with the Mallard, the Indian Spot-billed Duck has a distinctive spotted bill and does not show the adult male Mallard's bright green head and white neck ring. It also differs from the Gadwall, which has a more finely patterned grey body and a different bill coloration. The Indian Spot-billed Duck's yellow-tipped, dark-spotted bill is one of its most useful identification features. Its relatively large size, brown plumage, and contrasting wing markings further help distinguish it from other ducks found in Indian wetlands.",
+    "image": "IndianSpot-billedDuck1.jpg",
+    "quick_facts": {
+        "family": "Anatidae",
+        "size": "55–63 cm",
+        "weight": "790–1,500 g",
+        "wingspan": "83–94 cm",
+        "diet": "Aquatic plants, grasses, seeds, grains, insects, molluscs, and other small aquatic animals",
+        "habitat": "Freshwater lakes, ponds, rivers, marshes, flooded fields, reservoirs, and agricultural wetlands",
+        "behaviour": "Usually seen singly, in pairs, or in small groups; feeds by dabbling and grazing",
+        "activity": "Diurnal",
+        "nesting": "Builds a concealed nest of grass and vegetation near water, often among reeds or dense vegetation",
+        "breeding_season": "June–October, varying with rainfall and region",
+        "clutch_size": "7–12 eggs",
+        "call": "Males give soft whistles while females produce louder quacking calls",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread across much of the country, including Rajasthan, Gujarat, Maharashtra, Madhya Pradesh, Uttar Pradesh, Bihar, West Bengal, Odisha, Assam, Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telangana and other suitable wetland regions; also found in Pakistan, Nepal, Bangladesh, Sri Lanka and parts of Myanmar."
+    }
+},
+
+{
+    "name": "House Sparrow",
+    "scientific": "Passer domesticus",
+    "description": "The House Sparrow is a small, familiar bird with a compact body, short tail, and thick conical bill adapted for eating seeds and other foods. Males have a grey crown, black bib, chestnut-brown markings, and pale cheeks, while females are more uniformly brown and lack the male's bold black markings. It is strongly associated with human settlements and commonly occurs around houses, buildings, gardens, markets, farms, and city streets. Compared with the Eurasian Tree Sparrow, the House Sparrow lacks the Tree Sparrow's prominent black cheek spot. The adult male House Sparrow also has a grey crown and black bib that give it a different head pattern from the Tree Sparrow. Compared with the Indian Silverbill, the House Sparrow has a heavier bill and lacks the Silverbill's pale rump and more delicate appearance. It also differs from the Scaly-breasted Munia, which has distinctive scale-like markings on its underparts and a smaller, more compact appearance. The House Sparrow's strong association with buildings and human settlements is another useful clue when identifying it in urban areas. Its compact body, thick bill, and characteristic male plumage make it one of the easiest small passerines to distinguish from other common seed-eating birds.",
+    "image": "HouseSparrow1.jpg",
+    "quick_facts": {
+        "family": "Passeridae",
+        "size": "14–18 cm",
+        "weight": "24–40 g",
+        "wingspan": "19–25 cm",
+        "diet": "Seeds, grains, fruits, insects, food scraps, and other plant and animal matter",
+        "habitat": "Cities, towns, villages, farmland, gardens, parks, buildings, and other human-dominated habitats",
+        "behaviour": "Highly social; usually seen in pairs or groups around buildings and feeding areas",
+        "activity": "Diurnal",
+        "nesting": "Nests in cavities, holes, roof spaces, buildings, and other sheltered locations, using grass, feathers, and other material",
+        "breeding_season": "Throughout much of the year, varying with local conditions",
+        "clutch_size": "3–7 eggs",
+        "call": "Repeated chirping and chattering calls",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread around towns, villages and agricultural areas across much of the country, including Kerala, Tamil Nadu, Karnataka, Maharashtra, Gujarat, Rajasthan, Uttar Pradesh, West Bengal, Assam, Punjab, Haryana, Delhi and many other regions; native across much of Europe, North Africa and Asia and introduced in several other parts of the world."
+    }
+},
+
+{
+    "name": "Laughing Dove",
+    "scientific": "Spilopelia senegalensis",
+    "description": "The Laughing Dove is a small, slender dove with a warm pinkish-brown body, a long tail, and a distinctive black-and-white spotted patch on the sides of the neck. It is commonly found in dry woodland, scrub, farmland, gardens, parks, and urban areas, where it usually feeds on seeds and grains on the ground. Its soft, rhythmic call is often heard from trees, buildings, or other elevated perches. Compared with the Spotted Dove, the Laughing Dove is smaller and more slender, and its neck markings form a relatively small black-and-white patch rather than the Spotted Dove's larger spotted collar. The Laughing Dove also has a warmer pinkish-brown appearance and a more delicate build. Compared with the Eurasian Collared Dove, it is much smaller and has a spotted neck rather than a simple black collar. It also differs from the Red Collared Dove, which is smaller and has a more distinctly reddish body with a narrow black collar. Compared with the Rock Pigeon, the Laughing Dove is slimmer, longer-tailed, and lacks the heavier body and broad wings of the pigeon. Its small size, warm coloration, spotted neck, and long tail therefore provide several reliable identification features.",
+    "image": "LaughingDove1.jpg",
+    "quick_facts": {
+        "family": "Columbidae",
+        "size": "25–27 cm",
+        "weight": "90–120 g",
+        "wingspan": "40–45 cm",
+        "diet": "Seeds, grains, small fruits, and other plant material",
+        "habitat": "Dry woodland, scrub, farmland, gardens, parks, villages, and urban areas",
+        "behaviour": "Usually seen singly or in pairs while feeding on the ground; often perches on wires and trees",
+        "activity": "Diurnal",
+        "nesting": "Builds a small platform nest of twigs in trees, shrubs, buildings, or other sheltered locations",
+        "breeding_season": "Throughout much of the year, varying by region",
+        "clutch_size": "2 eggs",
+        "call": "Soft, rhythmic cooing with a characteristic laughing quality",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread, especially in dry and semi-arid regions and around human settlements, including Rajasthan, Gujarat, Maharashtra, Madhya Pradesh, Uttar Pradesh, Delhi, Haryana, Punjab, Karnataka, Andhra Pradesh, Telangana, Tamil Nadu and Kerala; also found across much of the Middle East, Africa and parts of South Asia."
+    }
+},
+
+{
+    "name": "Blue-eared Kingfisher",
+    "scientific": "Alcedo meninting",
+    "description": "The Blue-eared Kingfisher is a small, brilliantly coloured kingfisher with deep blue upperparts, rich orange underparts, and a dark blue ear-covering area that gives the species its name. It is strongly associated with shaded forest streams, clear rivers, and other quiet freshwater habitats, particularly in heavily wooded areas. It usually hunts from low perches close to the water and dives quickly to capture small fish and aquatic prey. Compared with the Common Kingfisher, the Blue-eared Kingfisher generally has deeper blue upperparts and a darker ear region, while the Common Kingfisher shows a more obvious bright orange-and-blue contrast. The Blue-eared Kingfisher is also more strongly associated with shaded forest streams, whereas the Common Kingfisher frequently occurs in more open waterways. Compared with the White-throated Kingfisher, it is much smaller and lacks the large red bill, white throat, and contrasting brown-and-blue pattern of that species. It is also dramatically smaller than the Stork-billed Kingfisher, which has a massive red bill and much heavier body. Its small size, deep blue coloration, dark ear patch, and preference for shaded forest streams make it distinctive among Asian kingfishers.",
+    "image": "Blue-earedKingfisher1.jpg",
+    "quick_facts": {
+        "family": "Alcedinidae",
+        "size": "15–18 cm",
+        "weight": "20–30 g",
+        "wingspan": "Approximately 25–30 cm",
+        "diet": "Small fish, aquatic insects, crustaceans, tadpoles, and other small aquatic animals",
+        "habitat": "Shaded forest streams, clear rivers, wooded wetlands, and quiet freshwater habitats",
+        "behaviour": "Usually solitary; sits quietly on low shaded perches before diving rapidly into water for prey",
+        "activity": "Diurnal",
+        "nesting": "Nests in tunnels excavated in earthen stream banks",
+        "breeding_season": "March–July, varying by region",
+        "clutch_size": "2–5 eggs",
+        "call": "High-pitched, sharp and rapidly repeated notes",
+        "lifespan": "Up to around 5–7 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: mainly in forested areas of the northeastern states and parts of the Western Ghats, including West Bengal, Assam, Arunachal Pradesh, Meghalaya, Nagaland, Manipur, Mizoram, Tripura, Karnataka, Kerala and Tamil Nadu; also found in Bangladesh, Myanmar, Thailand, Malaysia, Indonesia and other parts of Southeast Asia."
+    }
+},
+
+{
+    "name": "Little Grebe",
+    "scientific": "Tachybaptus ruficollis",
+    "description": "The Little Grebe is a tiny waterbird with a compact body, short neck, rounded head, and short pointed bill. During the breeding season it develops a rich chestnut throat and cheeks, while non-breeding birds are generally paler and browner. It spends much of its time swimming and diving in ponds, lakes, marshes, and other freshwater habitats, often disappearing underwater when alarmed. Compared with the Eurasian Coot, the Little Grebe is much smaller, has a pointed bill rather than a white frontal shield, and has a completely different body shape. Compared with the Indian Pond Heron, it is more compact and spends much more time swimming and diving rather than standing along the water's edge. The Little Grebe also differs from larger grebes by its much smaller size and proportionally shorter bill and neck. Unlike ducks, it has a narrow pointed bill and a streamlined body adapted for diving rather than dabbling. Its rounded body and tiny size also separate it from many other swimming birds that appear on the same ponds. Its small size, short bill, compact profile, and frequent diving behaviour therefore make it distinctive among India's freshwater birds.",
+    "image": "LittleGrebe1.jpg",
+    "quick_facts": {
+        "family": "Podicipedidae",
+        "size": "23–29 cm",
+        "weight": "120–250 g",
+        "wingspan": "40–45 cm",
+        "diet": "Small fish, aquatic insects, crustaceans, tadpoles, molluscs, and other small aquatic animals",
+        "habitat": "Freshwater ponds, lakes, marshes, reservoirs, slow-moving waterways, and vegetated wetlands",
+        "behaviour": "Excellent diver; usually swims quietly and disappears underwater when disturbed",
+        "activity": "Diurnal",
+        "nesting": "Builds a floating platform nest from aquatic vegetation, usually hidden among reeds or other plants",
+        "breeding_season": "Throughout much of the year, often influenced by rainfall and water conditions",
+        "clutch_size": "3–6 eggs",
+        "call": "High-pitched trilling, whistling, and repeated calls",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: widespread in suitable freshwater wetlands, including Kerala, Karnataka, Tamil Nadu, Andhra Pradesh, Telangana, Maharashtra, Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, Bihar, West Bengal, Assam and other regions; also found widely across Europe, Africa and Asia."
+    }
+},
+
+{
+    "name": "Chestnut-bellied Sandgrouse",
+    "scientific": "Pterocles exustus",
+    "description": "The Chestnut-bellied Sandgrouse is a medium-sized ground-dwelling bird adapted to hot, dry landscapes, with cryptic sandy-brown plumage and a distinctive chestnut-coloured belly. It is usually found in arid and semi-arid regions, including desert plains, dry scrub, rocky areas, and open grassland. It spends much of its time walking or resting on the ground and may gather in flocks, particularly around water sources. Compared with the Painted Sandgrouse, the Chestnut-bellied Sandgrouse has a different overall plumage pattern and lacks the Painted Sandgrouse's more strongly marked facial and body pattern. It is generally more uniformly sandy and cryptic, helping it blend into dry ground and desert vegetation. Compared with pigeons and doves, it has a more compact ground-bird shape, longer pointed wings, and behaviour strongly associated with open arid country. It also has short legs and a largely terrestrial lifestyle rather than the frequent tree-perching behaviour of many doves. The Chestnut-bellied Sandgrouse's cryptic plumage is particularly useful for camouflage in its dry habitat. Its combination of sandy-brown coloration, chestnut belly, compact body, and desert habitat makes it distinctive among India's dry-country birds.",
+    "image": "Chestnut-belliedSandgrouse1.jpg",
+    "quick_facts": {
+        "family": "Pteroclidae",
+        "size": "30–35 cm",
+        "weight": "250–350 g",
+        "wingspan": "50–60 cm",
+        "diet": "Seeds, grains, grasses, and other plant material",
+        "habitat": "Arid and semi-arid plains, deserts, dry scrub, rocky country, open grassland, and cultivated areas",
+        "behaviour": "Usually terrestrial; often travels in flocks and visits water sources, especially during hot weather",
+        "activity": "Diurnal",
+        "nesting": "Lays eggs in a shallow scrape or depression on bare ground, relying on camouflage for protection",
+        "breeding_season": "Varies with rainfall and local conditions, often during periods when food is available",
+        "clutch_size": "2–3 eggs",
+        "call": "Short, nasal or rapidly repeated flight calls",
+        "lifespan": "Up to around 8 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: mainly in arid and semi-arid regions including Rajasthan, Gujarat, Haryana, Punjab, Delhi, Uttar Pradesh, Madhya Pradesh, Maharashtra, Karnataka, Andhra Pradesh and Tamil Nadu; also found in Pakistan, Afghanistan, Iran and parts of the Arabian Peninsula."
+    }
+},
+
+{
+    "name": "Oriental Turtle Dove",
+    "scientific": "Streptopelia orientalis",
+    "description": "The Oriental Turtle Dove is a medium-sized dove with a relatively long tail, pinkish-brown body, and distinctive black-and-white barred markings on the sides of the neck. It is generally associated with woodland, forest edges, farmland, scrub, gardens, and other areas with trees and open ground. It feeds mainly on seeds and grains and often forages on the ground, sometimes in small groups. Compared with the Laughing Dove, the Oriental Turtle Dove is substantially larger and has a longer, fuller body and more extensive black-and-white neck markings. The Laughing Dove has a smaller spotted neck patch and a warmer, more delicate overall appearance. Compared with the Spotted Dove, the Oriental Turtle Dove is generally larger and has more extensive barred neck markings rather than the Spotted Dove's smaller spotted collar. It also differs from the Eurasian Collared Dove, which has a cleaner pale body and a simple black neck collar rather than complex barred markings. Compared with the Red Collared Dove, the Oriental Turtle Dove is larger and less distinctly reddish, with much stronger patterned markings on the neck. Its large size, long tail, barred neck pattern, and brown overall plumage therefore provide useful identification features when several doves occur together.",
+    "image": "OrientalTurtleDove1.jpg",
+    "quick_facts": {
+        "family": "Columbidae",
+        "size": "33–35 cm",
+        "weight": "200–300 g",
+        "wingspan": "55–65 cm",
+        "diet": "Seeds, grains, fruits, berries, and other plant material",
+        "habitat": "Woodland, forest edges, farmland, scrub, gardens, parks, and open areas with scattered trees",
+        "behaviour": "Usually seen singly or in pairs while feeding on the ground; may gather in small groups outside the breeding season",
+        "activity": "Diurnal",
+        "nesting": "Builds a simple platform nest of twigs in trees, shrubs, or other elevated locations",
+        "breeding_season": "April–September, varying with region",
+        "clutch_size": "2 eggs",
+        "call": "Deep, rhythmic and repeated cooing",
+        "lifespan": "Up to around 10 years in the wild",
+        "conservation_status": "Least Concern",
+        "where_to_find": "India: mainly in northern, central and northeastern regions and suitable hill and woodland habitats, including Jammu and Kashmir, Himachal Pradesh, Uttarakhand, Punjab, Haryana, Rajasthan, Uttar Pradesh, Bihar, West Bengal, Sikkim, Assam, Arunachal Pradesh and parts of the Western Ghats; also found across much of Asia, including Nepal, Bhutan, Bangladesh, China, Mongolia, Korea, Japan and Southeast Asia."
+    }
+},
+{
+"name": "House Crow",
+"scientific": "Corvus splendens",
+"description": "The House Crow is a highly adaptable member of the crow family that is closely associated with people and human settlements across the Indian subcontinent. It has a greyish neck and upper breast contrasting with its black head, wings, and body, giving it a distinctive two-toned appearance. It is commonly found in towns, cities, villages, agricultural areas, markets, coastal settlements, and around sources of food and human waste. Compared with the similar Large-billed Crow, the House Crow is noticeably smaller and has a much slimmer bill and body shape. Its grey neck and breast are also an important identifying feature, whereas the Large-billed Crow has a more uniformly dark appearance. The House Crow is generally more closely associated with densely populated human environments than many other crow species. Its active, opportunistic behaviour and tendency to gather around food sources further distinguish it from less urban-adapted corvids. Its characteristic calls are harsh and familiar, often heard from rooftops, trees, poles, and other structures in populated areas. Taken together, its grey neck, relatively slender build, black head and wings, and strong association with human settlements make the House Crow one of the easiest crows to identify in much of its range.",
+"image": "HouseCrow1.jpg",
+"quick_facts": {
+"family": "Corvidae",
+"size": "40–42 cm",
+"weight": "250–400 g",
+"wingspan": "Approximately 75–90 cm",
+"diet": "Omnivorous; insects, grains, fruits, seeds, small animals, carrion, food scraps, and other human-associated food",
+"habitat": "Cities, towns, villages, agricultural areas, coastal settlements, gardens, markets, and other human-dominated habitats",
+"behaviour": "Highly social and adaptable; often seen in pairs or groups while feeding, roosting, or moving around human settlements",
+"activity": "Diurnal",
+"nesting": "Builds a bulky stick nest, usually in trees, but sometimes on buildings, poles, or other structures",
+"breeding_season": "March to July, varying geographically",
+"clutch_size": "3–5 eggs",
+"call": "Harsh, loud and repeated cawing calls",
+"lifespan": "Up to around 15 years in the wild",
+"conservation_status": "Least Concern",
+"where_to_find": "India: widespread across most of the country, including Punjab, Haryana, Delhi, Uttar Pradesh, Bihar, Jharkhand, West Bengal, Odisha, Assam, Gujarat, Rajasthan, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telangana, and other populated regions; Pakistan: Punjab Province, Sindh, Khyber Pakhtunkhwa, Balochistan, and Islamabad Capital Territory; Bangladesh: Dhaka, Chattogram, Rajshahi, Khulna, Sylhet, Rangpur, Mymensingh, and Barishal divisions; Nepal: Terai and other populated lowland areas; Sri Lanka: Western, Southern, Northern, Eastern, North Western, North Central, Uva, Sabaragamuwa, and Central provinces; Maldives: Malé and other inhabited islands; also established in parts of the Middle East, East Africa, and Southeast Asia."
+}
+},
+{
+"name": "Grey Francolin",
+"scientific": "Francolinus pondicerianus",
+"description": "The Grey Francolin is a medium-sized ground-dwelling bird of the pheasant family found mainly in dry and open landscapes across the Indian subcontinent. It has finely barred grey and brown plumage, a reddish-brown face, and a distinctive dark-and-white pattern around the throat and neck. It is commonly seen in grasslands, scrub, agricultural fields, dry woodland, and areas of cultivated land, where it usually walks or runs through vegetation rather than flying for long distances. Compared with the similar Black Francolin, the Grey Francolin is generally paler and more finely patterned, lacking the Black Francolin's striking black-and-white male plumage. Its overall grey-brown coloration provides better camouflage in dry grasslands and scrub than the darker appearance of the Black Francolin. The Grey Francolin also has a more uniformly barred appearance across much of its body, while the Black Francolin shows stronger contrasts and distinctive white markings. Compared with the similar Painted Francolin, the Grey Francolin is less richly coloured and lacks the Painted Francolin's prominent reddish and chestnut patterning. Its preference for relatively dry open habitats also helps distinguish it from francolins that are more strongly associated with wetter grasslands or denser vegetation. Its characteristic loud, repeated calls are often heard from scrub and fields before the bird itself is spotted. These differences in plumage, habitat, behaviour, and vocalisation make the Grey Francolin relatively straightforward to separate from other similar francolins when seen or heard in suitable habitat.",
+"image": "GreyFrancolin1.jpg",
+"quick_facts": {
+"family": "Phasianidae",
+"size": "30–34 cm",
+"weight": "230–340 g",
+"wingspan": "Approximately 45–50 cm",
+"diet": "Seeds, grains, grasses, shoots, berries, insects, and other small invertebrates",
+"habitat": "Dry grasslands, scrub, agricultural fields, open woodland, plantations, and cultivated areas",
+"behaviour": "Usually terrestrial and often seen in pairs or small groups; runs readily through vegetation and flies mainly when disturbed",
+"activity": "Diurnal",
+"nesting": "Nests in a shallow scrape on the ground, usually concealed among grass or low vegetation",
+"breeding_season": "Generally March to September, varying by region",
+"clutch_size": "6–9 eggs",
+"call": "Loud, repeated and distinctive calls, often given by males from the ground or low vegetation",
+"lifespan": "Up to around 6 years in the wild",
+"conservation_status": "Least Concern",
+"where_to_find": "India: widespread across much of northern, central, western, and southern India, including Punjab, Haryana, Rajasthan, Gujarat, Uttar Pradesh, Madhya Pradesh, Maharashtra, Telangana, Andhra Pradesh, Karnataka, Tamil Nadu, Kerala, Bihar, Jharkhand, Odisha, West Bengal, and other suitable dry and open regions; Pakistan: Punjab Province, Sindh, Khyber Pakhtunkhwa, and Balochistan; Nepal: mainly the Terai and lower foothills; Bangladesh: mainly western and northern regions; Sri Lanka: northern, eastern, and dry-zone regions; also present in parts of the Middle East where introduced populations have become established."
+}
+},
+
+
     ]
 
 birds = sorted(birds, key = lambda bird: bird["name"].lower())
