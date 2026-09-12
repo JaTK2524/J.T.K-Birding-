@@ -1,17 +1,19 @@
 import os
- 
+import shutil 
+
+os.mkdir("J.T.K Birding/TestFolder")
+
 count = 0
- 
-files = os.listdir(".")
-for file in files:
-    if file.lower().endswith(".jpg"):
-              count += 1
-print("JPG Images: ", count)   
-ze_count = 0
-os.mkdir("TestFolder")
-photos = os.listdir("TestFolder")
-for photo in photos:
-    if photo.lower().endswith(".jpg"):
-       ze_count += 1
-print("JPG Images: ", ze_count)
-print(file)
+
+other_count = 0
+
+for root, folders, files in os.walk("."):
+    for file in files:
+        if file.lower().endswith(".txt"):
+           print(os.path.join(root,file))
+           count += 1
+        else:
+             other_count += 1
+             
+print("Txt files: ", count)
+print("Other files ", other_count)
