@@ -775,7 +775,7 @@ birds = [
     "name": "Little Ringed Plover",
     "scientific": "Charadrius dubius",
     "description": "The Little Ringed Plover is a small wader with a distinctive black-and-white head pattern, yellow eye-ring, and yellowish legs. It is usually found near freshwater, especially along exposed muddy or sandy shores. It runs rapidly across open ground before stopping to pick small prey from the surface. Many birds encountered in parts of India are winter visitors. Compared with the similar Common Sandpiper, it is distinguished by the combination of features described above. Its preference for mudflats, sandy shores, riverbanks, lake edges, gravel beds, and wetlands also helps separate it from species that use different habitats. Its characteristic behaviour, including runs quickly over open ground, frequently stopping to pick prey from the surface, provides another useful field clue. Taken together, these differences make it easier to distinguish from similar species when the bird is seen clearly.",
-    "image": "LittleRingedPlover1.jpg",
+    "image": "Little-RingedPlover1.jpg",
     "quick_facts": {
         "family": "Charadriidae",
         "size": "14–15 cm",
