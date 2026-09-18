@@ -7,8 +7,8 @@
 </head>
 
 <body>
-<audio id = "birdAudio" src = "Props/MyMusic.mp3" autoplay muted loop></audio>
-<button id = "muteButton">🔊</button>
+<audio id = "birdAudio" src = "Props/MyMusic3.mp3" autoplay muted loop c></audio>
+<button id = "muteButton">🔇</button>
 <input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
 <div style = "text-align:center;">
 <nav>
@@ -75,6 +75,7 @@ button.addEventListener("click", function() {
  if (audio.muted) {
     button.textContent = "🔇";
     } else {
+             audio.play();
              button.textContent = "🔊";
              }
               });
