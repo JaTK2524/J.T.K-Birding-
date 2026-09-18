@@ -7,9 +7,8 @@
     <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
 </head>
 <body>
-<audio autoplay muted loop controls>
-<source src = "Props/MyMusic.mp3">
-</audio>
+<audio id = "birdAudio" src = "Props/MyMusic.mp3" autoplay muted loop ></audio>
+<button id = "muteButton">🔊</button>
 <div class="bird-info">
 <div class = "navbar">
 <div style = "text-align:center">
@@ -60,4 +59,18 @@ Previous Page
 
 </div>
 </body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             button.textContent = "🔊";
+             }
+              });
+</script>
 </html>

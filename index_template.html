@@ -7,9 +7,8 @@
 </head>
 
 <body>
-<audio autoplay muted loop controls>
-<source src = "Props/MyMusic.mp3">
-</audio>
+<audio id = "birdAudio" src = "Props/MyMusic.mp3" autoplay muted loop></audio>
+<button id = "muteButton">🔊</button>
 <input type="text" id="search" placeholder=" Search Birds..." class="search_bar">
 <div style = "text-align:center;">
 <nav>
@@ -67,6 +66,18 @@ document.getElementById("random-bird").addEventListener("click", function() {
     const randomBird = birdLinks[Math.floor(Math.random() * birdLinks.length)];
     window.location.href = randomBird.href;
 });
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             button.textContent = "🔊";
+             }
+              });
 </script>
 
 </body>
