@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>European Roller | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body>
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+</div>
+</div>
+<a href = "golden-fronted-leafbird.html">
+<button class = "next_page">
+Next Page
+</button>
+</a>
+<a href = "eurasian-coot.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EuropeanRoller1.jpg" alt="European Roller">
+
+<h2 class = "bird_site_headings">European Roller</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Coracias garrulus</li>
+                <li><span class="fact-label">Family:</span> Coraciidae</li>
+                <li><span class="fact-label">Size:</span> 29–32 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 130–190 g</li>
+                <li><span class="fact-label">Wingspan:</span> 59–73 cm</li>
+                <li><span class="fact-label">Diet:</span> Large insects, beetles, grasshoppers, small reptiles, amphibians, and occasionally small mammals</li>
+                <li><span class="fact-label">Habitat:</span> Open woodland, grassland, farmland, forest edges, savannas, and other open landscapes with suitable perches</li>
+                <li><span class="fact-label">Behaviour:</span> Usually hunts from exposed perches, making short flights to capture prey on or near the ground; often seen alone or in pairs</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Nests in tree cavities, abandoned woodpecker holes, cliffs, or other suitable cavities</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally April to July in its European breeding range, varying by region</li>
+                <li><span class="fact-label">Clutch Size:</span> 3–6 eggs</li>
+                <li><span class="fact-label">Call:</span> A harsh, grating or rattling call, often repeated during the breeding season</li>
+                <li><span class="fact-label">Lifespan:</span> Several years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Europe: Spain, Portugal, France, Italy, the Balkans, Hungary, Romania, Ukraine, and parts of southern Russia; Asia: Turkey, the Caucasus, Kazakhstan, Uzbekistan, Turkmenistan, Iran, and surrounding regions; winters mainly in sub-Saharan Africa, with migration routes passing through parts of the Middle East and South Asia.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The European Roller is a striking member of the roller family, known for its vivid blue plumage, warm brown back, and contrasting dark flight feathers. It breeds across parts of Europe and western and central Asia before undertaking long-distance migration to wintering areas mainly in sub-Saharan Africa. Compared with the similar Indian Roller, the European Roller generally has a more uniformly blue head and underparts, while the Indian Roller shows more noticeable brown on the head and upperparts. The European Roller also has a more strongly contrasting dark-and-blue pattern on the wings, particularly noticeable when it is in flight. Compared with the similar Dollarbird, the European Roller is more brightly coloured overall and lacks the Dollarbird's distinctive pale circular spots on the wings. Its warm brown back, turquoise-blue body, and dark wing markings give it a distinctive appearance among rollers. The European Roller is usually associated with open woodland, grassland, farmland, forest edges, and other open landscapes where it can hunt insects from exposed perches. Unlike the largely resident Indian Roller in much of the Indian subcontinent, the European Roller is strongly migratory and spends different parts of the year in widely separated regions. Its habit of perching prominently before making short flights to capture prey also gives it the characteristic hunting behaviour shared by other rollers. These differences in plumage, wing pattern, distribution, migration, and habitat help distinguish the European Roller from other similar roller species when it is seen in suitable areas.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

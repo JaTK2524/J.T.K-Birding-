@@ -2639,10 +2639,31 @@ birds = [
 "lifespan": "Up to around 6 years in the wild",
 "conservation_status": "Least Concern",
 "where_to_find": "India: widespread across much of northern, central, western, and southern India, including Punjab, Haryana, Rajasthan, Gujarat, Uttar Pradesh, Madhya Pradesh, Maharashtra, Telangana, Andhra Pradesh, Karnataka, Tamil Nadu, Kerala, Bihar, Jharkhand, Odisha, West Bengal, and other suitable dry and open regions; Pakistan: Punjab Province, Sindh, Khyber Pakhtunkhwa, and Balochistan; Nepal: mainly the Terai and lower foothills; Bangladesh: mainly western and northern regions; Sri Lanka: northern, eastern, and dry-zone regions; also present in parts of the Middle East where introduced populations have become established."
-}
+   }
 },
-
-
+{
+"name": "European Roller",
+"scientific": "Coracias garrulus",
+"description": "The European Roller is a striking member of the roller family, known for its vivid blue plumage, warm brown back, and contrasting dark flight feathers. It breeds across parts of Europe and western and central Asia before undertaking long-distance migration to wintering areas mainly in sub-Saharan Africa. Compared with the similar Indian Roller, the European Roller generally has a more uniformly blue head and underparts, while the Indian Roller shows more noticeable brown on the head and upperparts. The European Roller also has a more strongly contrasting dark-and-blue pattern on the wings, particularly noticeable when it is in flight. Compared with the similar Dollarbird, the European Roller is more brightly coloured overall and lacks the Dollarbird's distinctive pale circular spots on the wings. Its warm brown back, turquoise-blue body, and dark wing markings give it a distinctive appearance among rollers. The European Roller is usually associated with open woodland, grassland, farmland, forest edges, and other open landscapes where it can hunt insects from exposed perches. Unlike the largely resident Indian Roller in much of the Indian subcontinent, the European Roller is strongly migratory and spends different parts of the year in widely separated regions. Its habit of perching prominently before making short flights to capture prey also gives it the characteristic hunting behaviour shared by other rollers. These differences in plumage, wing pattern, distribution, migration, and habitat help distinguish the European Roller from other similar roller species when it is seen in suitable areas.",
+"image": "EuropeanRoller1.jpg",
+"quick_facts": {
+"family": "Coraciidae",
+"size": "29–32 cm",
+"weight": "Approximately 130–190 g",
+"wingspan": "59–73 cm",
+"diet": "Large insects, beetles, grasshoppers, small reptiles, amphibians, and occasionally small mammals",
+"habitat": "Open woodland, grassland, farmland, forest edges, savannas, and other open landscapes with suitable perches",
+"behaviour": "Usually hunts from exposed perches, making short flights to capture prey on or near the ground; often seen alone or in pairs",
+"activity": "Diurnal",
+"nesting": "Nests in tree cavities, abandoned woodpecker holes, cliffs, or other suitable cavities",
+"breeding_season": "Generally April to July in its European breeding range, varying by region",
+"clutch_size": "3–6 eggs",
+"call": "A harsh, grating or rattling call, often repeated during the breeding season",
+"lifespan": "Several years in the wild",
+"conservation_status": "Least Concern",
+"where_to_find": "Europe: Spain, Portugal, France, Italy, the Balkans, Hungary, Romania, Ukraine, and parts of southern Russia; Asia: Turkey, the Caucasus, Kazakhstan, Uzbekistan, Turkmenistan, Iran, and surrounding regions; winters mainly in sub-Saharan Africa, with migration routes passing through parts of the Middle East and South Asia."
+   }
+},
     ]
 
 birds = sorted(birds, key = lambda bird: bird["name"].lower())
@@ -2660,7 +2681,7 @@ for bird in birds:
     page = page.replace("{{BREEDING_SEASON}}",bird["quick_facts"]["breeding_season"])
     page = page.replace("{{CLUTCH_SIZE}}", bird["quick_facts"]["clutch_size"])
     page = page.replace("{{ACTIVITY}}",bird["quick_facts"]["activity"])
-    page = page.replace("{{CONSERVATION_STATUS}}", bird["quick_facts"]["conservation_status"])
+    page = page.replace("{{CONSERVATION_STATUS}}", bird["quick_facts"]                ["conservation_status"])
     page = page.replace("{{CALL}}", bird["quick_facts"]["call"])
     page = page.replace("{{LIFESPAN}}", bird["quick_facts"]["lifespan"])
     page = page.replace("{{NESTING}}",bird["quick_facts"]["nesting"])
