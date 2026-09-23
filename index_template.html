@@ -31,7 +31,8 @@
 <div>
 <button id = "random-bird" class = "random_button">Random Bird</button>
 </div>
-<div class = "bird_of_the_day"">
+<div class = "right_column">
+<section class = "bird_of_the_day"">
     <figure>
     <h2 style = "text-decoration: underline; font-weight:normal;">Bird of the Day</h2>
     <h3 style = "font-weight:normal;"><a href = "birds/{{BOD_FILENAME}}">{{BIRD_OF_THE_DAY}}</a></h3>
@@ -40,8 +41,20 @@
          class = "bird_of_the_day_image">
          </a>
          </figure>
+         </section>
+         <section class  = "featured_bird">
+         <h2 style = "text-decoration:underline;">Featured Bird</h2>
+         <a href = "birds/european-roller.html"><h3 style = "color:black;">European Roller</h3></a>
+         <figure>
+         <a href = "birds/european-roller.html">
+         <img src = "Images/EuropeanRoller1.jpg">
+         </a>
+         </figure>
+         </section>
          </div>
+
 </div>
+</body>
 <script>
 const search = document.getElementById("search")
 const birds = document.querySelectorAll(".bird")
@@ -80,6 +93,4 @@ button.addEventListener("click", function() {
              }
               });
 </script>
-
-</body>
 </html>

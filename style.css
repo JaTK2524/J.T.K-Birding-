@@ -185,3 +185,16 @@ background-color:#66806B;
 .audio_button:hover{
 background-color:#40564A;
 }
+.featured_bird{
+width:500px;
+height:500px;
+}
+.featured_bird img{
+width:90%;
+height:auto;
+}
+.right_column{
+display:flex;
+flex-direction: column;
+gap:10px;
+}
