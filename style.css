@@ -5,12 +5,24 @@ body {
     font-family:"Jost", cursive;
     font-weight:200px;
     font-style:italic;
-    color: #333333;
     margin: 0;
     padding: 40px;
     font-size:29px;
     cursor:url("../Images/birdy.png"), auto;
 }
+.body{
+    background-image:url("Props/MyBackground1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family:"Jost", cursive;
+    font-weight:200px;
+    font-style:italic;
+    margin: 0;
+    padding: 40px;
+    font-size:29px;
+    }
 
 .bird-info {
     max-width: 1000px;
