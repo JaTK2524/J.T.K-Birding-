@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pacific Black Duck | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "painted-stork.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "oriental-white-eye.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/PacificBlackDuck1.jpg" alt="Pacific Black Duck" loading = "lazy">
+
+<h2 class = "bird_site_headings">Pacific Black Duck</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Anas superciliosa</li>
+                <li><span class="fact-label">Family:</span> Anatidae</li>
+                <li><span class="fact-label">Size:</span> 50-60 cm</li>
+                <li><span class="fact-label">Weight:</span> About 900-1100 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 80-90 cm</li>
+                <li><span class="fact-label">Diet:</span> Aquatic plants, seeds, molluscs, crayfish, aquatic insects and larvae</li>
+                <li><span class="fact-label">Habitat:</span> Freshwater wetlands, rivers, lakes, forest pools, tidal mudflats and coastal wetlands</li>
+                <li><span class="fact-label">Behaviour:</span> Usually feeds by dabbling and may forage on land in damp grassy areas</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Usually nests in dense vegetation near water, sometimes using tree hollows or old nests</li>
+                <li><span class="fact-label">Breeding Season:</span> Varies with rainfall and local conditions</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 8-12 eggs</li>
+                <li><span class="fact-label">Call:</span> Females produce loud quacking calls while males have quieter whistles and calls</li>
+                <li><span class="fact-label">Lifespan:</span> Usually several years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: widespread throughout the continent except the most arid regions; also Tasmania and nearby islands</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Pacific Black Duck is one of Australia's most widespread and adaptable ducks. It can live in an impressive variety of aquatic habitats, from forest pools and rivers to lakes, swamps, tidal mudflats and coastal wetlands. Its dark plumage and distinctive facial markings help separate it from many other Australian ducks. It feeds mainly by dabbling, tipping its body forward so that its head and neck reach underwater while its tail points upward. Plant material forms much of its diet, although aquatic insects, molluscs and crustaceans are also eaten. It is closely related to the Mallard and the two species can interbreed where introduced Mallards occur.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

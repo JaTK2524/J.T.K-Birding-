@@ -4,16 +4,26 @@ import shutil
 downloads = "/home/jake/Downloads"
 stamping_room = "."
 names = [
-"Superb Fairywren",
-"Laughing Kookaburra",
-"Australian Magpie",
-"Rainbow Lorikeet",
-"Southern Cassowary",
-"Italian Sparrow",
-"European Stonechat",
-"European Bee-eater",
-"White Stork",
-"European Serin",
+"Tawny Frogmouth",
+"Willie Wagtail",
+"Blue-faced Honeyeater",
+"Eastern Rosella",
+"Galah",
+"Sulphur-crested Cockatoo",
+"Australian Pelican",
+"Australian Wood Duck",
+"Pacific Black Duck",
+"Masked Lapwing",
+"Australian Brush-turkey",
+"Emu",
+"Wedge-tailed Eagle",
+"Northern Hawk-Owl",
+"Australian Darter",
+"Pied Currawong",
+"Noisy Miner",
+"Eastern Yellow Robin",
+"Australian Golden Whistler",
+"Australian King-Parrot",
 ]
 
 things = os.listdir(downloads)

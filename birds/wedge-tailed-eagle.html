@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wedge-tailed Eagle | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "white-stork.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "tawny-frogmouth.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/Wedge-TailedEagle1.jpg" alt="Wedge-tailed Eagle" loading = "lazy">
+
+<h2 class = "bird_site_headings">Wedge-tailed Eagle</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Aquila audax</li>
+                <li><span class="fact-label">Family:</span> Accipitridae</li>
+                <li><span class="fact-label">Size:</span> 87-105 cm</li>
+                <li><span class="fact-label">Weight:</span> Males about 3.2-4.0 kg; females about 4.2-5.3 kg</li>
+                <li><span class="fact-label">Wingspan:</span> Up to about 230 cm</li>
+                <li><span class="fact-label">Diet:</span> Rabbits, mammals, birds, reptiles and carrion</li>
+                <li><span class="fact-label">Habitat:</span> Open woodland, grassland, farmland, savanna and arid country</li>
+                <li><span class="fact-label">Behaviour:</span> Soars for long periods while searching for prey and carrion; often hunts alone or in pairs</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A very large stick nest built in a tall tree or sometimes on a cliff</li>
+                <li><span class="fact-label">Breeding Season:</span> Usually May to September</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 1-2 eggs</li>
+                <li><span class="fact-label">Call:</span> A range of whistles and high-pitched calls, especially around the nest</li>
+                <li><span class="fact-label">Lifespan:</span> Can live for more than 20 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: widespread across mainland Australia and Tasmania; also occurs in southern New Guinea</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Wedge-tailed Eagle is Australia's largest living bird of prey and one of the world's largest eagles. It has long wings, fully feathered legs and a distinctive long wedge-shaped tail that gives the species its name. Adults are generally dark brown to blackish-brown, while younger birds are lighter reddish-brown and become darker as they mature. Wedge-tailed Eagles are powerful hunters but are also important scavengers, feeding on carrion when available. They spend long periods soaring on thermal air currents while searching the landscape below. Compared with the White-bellied Sea-Eagle, the Wedge-tailed Eagle has a longer, wedge-shaped tail and longer wings suited to soaring over open country.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

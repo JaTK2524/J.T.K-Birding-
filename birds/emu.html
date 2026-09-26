@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emu | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "eurasian-coot.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "eastern-yellow-robin.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/Emu1.jpg" alt="Emu" loading = "lazy">
+
+<h2 class = "bird_site_headings">Emu</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Dromaius novaehollandiae</li>
+                <li><span class="fact-label">Family:</span> Casuariidae</li>
+                <li><span class="fact-label">Size:</span> 160-200 cm tall</li>
+                <li><span class="fact-label">Weight:</span> Up to about 60 kg</li>
+                <li><span class="fact-label">Wingspan:</span> Flightless; wings are greatly reduced</li>
+                <li><span class="fact-label">Diet:</span> Fruits, seeds, plant shoots, insects and other small animals</li>
+                <li><span class="fact-label">Habitat:</span> Savanna woodland, sclerophyll forest, grassland and open country</li>
+                <li><span class="fact-label">Behaviour:</span> Generally solitary; can travel long distances in search of food and water</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A thick platform of grass and vegetation built on the ground</li>
+                <li><span class="fact-label">Breeding Season:</span> April to June</li>
+                <li><span class="fact-label">Clutch Size:</span> 5-15 eggs</li>
+                <li><span class="fact-label">Call:</span> Deep booming, drumming and grunting sounds</li>
+                <li><span class="fact-label">Lifespan:</span> Usually around 10-20 years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: widespread across much of the mainland, from coastal regions to inland areas and the Snowy Mountains</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Emu is Australia's tallest native bird and one of the world's largest living birds. It is flightless, with greatly reduced wings but extremely powerful legs adapted for running. Adults have shaggy grey-brown feathers, a long neck and a partly bare bluish-black head and neck. Emus are generally solitary outside the breeding period and can travel considerable distances when food or water becomes scarce. Their diet is varied and includes fruits, seeds, shoots, insects and other small animals. One of the most unusual aspects of their reproduction is that the male takes responsibility for incubating the eggs and caring for the young after the female leaves.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

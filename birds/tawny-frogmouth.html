@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tawny Frogmouth | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "wedge-tailed-eagle.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "superb-fairywren.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/TawnyFrogmouth1.jpg" alt="Tawny Frogmouth" loading = "lazy">
+
+<h2 class = "bird_site_headings">Tawny Frogmouth</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Podargus strigoides</li>
+                <li><span class="fact-label">Family:</span> Podargidae</li>
+                <li><span class="fact-label">Size:</span> 34-53 cm</li>
+                <li><span class="fact-label">Weight:</span> About 140-680 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 65-90 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, worms, slugs, snails, small mammals, reptiles, frogs and birds</li>
+                <li><span class="fact-label">Habitat:</span> Woodland, forest, heathland, farmland, parks and urban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Usually remains motionless during the day, relying on camouflage; hunts from perches at night</li>
+                <li><span class="fact-label">Activity:</span> Nocturnal</li>
+                <li><span class="fact-label">Nesting:</span> A small platform of sticks placed on a horizontal tree branch</li>
+                <li><span class="fact-label">Breeding Season:</span> Usually August to December</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2-3 eggs</li>
+                <li><span class="fact-label">Call:</span> A deep, repeated booming or grunting call</li>
+                <li><span class="fact-label">Lifespan:</span> Can live for many years; captive birds have exceeded 10 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: widespread across mainland Australia and Tasmania, except the densest rainforests and treeless deserts</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Tawny Frogmouth is a distinctive Australian night bird that is often mistaken for an owl because of its large eyes, upright posture and nocturnal habits. It is actually more closely related to nightjars than to true owls. Its grey, brown and rufous mottled plumage provides excellent camouflage when it sits motionless against a tree branch during the day. Unlike owls, it has relatively weak feet and does not have the strongly curved talons typical of birds of prey. At night it becomes active and hunts insects, worms, snails and occasionally small vertebrates, usually by dropping onto prey from a perch. It occurs in a remarkably wide variety of Australian habitats, from woodland and forest to urban areas.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

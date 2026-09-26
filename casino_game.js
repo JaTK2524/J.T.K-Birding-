@@ -1,4 +1,18 @@
-let money = Number(localStorage.getItem("winnings")) || 100;
+let SavedMoney = localStorage.getItem("winnings")
+
+let money;
+
+if(SavedMoney === null) {
+    money = 100;
+    } else {
+             money = Number(SavedMoney)
+             
+             if (money === 0) {
+                 money = 50;
+                 localStorage.setItem("winnings", money);
+                   }
+                 }  
+    
 
 const play = document.getElementById("play");
 const guess = document.getElementById("guess");
@@ -34,6 +48,18 @@ play.addEventListener("click", function() {
            MoneyDisplay.textContent = "Coins: " + money;
            
            localStorage.setItem("winnings", money);
+           
+           
+           if (money === 0) {
+           
+               const newGame = confirm("Do you want to start a new game with 50 coins? ")
+               
+               if(newGame) {
+                 money = 50;
+                 MoneyDisplay.textContent = "Coins: " + money;
+                 localStorage.setItem("winnings", money);
+                 }
+               }  
            
     });  
     const audio = document.getElementById("casinoMusic")

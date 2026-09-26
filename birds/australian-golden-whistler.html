@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Australian Golden Whistler | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "australian-king-parrot.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "australian-darter.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/AustralianGoldenWhistler1.jpg" alt="Australian Golden Whistler" loading = "lazy">
+
+<h2 class = "bird_site_headings">Australian Golden Whistler</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Pachycephala pectoralis</li>
+                <li><span class="fact-label">Family:</span> Pachycephalidae</li>
+                <li><span class="fact-label">Size:</span> 16-18 cm</li>
+                <li><span class="fact-label">Weight:</span> About 25-35 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 25-30 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, spiders, other arthropods and berries</li>
+                <li><span class="fact-label">Habitat:</span> Rainforest, woodland, mallee, dense scrub, parks and orchards</li>
+                <li><span class="fact-label">Behaviour:</span> Usually forages alone, searching through lower and middle vegetation for food</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A shallow bowl of twigs, grass and bark bound with spider web, placed in a shrub or tree fork</li>
+                <li><span class="fact-label">Breeding Season:</span> September to January</li>
+                <li><span class="fact-label">Clutch Size:</span> 2-3 eggs</li>
+                <li><span class="fact-label">Call:</span> Strong, musical whistles including repeated high notes</li>
+                <li><span class="fact-label">Lifespan:</span> Usually several years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: eastern, southern and parts of southwestern Australia, including Tasmania; also New Guinea, Indonesia, Fiji and the Solomon Islands</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Australian Golden Whistler is a striking songbird whose male has bright yellow underparts, an olive-green back, a black head and a vivid yellow collar. Females are much duller, with grey and olive-brown plumage. The species is famous for its strong, musical voice and is one of Australia's most impressive songsters. Golden Whistlers inhabit dense woodland, rainforest, mallee and other wooded environments, where they search leaves and branches for insects and spiders. They may also eat berries. The species is closely related to other whistlers, but the male's bright golden underparts and black-and-yellow head pattern make it particularly distinctive.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

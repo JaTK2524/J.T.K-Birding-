@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eastern Yellow Robin | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "emu.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "eastern-rosella.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EasternYellowRobin1.jpg" alt="Eastern Yellow Robin" loading = "lazy">
+
+<h2 class = "bird_site_headings">Eastern Yellow Robin</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Eopsaltria australis</li>
+                <li><span class="fact-label">Family:</span> Petroicidae</li>
+                <li><span class="fact-label">Size:</span> 15-17 cm</li>
+                <li><span class="fact-label">Weight:</span> About 18-22 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 25-30 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, spiders and other small arthropods</li>
+                <li><span class="fact-label">Habitat:</span> Dry woodland, wet forest, rainforest, parks and gardens</li>
+                <li><span class="fact-label">Behaviour:</span> Often perches low and pounces onto prey on the ground; generally seen alone, in pairs or family groups</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A woven cup of bark, grass and spider web placed in a tree fork</li>
+                <li><span class="fact-label">Breeding Season:</span> July to January</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2 eggs, with up to three clutches possible</li>
+                <li><span class="fact-label">Call:</span> High bell-like piping notes and repeated calls</li>
+                <li><span class="fact-label">Lifespan:</span> Usually several years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: eastern and southeastern mainland, especially coastal and adjacent inland regions from Queensland through New South Wales to Victoria and South Australia</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Eastern Yellow Robin is a small Australian songbird with a grey head and back and bright yellow underparts. It belongs to the Australasian robin family, which is unrelated to the European Robin despite the shared common name. Eastern Yellow Robins are often remarkably approachable and may sit quietly on low branches while watching for prey. They feed mainly on insects and spiders, usually dropping from a low perch to catch food on the ground. The species occurs in woodland and rainforest as well as parks and gardens. Northern and southern populations differ somewhat in plumage intensity, but the yellow underparts remain a defining feature.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

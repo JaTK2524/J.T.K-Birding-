@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Galah | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "golden-fronted-leafbird.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "european-stonechat.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/Galah1.jpg" alt="Galah" loading = "lazy">
+
+<h2 class = "bird_site_headings">Galah</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Eolophus roseicapilla</li>
+                <li><span class="fact-label">Family:</span> Cacatuidae</li>
+                <li><span class="fact-label">Size:</span> 35-36 cm</li>
+                <li><span class="fact-label">Weight:</span> About 270-350 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 70-80 cm</li>
+                <li><span class="fact-label">Diet:</span> Seeds, grains, roots, bulbs, fruits and other plant material</li>
+                <li><span class="fact-label">Habitat:</span> Open woodland, grassland, farmland, scrub, parks and urban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Highly social and usually seen in pairs, family groups or large flocks</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A tree hollow lined with leaves or other material</li>
+                <li><span class="fact-label">Breeding Season:</span> Usually July to December</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2-5 eggs</li>
+                <li><span class="fact-label">Call:</span> Loud, harsh screeches and repeated contact calls</li>
+                <li><span class="fact-label">Lifespan:</span> Can live for several decades</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: widespread across much of the continent, including all mainland states and territories</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Galah is a striking pink-and-grey cockatoo and one of Australia's most familiar parrots. Its head, neck and underparts are rose-pink, while its back, wings and undertail are grey. Galahs are highly social and are often seen in noisy flocks feeding on the ground or gathering in trees. They eat seeds, grains, roots and other plant material and have benefited in some regions from agricultural landscapes. Their strong social behaviour and adaptability have also allowed them to thrive around towns and cities. Galahs can sometimes form mixed groups with other cockatoos. Their bright plumage and energetic personalities make them particularly easy to recognise.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

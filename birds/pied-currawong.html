@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pied Currawong | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "pied-kingfisher.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "pied-cuckoo.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/PiedCurrawong1.jpg" alt="Pied Currawong" loading = "lazy">
+
+<h2 class = "bird_site_headings">Pied Currawong</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Strepera graculina</li>
+                <li><span class="fact-label">Family:</span> Artamidae</li>
+                <li><span class="fact-label">Size:</span> 44-51 cm</li>
+                <li><span class="fact-label">Weight:</span> About 250-350 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 60-75 cm</li>
+                <li><span class="fact-label">Diet:</span> Fruit, insects, small reptiles, small mammals, eggs and young birds</li>
+                <li><span class="fact-label">Habitat:</span> Forest, woodland, coastal scrub, farmland, parks and suburban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Intelligent and opportunistic; often forages alone or in small groups</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A bulky stick nest lined with grass and other soft material, usually placed in a tree</li>
+                <li><span class="fact-label">Breeding Season:</span> August to January</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2-4 eggs</li>
+                <li><span class="fact-label">Call:</span> Loud, ringing and far-carrying whistles and calls</li>
+                <li><span class="fact-label">Lifespan:</span> Can live for more than 10 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: eastern Australia from northern Queensland to Victoria; absent from Tasmania</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Pied Currawong is a large mostly black Australian songbird with a bright yellow eye and small white patches on the wings and tail. It is common across eastern Australia and has adapted particularly well to suburban environments. Pied Currawongs are intelligent and opportunistic feeders that eat fruit, insects and small animals, and they may also take eggs or young birds. Their loud ringing calls can carry over long distances and are one of the characteristic sounds of Australian woodland and suburbia. It can be confused with other currawongs or the Australian Magpie, but its yellow eye, larger bill and white wing and tail markings help distinguish it.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

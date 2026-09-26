@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sulphur-crested Cockatoo | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div  style = "text-align:center">
+<div class = "navbar2">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<div class="bird-info">
+<a href = "superb-fairywren.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "stork-billed-kingfisher.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/Sulphur-CrestedCockatoo1.jpg" alt="Sulphur-crested Cockatoo" loading = "lazy">
+
+<h2 class = "bird_site_headings">Sulphur-crested Cockatoo</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Cacatua galerita</li>
+                <li><span class="fact-label">Family:</span> Cacatuidae</li>
+                <li><span class="fact-label">Size:</span> 45-50 cm</li>
+                <li><span class="fact-label">Weight:</span> About 800-1000 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 100-110 cm</li>
+                <li><span class="fact-label">Diet:</span> Seeds, nuts, fruits, roots, bulbs, insects and other plant material</li>
+                <li><span class="fact-label">Habitat:</span> Forest, woodland, farmland, parks and urban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Highly social and intelligent; forms large flocks and uses its powerful bill for feeding and manipulating objects</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A tree hollow, often lined with decayed wood</li>
+                <li><span class="fact-label">Breeding Season:</span> Usually August to January</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2-3 eggs</li>
+                <li><span class="fact-label">Call:</span> Very loud, harsh screeches and repeated contact calls</li>
+                <li><span class="fact-label">Lifespan:</span> Can reach about 80 years in captivity</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: mainly eastern and northern Australia, including Queensland, New South Wales and Victoria; also introduced populations in parts of Western Australia</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Sulphur-crested Cockatoo is a large white cockatoo with a striking yellow crest and a powerful dark bill. When alarmed or excited, it raises the yellow crest into a dramatic fan. It is highly intelligent, social and adaptable, and can be found in forests, woodland, farmland and urban environments. Large flocks may gather in trees or feed on the ground, where they search for seeds, roots, fruits and other plant material. Its loud calls can carry over considerable distances, making the species much easier to hear than to overlook. It is also one of Australia's most familiar urban birds, particularly in eastern Australia.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>
