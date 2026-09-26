@@ -35,4 +35,18 @@ play.addEventListener("click", function() {
            
            localStorage.setItem("winnings", money);
            
-    });       
+    });  
+    const audio = document.getElementById("casinoMusic")
+    const button = document.getElementById("muteButton")
+    
+    button.addEventListener("click", function() {
+     audio.muted = !audio.muted
+     
+     if (audio.muted) {
+         button.textContent = "🔇";
+         } else {
+                  audio.play()
+                  button.textContent = "🔊";
+                   }
+                    });
+         

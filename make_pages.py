@@ -2720,7 +2720,7 @@ bird_list = ""
 
 for bird in birds:
     filename = bird["name"].lower().replace(" ", "-") + ".html"
-    bird_list += '<li class="bird"><a href="birds/' + filename + '">' +  bird["name"] + '</a></li>'
+    bird_list += '<li class="bird"><a style = "text-decoration:none;" href="birds/' + filename + '">' +  bird["name"] + '</a></li>'
 
 date = datetime.date.today().timetuple().tm_yday
 bod_random = random.Random(date)
