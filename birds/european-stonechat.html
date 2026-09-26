@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>European Stonechat | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "golden-fronted-leafbird.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "european-serin.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EuropeanStonechat1.jpg" alt="European Stonechat" loading = "lazy">
+
+<h2 class = "bird_site_headings">European Stonechat</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Saxicola rubicola</li>
+                <li><span class="fact-label">Family:</span> Muscicapidae</li>
+                <li><span class="fact-label">Size:</span> About 11.5-13 cm</li>
+                <li><span class="fact-label">Weight:</span> About 15.8 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 18-21 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, spiders, larvae and other small invertebrates</li>
+                <li><span class="fact-label">Habitat:</span> Heathland, grassland, coastal scrub, moorland and open areas with scattered bushes</li>
+                <li><span class="fact-label">Behaviour:</span> Perches prominently and makes short flights to capture prey; often seen flicking its wings and tail</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A small cup nest hidden low in vegetation, often close to the ground</li>
+                <li><span class="fact-label">Breeding Season:</span> Mainly March to June, with later broods possible</li>
+                <li><span class="fact-label">Clutch Size:</span> 5-6 eggs</li>
+                <li><span class="fact-label">Call:</span> Short, sharp calls; the song is a rapid series of clicking and musical notes</li>
+                <li><span class="fact-label">Lifespan:</span> Usually a few years after reaching breeding age</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Europe: widespread across western, central and southern Europe; also North Africa and western Asia</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The European Stonechat is a small, upright songbird usually seen perched prominently on bushes, fences or other exposed points. The male has a black head, white neck patch, orange-red breast and dark back, while the female is browner and less strongly marked. It is especially associated with heathland, rough grassland, coastal areas and scrub. Stonechats are active hunters that watch from a perch before dropping down to catch insects and other small prey. Many populations are resident or only partly migratory, while some birds move south in winter. It can be confused with the Whinchat, but the European Stonechat has a darker head and lacks the Whinchat's strong pale eyebrow.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

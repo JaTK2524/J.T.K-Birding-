@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rainbow Lorikeet | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "red-naped-ibis.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "purple-rumped-sunbird.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/RainbowLorikeet1.jpg" alt="Rainbow Lorikeet" loading = "lazy">
+
+<h2 class = "bird_site_headings">Rainbow Lorikeet</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Trichoglossus haematodus</li>
+                <li><span class="fact-label">Family:</span> Psittaculidae</li>
+                <li><span class="fact-label">Size:</span> 25-30 cm</li>
+                <li><span class="fact-label">Weight:</span> About 100-150 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 40-45 cm</li>
+                <li><span class="fact-label">Diet:</span> Nectar, pollen, fruit, seeds and some insects</li>
+                <li><span class="fact-label">Habitat:</span> Rainforest, woodland, coastal forests, gardens and well-treed urban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Highly social and usually travels in noisy flocks; gathers at flowering trees and communal roosts</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Uses hollows in trees, usually laying eggs on decayed wood inside the cavity</li>
+                <li><span class="fact-label">Breeding Season:</span> June to January</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2 eggs</li>
+                <li><span class="fact-label">Call:</span> Loud screeches, chattering and rapid flock calls</li>
+                <li><span class="fact-label">Lifespan:</span> Often around 15-20 years in suitable conditions</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: Queensland, New South Wales, Victoria, northern New South Wales and northeastern Australia; introduced population around Perth, Western Australia</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Rainbow Lorikeet is a brilliantly coloured parrot with a blue head, orange-red breast, green wings and back, and a bright red bill. Its colourful plumage makes it one of the easiest Australian parrots to recognise. Rainbow Lorikeets usually travel in noisy, fast-moving flocks and gather in large communal roosts. Unlike parrots that depend heavily on seeds, they are specialised feeders on nectar and pollen, using their brush-tipped tongues to collect food from flowers. They also eat fruit, seeds and some insects. They are well adapted to urban environments and are frequently seen in gardens and tree-lined suburbs. Their vivid colours and noisy flocking behaviour make them particularly conspicuous.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

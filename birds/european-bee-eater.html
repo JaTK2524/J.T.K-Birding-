@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>European Bee-eater | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "european-goldfinch.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "eurasian-magpie.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EuropeanBee-eater1.jpg" alt="European Bee-eater" loading = "lazy">
+
+<h2 class = "bird_site_headings">European Bee-eater</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Merops apiaster</li>
+                <li><span class="fact-label">Family:</span> Meropidae</li>
+                <li><span class="fact-label">Size:</span> 27-30 cm</li>
+                <li><span class="fact-label">Weight:</span> 44-78 g</li>
+                <li><span class="fact-label">Wingspan:</span> 44-49 cm</li>
+                <li><span class="fact-label">Diet:</span> Bees, wasps, dragonflies and other flying insects</li>
+                <li><span class="fact-label">Habitat:</span> Warm open country, river banks, sandy cliffs, gravel pits, grassland and farmland with scattered trees</li>
+                <li><span class="fact-label">Behaviour:</span> Highly aerial; catches flying insects from the air and often returns to the same perch</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Digs a long tunnel into sandy banks, cliffs or similar exposed ground; often nests in colonies</li>
+                <li><span class="fact-label">Breeding Season:</span> May to August</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 6-7 eggs</li>
+                <li><span class="fact-label">Call:</span> A lively, rolling and frequently repeated 'pruu-pruu' type call</li>
+                <li><span class="fact-label">Lifespan:</span> Around 6 years is a commonly reported figure, though individuals can live longer</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Europe: mainly southern and central Europe; also parts of western Asia and northern Africa. Migrates to sub-Saharan Africa for winter</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The European Bee-eater is one of Europe's most vividly coloured birds, with a turquoise-blue underside, golden-yellow throat, chestnut crown and back, green wings and a black eye stripe. It is a highly aerial insect hunter that catches bees, wasps, dragonflies and other flying insects while in flight. Despite its name, bees make up only part of its diet. After catching a stinging insect, the bird may return to a perch and manipulate the prey before swallowing it. European Bee-eaters are strongly migratory across much of their range, breeding mainly in southern and central Europe before travelling to Africa for winter. They often nest colonially by digging tunnels into sandy or vertical banks.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

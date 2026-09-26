@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Italian Sparrow | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "jungle-babbler.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "indian-spot-billed-duck.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/ItalianSparrow1.jpg" alt="Italian Sparrow" loading = "lazy">
+
+<h2 class = "bird_site_headings">Italian Sparrow</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Passer italiae</li>
+                <li><span class="fact-label">Family:</span> Passeridae</li>
+                <li><span class="fact-label">Size:</span> About 14-16 cm</li>
+                <li><span class="fact-label">Weight:</span> About 25-30 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 22-25 cm</li>
+                <li><span class="fact-label">Diet:</span> Seeds, grains, insects and other small invertebrates</li>
+                <li><span class="fact-label">Habitat:</span> Towns, villages, farmland, open countryside and areas around buildings</li>
+                <li><span class="fact-label">Behaviour:</span> Social and often seen in groups; frequently forages on the ground and around human settlements</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Uses cavities and sheltered recesses in buildings, walls, roof spaces, posts and occasionally tree cavities</li>
+                <li><span class="fact-label">Breeding Season:</span> Usually begins in March and may continue through several successive clutches</li>
+                <li><span class="fact-label">Clutch Size:</span> 3-6 eggs</li>
+                <li><span class="fact-label">Call:</span> A series of chirps and chattering contact calls typical of sparrows</li>
+                <li><span class="fact-label">Lifespan:</span> Usually a few years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Vulnerable</li>
+                <li><span class="fact-label">Where to Find:</span> Italy: widespread, especially northern, central and southern Italy and Sicily; also parts of neighbouring Mediterranean regions including Malta and nearby islands</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Italian Sparrow is a distinctive sparrow of Italy and nearby Mediterranean regions. It has characteristics intermediate between the House Sparrow and Spanish Sparrow, making it an interesting example of closely related sparrows meeting and interbreeding. The male generally has a dark chestnut crown and black markings on the throat and chest, while the overall plumage combines features associated with both related species. It is strongly associated with human settlements but can also occur in farmland and open countryside. It usually nests in cavities and other sheltered spaces around buildings. Although it remains familiar in many Italian towns and villages, populations have declined in some areas, partly because modern buildings provide fewer suitable nesting sites and changing agricultural practices affect food availability.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

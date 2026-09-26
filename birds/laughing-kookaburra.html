@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Laughing Kookaburra | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "lesser-adjutant.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "laughing-dove.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/LaughingKookaburra1.jpg" alt="Laughing Kookaburra" loading = "lazy">
+
+<h2 class = "bird_site_headings">Laughing Kookaburra</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Dacelo novaeguineae</li>
+                <li><span class="fact-label">Family:</span> Alcedinidae</li>
+                <li><span class="fact-label">Size:</span> About 40-47 cm</li>
+                <li><span class="fact-label">Weight:</span> About 300-350 g</li>
+                <li><span class="fact-label">Wingspan:</span> About 55-65 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, reptiles, amphibians, rodents, small birds and other small animals</li>
+                <li><span class="fact-label">Habitat:</span> Open woodland, forests, forest edges, parks and areas with suitable trees</li>
+                <li><span class="fact-label">Behaviour:</span> Perch-hunts by watching from a high position before dropping onto prey; lives in family groups</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> A bare chamber in a natural tree hollow or occasionally an arboreal termite mound</li>
+                <li><span class="fact-label">Breeding Season:</span> August to January</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 2-3 eggs</li>
+                <li><span class="fact-label">Call:</span> The famous loud, rolling 'laughing' call, along with shorter calls used for communication</li>
+                <li><span class="fact-label">Lifespan:</span> Can live for many years in the wild</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> Australia: Queensland, New South Wales, Victoria, South Australia and eastern Tasmania; introduced populations also occur in parts of Western Australia and Tasmania</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Laughing Kookaburra is one of Australia's most recognisable birds, famous for its loud call that sounds remarkably like human laughter. It is a large member of the kingfisher family, with a large pale bill, brown-and-white body, blue-green wings and a rufous tail. Despite belonging to the kingfisher family, it does not depend primarily on fish. Instead, it sits quietly on a perch and watches for prey before dropping down to seize it. Its diet can include insects, reptiles, amphibians, rodents and other small animals. Unlike many solitary kingfishers, Laughing Kookaburras live in family groups and may have older offspring helping the breeding pair raise young.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>
