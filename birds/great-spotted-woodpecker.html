@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Great Spotted Woodpecker | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "greater-coucal.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "great-hornbill.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/GreatSpottedWoodpecker1.jpg" alt="Great Spotted Woodpecker" loading = "lazy">
+
+<h2 class = "bird_site_headings">Great Spotted Woodpecker</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Dendrocopos major</li>
+                <li><span class="fact-label">Family:</span> Picidae</li>
+                <li><span class="fact-label">Size:</span> 23–26 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 79 g</li>
+                <li><span class="fact-label">Wingspan:</span> 38–44 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, insect larvae, tree seeds, nuts, eggs, and occasionally young birds</li>
+                <li><span class="fact-label">Habitat:</span> Deciduous and mixed woodland, parks, gardens, wooded farmland, and areas with dead wood</li>
+                <li><span class="fact-label">Behaviour:</span> Climbs tree trunks and branches while searching for food; drums on wood during territorial displays</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Cavity excavated in a tree, usually in dead or softened wood</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally April to June</li>
+                <li><span class="fact-label">Clutch Size:</span> 4–6 eggs</li>
+                <li><span class="fact-label">Call:</span> Sharp calls and rapid, loud drumming</li>
+                <li><span class="fact-label">Lifespan:</span> Several years; maximum recorded age in ringing data is almost 12 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, and other wooded regions; Germany: Bavaria, Saxony, Hesse, and other forested areas; Spain: Galicia, Catalonia, Asturias, and other wooded regions; Italy: Lombardy, Tuscany, Veneto, and other regions; Poland: Masovia, Lesser Poland, and other forested areas; Sweden: Götaland, Svealand, and Norrland; widespread across much of Europe, North Africa, and northern Asia.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Great Spotted Woodpecker is a striking black-and-white woodpecker with bold red markings and a strong, chisel-shaped bill. Adults have a black back, white shoulder patches, white underparts, and red markings around the lower belly, while juveniles have a prominent red crown. It is most strongly associated with mature deciduous and mixed woodland, particularly areas containing dead or decaying trees where insects are abundant. It also eats tree seeds, nuts, and occasionally eggs or young birds. Its loud drumming is an important territorial and breeding signal and can often be heard before the bird is seen. Compared with the smaller Lesser Spotted Woodpecker, the Great Spotted Woodpecker has much more extensive black-and-white plumage and stronger red markings. It is also considerably larger than the Middle Spotted Woodpecker and has a different head pattern. Its ability to use garden feeders has helped it become a familiar bird in parts of Europe.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

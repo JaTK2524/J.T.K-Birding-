@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Common Chaffinch | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "common-hawk-cuckoo.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "chestnut-bellied-sandgrouse.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/CommonChaffinch1.jpg" alt="Common Chaffinch" loading = "lazy">
+
+<h2 class = "bird_site_headings">Common Chaffinch</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Fringilla coelebs</li>
+                <li><span class="fact-label">Family:</span> Fringillidae</li>
+                <li><span class="fact-label">Size:</span> 14–16 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 22 g</li>
+                <li><span class="fact-label">Wingspan:</span> 24.5–28.5 cm</li>
+                <li><span class="fact-label">Diet:</span> Seeds, grains, buds, plant material, and insects, especially when feeding nestlings</li>
+                <li><span class="fact-label">Habitat:</span> Woodland, gardens, farmland, parks, villages, hedgerows, and areas with mature trees</li>
+                <li><span class="fact-label">Behaviour:</span> Often feeds on the ground; may form mixed flocks with other finches outside the breeding season</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Deep cup-shaped nest decorated with moss and lichen, usually built in a fork of a tree or shrub</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally April to July</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 4–5 eggs</li>
+                <li><span class="fact-label">Call:</span> Distinctive descending song ending in a flourish, with several short contact and alarm calls</li>
+                <li><span class="fact-label">Lifespan:</span> Typical life expectancy after reaching breeding age is around 3 years; maximum recorded age is almost 14 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, and other regions; Germany: Bavaria, Hesse, Saxony, and other regions; Spain: Galicia, Catalonia, Andalusia, and other regions; Italy: Lombardy, Tuscany, Lazio, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and Norrland; widespread across Europe, North Africa, and western Asia.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Common Chaffinch is one of Europe's most familiar finches and is especially common in woodland, gardens, parks, farmland, and villages. Adult males have a blue-grey crown, pinkish-red underparts, chestnut back, and conspicuous white wing bars, while females and juveniles are more subdued brown and olive. Chaffinches feed mainly on seeds and other plant material, with insects becoming particularly important when adults feed their young. Their distinctive descending song is one of the characteristic sounds of spring in many parts of Europe. Compared with the European Greenfinch, the Chaffinch has a slimmer bill and much more strongly contrasting male plumage, while the Greenfinch is predominantly green and yellow. It differs from the European Goldfinch by lacking the red facial mask and yellow wing panels. Chaffinches often forage on the ground and can form mixed flocks with other finches outside the breeding season.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

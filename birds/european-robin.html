@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>European Robin | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "european-roller.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "european-greenfinch.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EuropeanRobin1.jpg" alt="European Robin" loading = "lazy">
+
+<h2 class = "bird_site_headings">European Robin</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Erithacus rubecula</li>
+                <li><span class="fact-label">Family:</span> Muscicapidae</li>
+                <li><span class="fact-label">Size:</span> 12.5–14 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 19 g</li>
+                <li><span class="fact-label">Wingspan:</span> 20–22 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, worms, spiders, other small invertebrates, seeds, and berries</li>
+                <li><span class="fact-label">Habitat:</span> Deciduous and mixed woodland, gardens, parks, scrub, hedgerows, and shaded areas with dense undergrowth</li>
+                <li><span class="fact-label">Behaviour:</span> Highly territorial; often forages on the ground and may follow people while they disturb insects and worms</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Cup-shaped nest built by the female in cavities, banks, recesses, roots, or other sheltered locations</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally March to July, varying by region</li>
+                <li><span class="fact-label">Clutch Size:</span> 4–5 eggs</li>
+                <li><span class="fact-label">Call:</span> A varied, clear, and melodious song with sharp alarm calls</li>
+                <li><span class="fact-label">Lifespan:</span> Typically around 2 years after reaching breeding age; maximum recorded age in ringing data is over 8 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, Occitanie, and other suitable regions; Germany: Bavaria, Saxony, Hesse, and North Rhine-Westphalia; Spain: Galicia, Catalonia, Andalusia, and other wooded regions; Italy: Lombardy, Tuscany, Lazio, and other suitable areas; Poland: Masovia, Lesser Poland, and other wooded regions; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe and parts of western Asia and North Africa.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The European Robin is a small, familiar songbird recognized by its bright orange-red breast, brown upperparts, and pale underside. It occurs in woodland, gardens, parks, hedgerows, scrub, and other habitats with dense vegetation and suitable ground for foraging. In Britain and Ireland it is especially familiar around gardens and human settlements, while elsewhere in Europe it is strongly associated with cool, damp woodland and thick undergrowth. It feeds mainly on insects, worms, spiders, and other small invertebrates during the warmer months, while seeds and berries become more important during winter. European Robins are highly territorial and can be surprisingly aggressive toward other robins despite their small size. Compared with the similar Bluethroat, the European Robin has a much more obvious orange-red breast and lacks the Bluethroat's blue throat pattern. It can also be distinguished from the Nightingale by its orange breast, shorter tail, and more compact appearance. The female usually builds the nest in a cavity, bank, recess, or other sheltered location, sometimes surprisingly close to the ground.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

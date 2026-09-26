@@ -2642,28 +2642,269 @@ birds = [
    }
 },
 {
+"name": "European Robin",
+"scientific": "Erithacus rubecula",
+"description": "The European Robin is a small, familiar songbird recognized by its bright orange-red breast, brown upperparts, and pale underside. It occurs in woodland, gardens, parks, hedgerows, scrub, and other habitats with dense vegetation and suitable ground for foraging. In Britain and Ireland it is especially familiar around gardens and human settlements, while elsewhere in Europe it is strongly associated with cool, damp woodland and thick undergrowth. It feeds mainly on insects, worms, spiders, and other small invertebrates during the warmer months, while seeds and berries become more important during winter. European Robins are highly territorial and can be surprisingly aggressive toward other robins despite their small size. Compared with the similar Bluethroat, the European Robin has a much more obvious orange-red breast and lacks the Bluethroat's blue throat pattern. It can also be distinguished from the Nightingale by its orange breast, shorter tail, and more compact appearance. The female usually builds the nest in a cavity, bank, recess, or other sheltered location, sometimes surprisingly close to the ground.",
+"image": "EuropeanRobin1.jpg",
+"quick_facts": {
+"family": "Muscicapidae",
+"size": "12.5–14 cm",
+"weight": "Approximately 19 g",
+"wingspan": "20–22 cm",
+"diet": "Insects, worms, spiders, other small invertebrates, seeds, and berries",
+"habitat": "Deciduous and mixed woodland, gardens, parks, scrub, hedgerows, and shaded areas with dense undergrowth",
+"behaviour": "Highly territorial; often forages on the ground and may follow people while they disturb insects and worms",
+"activity": "Diurnal",
+"nesting": "Cup-shaped nest built by the female in cavities, banks, recesses, roots, or other sheltered locations",
+"breeding_season": "Generally March to July, varying by region",
+"clutch_size": "4–5 eggs",
+"call": "A varied, clear, and melodious song with sharp alarm calls",
+"lifespan": "Typically around 2 years after reaching breeding age; maximum recorded age in ringing data is over 8 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, Occitanie, and other suitable regions; Germany: Bavaria, Saxony, Hesse, and North Rhine-Westphalia; Spain: Galicia, Catalonia, Andalusia, and other wooded regions; Italy: Lombardy, Tuscany, Lazio, and other suitable areas; Poland: Masovia, Lesser Poland, and other wooded regions; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe and parts of western Asia and North Africa."
+}
+},
+
+{
+"name": "European Goldfinch",
+"scientific": "Carduelis carduelis",
+"description": "The European Goldfinch is a small and colorful finch distinguished by its bright red face, black-and-white head, brown body, and vivid yellow wing panels. It is commonly associated with lightly wooded landscapes, farmland, gardens, parks, scrub, and areas containing tall seed-producing plants. Its long, pointed bill is particularly well suited to extracting seeds from thistles, teasels, burdocks, and similar plants. Goldfinches often form flocks outside the breeding season and may gather in large numbers where abundant food is available. Compared with the European Greenfinch, the Goldfinch is smaller and much more boldly patterned, with a red face and yellow wing markings instead of the Greenfinch's predominantly green plumage. It also differs from the Common Chaffinch, which has stronger sexual differences and lacks the Goldfinch's red facial mask and yellow wing stripe. The species is widespread and adaptable and has benefited in some areas from garden feeding.",
+"image": "EuropeanGoldfinch1.jpg",
+"quick_facts": {
+"family": "Fringillidae",
+"size": "12–13.5 cm",
+"weight": "Approximately 16 g",
+"wingspan": "21–25.5 cm",
+"diet": "Seeds, especially thistle, teasel, burdock, sunflower, and other plant seeds; insects when feeding young",
+"habitat": "Open woodland, farmland, gardens, parks, scrub, villages, and areas with seed-producing plants",
+"behaviour": "Social and often forms flocks outside the breeding season; frequently feeds in vegetation and at garden feeders",
+"activity": "Diurnal",
+"nesting": "Small cup-shaped nest built in trees or shrubs and usually concealed among foliage",
+"breeding_season": "Generally April to August, varying by region",
+"clutch_size": "Usually 5 eggs",
+"call": "Tinkling and twittering calls; song is a rapid, musical series of notes",
+"lifespan": "Typically around 2 years after reaching breeding age; maximum recorded age is over 10 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, Provence, and other suitable regions; Germany: Bavaria, Hesse, Saxony, and other regions; Spain: Catalonia, Galicia, Andalusia, and other suitable areas; Italy: Lombardy, Tuscany, Sicily, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and southern Sweden; widespread across much of Europe, western Asia, and parts of North Africa."
+}
+},
+
+{
+"name": "Eurasian Jay",
+"scientific": "Garrulus glandarius",
+"description": "The Eurasian Jay is a colorful member of the crow family, with pinkish-brown plumage, a black-and-white face, a pale rump, and a striking blue-and-black barred patch on the wings. It is primarily a woodland bird but also occurs in parks, large gardens, farmland, and other areas containing mature trees. Jays are intelligent and adaptable birds with a varied diet that includes acorns, insects, fruits, seeds, eggs, and small animals. They are particularly important in the dispersal of oak trees because they carry acorns away from parent trees and bury them for later use. Compared with the Eurasian Magpie, the Jay is shorter-tailed and more compact, with much more colorful brown, blue, and black plumage. It differs from the Western Jackdaw by its larger size, pinkish-brown body, and blue wing panel. Jays are often heard before they are seen because of their loud, harsh calls.",
+"image": "EurasianJay1.jpg",
+"quick_facts": {
+"family": "Corvidae",
+"size": "32–35 cm",
+"weight": "Approximately 167 g",
+"wingspan": "52–58 cm",
+"diet": "Acorns, seeds, insects, fruits, eggs, nestlings, small animals, and carrion",
+"habitat": "Deciduous and mixed woodland, wooded farmland, parks, large gardens, and forest edges",
+"behaviour": "Intelligent, cautious, territorial, and well known for caching food such as acorns",
+"activity": "Diurnal",
+"nesting": "Cup-shaped nest built from twigs and lined with finer plant material, usually placed in a tree",
+"breeding_season": "Generally March to July",
+"clutch_size": "4–5 eggs",
+"call": "Loud, harsh, rasping alarm calls; also produces quieter calls and vocal imitations",
+"lifespan": "Typically around 4 years after reaching breeding age; maximum recorded age is over 16 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Normandy, Brittany, Île-de-France, and other wooded regions; Germany: Bavaria, Saxony, Hesse, and other forested areas; Spain: Catalonia, Galicia, and other wooded regions; Italy: Lombardy, Tuscany, Lazio, and other regions; Poland: Masovia, Lesser Poland, and other forested areas; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe and parts of western Asia and North Africa."
+}
+},
+
+{
+"name": "Great Spotted Woodpecker",
+"scientific": "Dendrocopos major",
+"description": "The Great Spotted Woodpecker is a striking black-and-white woodpecker with bold red markings and a strong, chisel-shaped bill. Adults have a black back, white shoulder patches, white underparts, and red markings around the lower belly, while juveniles have a prominent red crown. It is most strongly associated with mature deciduous and mixed woodland, particularly areas containing dead or decaying trees where insects are abundant. It also eats tree seeds, nuts, and occasionally eggs or young birds. Its loud drumming is an important territorial and breeding signal and can often be heard before the bird is seen. Compared with the smaller Lesser Spotted Woodpecker, the Great Spotted Woodpecker has much more extensive black-and-white plumage and stronger red markings. It is also considerably larger than the Middle Spotted Woodpecker and has a different head pattern. Its ability to use garden feeders has helped it become a familiar bird in parts of Europe.",
+"image": "GreatSpottedWoodpecker1.jpg",
+"quick_facts": {
+"family": "Picidae",
+"size": "23–26 cm",
+"weight": "Approximately 79 g",
+"wingspan": "38–44 cm",
+"diet": "Insects, insect larvae, tree seeds, nuts, eggs, and occasionally young birds",
+"habitat": "Deciduous and mixed woodland, parks, gardens, wooded farmland, and areas with dead wood",
+"behaviour": "Climbs tree trunks and branches while searching for food; drums on wood during territorial displays",
+"activity": "Diurnal",
+"nesting": "Cavity excavated in a tree, usually in dead or softened wood",
+"breeding_season": "Generally April to June",
+"clutch_size": "4–6 eggs",
+"call": "Sharp calls and rapid, loud drumming",
+"lifespan": "Several years; maximum recorded age in ringing data is almost 12 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, and other wooded regions; Germany: Bavaria, Saxony, Hesse, and other forested areas; Spain: Galicia, Catalonia, Asturias, and other wooded regions; Italy: Lombardy, Tuscany, Veneto, and other regions; Poland: Masovia, Lesser Poland, and other forested areas; Sweden: Götaland, Svealand, and Norrland; widespread across much of Europe, North Africa, and northern Asia."
+}
+},
+
+{
+"name": "Common Kestrel",
+"scientific": "Falco tinnunculus",
+"description": "The Common Kestrel is a small falcon famous for hovering almost motionless while searching the ground for prey. It has long, pointed wings and a long tail, with males generally showing a grey head and tail while females have more extensively barred brown plumage. Kestrels mainly hunt small mammals such as voles but also take insects, reptiles, and small birds. They occur in open habitats including farmland, grassland, scrub, cliffs, and urban areas where suitable hunting grounds and nesting sites are available. Compared with the larger and more powerful Peregrine Falcon, the Common Kestrel is slimmer, smaller, and more specialized for hovering and hunting small ground prey. It also differs from the Merlin by its longer tail, broader wings, and characteristic hovering behaviour. Kestrels commonly use cavities, buildings, cliffs, and old nests rather than constructing a conventional nest of their own.",
+"image": "CommonKestrel1.jpg",
+"quick_facts": {
+"family": "Falconidae",
+"size": "32–39 cm",
+"weight": "Approximately 160–290 g",
+"wingspan": "65–82 cm",
+"diet": "Small mammals, especially voles; insects, reptiles, and small birds",
+"habitat": "Grassland, farmland, scrub, open woodland, cliffs, villages, towns, and cities",
+"behaviour": "Frequently hovers while hunting and often perches on poles, trees, buildings, or other elevated positions",
+"activity": "Diurnal",
+"nesting": "Usually nests in cavities, buildings, cliffs, nest boxes, or abandoned nests of other birds rather than building its own nest",
+"breeding_season": "Generally April to July",
+"clutch_size": "Usually 4–5 eggs",
+"call": "Repeated sharp 'kee-kee-kee' calls, particularly around the nest",
+"lifespan": "Typical life expectancy after reaching breeding age is around 4 years; maximum recorded age is almost 16 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; France: Normandy, Brittany, Provence, and other regions; Germany: Bavaria, Saxony, Hesse, and other regions; Spain: Catalonia, Andalusia, Castile, and other open regions; Italy: Lombardy, Tuscany, Sicily, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and Norrland; Greece: Attica, Central Macedonia, and other regions; widespread across Europe, Africa, and much of Asia."
+}
+},
+
+{
+"name": "Common Nightingale",
+"scientific": "Luscinia megarhynchos",
+"description": "The Common Nightingale is a relatively plain brown songbird whose extraordinary vocal ability has made it one of Europe's most famous songbirds. It has warm brown upperparts, a reddish-brown tail, and pale underparts, with little of the bright plumage associated with many other European songbirds. Nightingales prefer dense scrub, woodland edges, hedgerows, river valleys, and other habitats with thick vegetation close to the ground. Males are famous for singing both during the day and at night during the breeding season, often from concealed positions. Compared with the European Robin, the Nightingale lacks the robin's orange-red breast and has a more reddish-brown tail. It is also much more difficult to see than the similarly sized robin because it spends much of its time hidden in dense vegetation. The species migrates between Europe and sub-Saharan Africa, making its long-distance seasonal movements an important part of its life cycle.",
+"image": "CommonNightingale1.jpg",
+"quick_facts": {
+"family": "Muscicapidae",
+"size": "15–16.5 cm",
+"weight": "Approximately 21 g",
+"wingspan": "Approximately 23–26 cm",
+"diet": "Insects, spiders, worms, and other small invertebrates; fruit is also eaten later in the year",
+"habitat": "Dense scrub, woodland edges, hedgerows, riverine vegetation, thickets, and overgrown areas",
+"behaviour": "Secretive and difficult to see; males sing prominently during the breeding season",
+"activity": "Diurnal and nocturnal during the breeding season",
+"nesting": "Open cup nest built low to the ground among dense vegetation and leaf litter",
+"breeding_season": "Generally April to July",
+"clutch_size": "Usually 4–5 eggs",
+"call": "A powerful, varied song containing whistles, trills, repeated phrases, and rich musical notes",
+"lifespan": "Typically around 2 years after reaching breeding age; maximum recorded age is over 8 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: mainly southern and eastern England; France: Île-de-France, Nouvelle-Aquitaine, Occitanie, and other suitable regions; Spain: Galicia, Castile, Andalusia, and other regions; Portugal: Lisbon, Alentejo, and other regions; Italy: Tuscany, Lazio, Lombardy, and other regions; Germany: Brandenburg, Saxony, and other suitable areas; Poland: Masovia, Lesser Poland, and other regions; migrates to sub-Saharan Africa during the non-breeding season."
+}
+},
+
+{
+"name": "Northern Lapwing",
+"scientific": "Vanellus vanellus",
+"description": "The Northern Lapwing is a distinctive plover with glossy dark green-black upperparts, white underparts, broad rounded wings, and a long, thin crest. Its striking appearance is especially noticeable during the breeding season, when males perform spectacular tumbling display flights. It breeds mainly in open grassland, farmland, moorland, and other open habitats, while outside the breeding season it may gather in large flocks on wetlands, mudflats, coastal fields, and agricultural land. It feeds mainly on earthworms, insects, larvae, and other small invertebrates. Compared with the smaller Little Ringed Plover, the Northern Lapwing is much larger, has a long crest, broader wings, and a strongly contrasting black-and-white appearance. It can also be separated from the Red-wattled Lapwing by its shorter legs, darker glossy upperparts, and long crest. Changes in land management and increased predation have contributed to breeding declines in parts of Europe.",
+"image": "NorthernLapwing1.jpg",
+"quick_facts": {
+"family": "Charadriidae",
+"size": "28–31 cm",
+"weight": "Approximately 250 g",
+"wingspan": "67–72 cm",
+"diet": "Earthworms, insects, larvae, beetles, and other small invertebrates",
+"habitat": "Grassland, farmland, moorland, wetlands, mudflats, coastal fields, and open agricultural areas",
+"behaviour": "Often forms large flocks outside the breeding season and performs tumbling aerial displays during courtship",
+"activity": "Diurnal",
+"nesting": "Shallow scrape on the ground, usually placed in short vegetation",
+"breeding_season": "Generally March to July",
+"clutch_size": "Usually 4 eggs",
+"call": "Distinctive nasal 'pee-wit' calls, particularly during display flights",
+"lifespan": "Several years; individuals may survive considerably longer under favourable conditions",
+"conservation_status": "Near Threatened",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Normandy, Brittany, Hauts-de-France, and other regions; Germany: Lower Saxony, Bavaria, Brandenburg, and other open regions; Netherlands: Friesland, Groningen, and other provinces; Poland: Masovia, Greater Poland, and other regions; Sweden: Götaland and Svealand; Spain: Castilla y León, Aragón, and other suitable regions; also widespread across much of central and northern Europe and parts of western Asia."
+}
+},
+
+{
+"name": "Eurasian Magpie",
+"scientific": "Pica pica",
+"description": "The Eurasian Magpie is a highly recognizable member of the crow family, with contrasting black-and-white plumage, a very long graduated tail, and glossy blue-green iridescence on its wings and tail. It is highly adaptable and occurs in farmland, woodland edges, grassland, parks, gardens, villages, and cities. Magpies are omnivorous and eat insects, seeds, fruits, small animals, eggs, carrion, and food around human settlements. Their intelligence and curiosity have made them prominent in European folklore and culture. Compared with the Eurasian Jay, the Magpie is much more strongly black and white, has a far longer tail, and lacks the Jay's blue wing patch and pinkish-brown body. It also differs from the Rook and Carrion Crow by its white belly and shoulders and its extremely long tail. Magpies construct large, distinctive domed nests and are often heard giving their repetitive, harsh calls when alarmed.",
+"image": "EurasianMagpie1.jpg",
+"quick_facts": {
+"family": "Corvidae",
+"size": "40–51 cm",
+"weight": "Approximately 213 g",
+"wingspan": "52–60 cm",
+"diet": "Insects, seeds, fruits, small animals, eggs, nestlings, carrion, and human food",
+"habitat": "Farmland, woodland edges, grassland, parks, gardens, villages, and urban areas",
+"behaviour": "Intelligent, adaptable, inquisitive, and often forages on the ground; may gather in pairs or small groups",
+"activity": "Diurnal",
+"nesting": "Large domed nest constructed from twigs, usually with a mud-lined cup and a roof of branches",
+"breeding_season": "Generally March to July",
+"clutch_size": "Usually 5–6 eggs",
+"call": "Loud repetitive 'chac-chac-chac' calls and other harsh vocalizations",
+"lifespan": "Typical life expectancy after reaching breeding age is around 5 years; maximum recorded age is over 21 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Île-de-France, Normandy, Occitanie, and other regions; Germany: Bavaria, Saxony, Hesse, and other regions; Spain: Catalonia, Madrid, Castile, and other regions; Italy: Lombardy, Piedmont, Veneto, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe, North Africa, and Asia."
+}
+},
+
+{
+"name": "European Greenfinch",
+"scientific": "Chloris chloris",
+"description": "The European Greenfinch is a stocky finch with predominantly green and yellow plumage, a stout pale bill, and bright yellow markings on the wings and tail. It is a familiar bird of gardens, farmland, hedgerows, parks, villages, and open woodland. Greenfinches feed mainly on seeds and plant material, using their powerful bills to handle relatively large seeds. They may gather in flocks outside the breeding season and frequently visit garden feeders. Compared with the European Goldfinch, the Greenfinch is larger and lacks the Goldfinch's red face and black-and-white head, instead showing mostly green plumage with yellow wing and tail patches. It can also be distinguished from the Common Chaffinch by its greener body, heavier bill, and yellow wing markings. Greenfinch populations in some European regions have been affected by the disease trichomonosis, particularly around garden feeding sites.",
+"image": "EuropeanGreenfinch1.jpg",
+"quick_facts": {
+"family": "Fringillidae",
+"size": "14–15 cm",
+"weight": "Approximately 24–34 g",
+"wingspan": "24–28 cm",
+"diet": "Seeds, grains, buds, berries, and some insects",
+"habitat": "Gardens, farmland, hedgerows, villages, parks, scrub, and open woodland",
+"behaviour": "Social and often gathers in feeding flocks; commonly visits bird feeders",
+"activity": "Diurnal",
+"nesting": "Cup-shaped nest made from grass, moss, roots, and other plant material, usually placed in shrubs or trees",
+"breeding_season": "Generally April to August",
+"clutch_size": "Usually 4–5 eggs",
+"call": "Twittering calls and a characteristic long, wheezing note",
+"lifespan": "Typically several years; survival can be reduced by disease in some populations",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Provence, and other regions; Germany: Bavaria, Hesse, Saxony, and other regions; Spain: Galicia, Catalonia, Andalusia, and other regions; Italy: Lombardy, Tuscany, Sicily, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland and Svealand; widespread across much of Europe, North Africa, and western Asia."
+}
+},
+
+{
+"name": "Common Chaffinch",
+"scientific": "Fringilla coelebs",
+"description": "The Common Chaffinch is one of Europe's most familiar finches and is especially common in woodland, gardens, parks, farmland, and villages. Adult males have a blue-grey crown, pinkish-red underparts, chestnut back, and conspicuous white wing bars, while females and juveniles are more subdued brown and olive. Chaffinches feed mainly on seeds and other plant material, with insects becoming particularly important when adults feed their young. Their distinctive descending song is one of the characteristic sounds of spring in many parts of Europe. Compared with the European Greenfinch, the Chaffinch has a slimmer bill and much more strongly contrasting male plumage, while the Greenfinch is predominantly green and yellow. It differs from the European Goldfinch by lacking the red facial mask and yellow wing panels. Chaffinches often forage on the ground and can form mixed flocks with other finches outside the breeding season.",
+"image": "CommonChaffinch1.jpg",
+"quick_facts": {
+"family": "Fringillidae",
+"size": "14–16 cm",
+"weight": "Approximately 22 g",
+"wingspan": "24.5–28.5 cm",
+"diet": "Seeds, grains, buds, plant material, and insects, especially when feeding nestlings",
+"habitat": "Woodland, gardens, farmland, parks, villages, hedgerows, and areas with mature trees",
+"behaviour": "Often feeds on the ground; may form mixed flocks with other finches outside the breeding season",
+"activity": "Diurnal",
+"nesting": "Deep cup-shaped nest decorated with moss and lichen, usually built in a fork of a tree or shrub",
+"breeding_season": "Generally April to July",
+"clutch_size": "Usually 4–5 eggs",
+"call": "Distinctive descending song ending in a flourish, with several short contact and alarm calls",
+"lifespan": "Typical life expectancy after reaching breeding age is around 3 years; maximum recorded age is almost 14 years",
+"conservation_status": "Least Concern",
+"where_to_find": "United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Brittany, Normandy, Île-de-France, and other regions; Germany: Bavaria, Hesse, Saxony, and other regions; Spain: Galicia, Catalonia, Andalusia, and other regions; Italy: Lombardy, Tuscany, Lazio, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and Norrland; widespread across Europe, North Africa, and western Asia."
+}
+},
+
+{
 "name": "European Roller",
 "scientific": "Coracias garrulus",
-"description": "The European Roller is a striking member of the roller family, known for its vivid blue plumage, warm brown back, and contrasting dark flight feathers. It breeds across parts of Europe and western and central Asia before undertaking long-distance migration to wintering areas mainly in sub-Saharan Africa. Compared with the similar Indian Roller, the European Roller generally has a more uniformly blue head and underparts, while the Indian Roller shows more noticeable brown on the head and upperparts. The European Roller also has a more strongly contrasting dark-and-blue pattern on the wings, particularly noticeable when it is in flight. Compared with the similar Dollarbird, the European Roller is more brightly coloured overall and lacks the Dollarbird's distinctive pale circular spots on the wings. Its warm brown back, turquoise-blue body, and dark wing markings give it a distinctive appearance among rollers. The European Roller is usually associated with open woodland, grassland, farmland, forest edges, and other open landscapes where it can hunt insects from exposed perches. Unlike the largely resident Indian Roller in much of the Indian subcontinent, the European Roller is strongly migratory and spends different parts of the year in widely separated regions. Its habit of perching prominently before making short flights to capture prey also gives it the characteristic hunting behaviour shared by other rollers. These differences in plumage, wing pattern, distribution, migration, and habitat help distinguish the European Roller from other similar roller species when it is seen in suitable areas.",
+"description": "The European Roller is a brightly coloured migratory bird with vivid blue to turquoise plumage, a brownish back, a dark head, and striking blue and black wings. It is associated mainly with warm open landscapes such as grasslands, agricultural areas, open woodland, steppes, and forest edges, where it hunts large insects from exposed perches. The species breeds across parts of southern, central, and eastern Europe and western Asia before migrating south to sub-Saharan Africa for the non-breeding season. Compared with the Indian Roller, the European Roller has a more uniformly blue head and body and lacks the Indian Roller's darker head and neck patterning. It can also be distinguished from the Dollarbird by its different wing pattern and more extensive blue coloration. European Rollers are cavity nesters and commonly use holes in trees, cliffs, or buildings, as well as artificial nest boxes. The species has experienced substantial population declines in parts of its range, although its current global IUCN category is Least Concern.",
 "image": "EuropeanRoller1.jpg",
 "quick_facts": {
 "family": "Coraciidae",
-"size": "29–32 cm",
-"weight": "Approximately 130–190 g",
-"wingspan": "59–73 cm",
-"diet": "Large insects, beetles, grasshoppers, small reptiles, amphibians, and occasionally small mammals",
-"habitat": "Open woodland, grassland, farmland, forest edges, savannas, and other open landscapes with suitable perches",
-"behaviour": "Usually hunts from exposed perches, making short flights to capture prey on or near the ground; often seen alone or in pairs",
+"size": "Approximately 29–32 cm",
+"weight": "Approximately 140–190 g",
+"wingspan": "Approximately 52–58 cm",
+"diet": "Large insects, especially beetles, grasshoppers, crickets, and other arthropods; occasionally small reptiles, amphibians, or small mammals",
+"habitat": "Open woodland, grassland, farmland, steppes, forest edges, pasture, and other warm open landscapes with suitable perches",
+"behaviour": "Often hunts from exposed perches, dropping to the ground to capture prey; strongly migratory",
 "activity": "Diurnal",
-"nesting": "Nests in tree cavities, abandoned woodpecker holes, cliffs, or other suitable cavities",
-"breeding_season": "Generally April to July in its European breeding range, varying by region",
-"clutch_size": "3–6 eggs",
-"call": "A harsh, grating or rattling call, often repeated during the breeding season",
-"lifespan": "Several years in the wild",
+"nesting": "Uses natural or artificial cavities in trees, cliffs, banks, or buildings; usually does not construct a substantial nest",
+"breeding_season": "Generally April to July, with egg-laying often occurring from late May to mid-June",
+"clutch_size": "Usually 4–5 eggs",
+"call": "Harsh, crow-like calls and repeated rasping or grating notes",
+"lifespan": "Several years; generation time is estimated at around 5.6 years",
 "conservation_status": "Least Concern",
-"where_to_find": "Europe: Spain, Portugal, France, Italy, the Balkans, Hungary, Romania, Ukraine, and parts of southern Russia; Asia: Turkey, the Caucasus, Kazakhstan, Uzbekistan, Turkmenistan, Iran, and surrounding regions; winters mainly in sub-Saharan Africa, with migration routes passing through parts of the Middle East and South Asia."
-   }
+"where_to_find": "Spain: Extremadura, Andalusia, Castilla y León, and other suitable regions; Portugal; France: southern regions and Mediterranean areas; Italy: Tuscany, Lazio, Sicily, and other regions; Croatia; Hungary; Romania; Bulgaria; Greece; Ukraine; Russia: southern and western regions; Turkey; Kazakhstan and other parts of western and central Asia; migrates to sub-Saharan Africa during the non-breeding season. In India it occurs mainly as a passage migrant and localized summer migrant, with records from regions including Punjab, Gujarat, Rajasthan, Maharashtra, Karnataka, Tamil Nadu, Kerala, and other suitable areas."
+}
 },
+
     ]
 
 birds = sorted(birds, key = lambda bird: bird["name"].lower())

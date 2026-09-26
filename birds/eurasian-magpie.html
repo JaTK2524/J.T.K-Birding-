@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eurasian Magpie | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "european-goldfinch.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "eurasian-jay.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EurasianMagpie1.jpg" alt="Eurasian Magpie" loading = "lazy">
+
+<h2 class = "bird_site_headings">Eurasian Magpie</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Pica pica</li>
+                <li><span class="fact-label">Family:</span> Corvidae</li>
+                <li><span class="fact-label">Size:</span> 40–51 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 213 g</li>
+                <li><span class="fact-label">Wingspan:</span> 52–60 cm</li>
+                <li><span class="fact-label">Diet:</span> Insects, seeds, fruits, small animals, eggs, nestlings, carrion, and human food</li>
+                <li><span class="fact-label">Habitat:</span> Farmland, woodland edges, grassland, parks, gardens, villages, and urban areas</li>
+                <li><span class="fact-label">Behaviour:</span> Intelligent, adaptable, inquisitive, and often forages on the ground; may gather in pairs or small groups</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Large domed nest constructed from twigs, usually with a mud-lined cup and a roof of branches</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally March to July</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 5–6 eggs</li>
+                <li><span class="fact-label">Call:</span> Loud repetitive 'chac-chac-chac' calls and other harsh vocalizations</li>
+                <li><span class="fact-label">Lifespan:</span> Typical life expectancy after reaching breeding age is around 5 years; maximum recorded age is over 21 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Île-de-France, Normandy, Occitanie, and other regions; Germany: Bavaria, Saxony, Hesse, and other regions; Spain: Catalonia, Madrid, Castile, and other regions; Italy: Lombardy, Piedmont, Veneto, and other regions; Poland: Masovia, Lesser Poland, and other regions; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe, North Africa, and Asia.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Eurasian Magpie is a highly recognizable member of the crow family, with contrasting black-and-white plumage, a very long graduated tail, and glossy blue-green iridescence on its wings and tail. It is highly adaptable and occurs in farmland, woodland edges, grassland, parks, gardens, villages, and cities. Magpies are omnivorous and eat insects, seeds, fruits, small animals, eggs, carrion, and food around human settlements. Their intelligence and curiosity have made them prominent in European folklore and culture. Compared with the Eurasian Jay, the Magpie is much more strongly black and white, has a far longer tail, and lacks the Jay's blue wing patch and pinkish-brown body. It also differs from the Rook and Carrion Crow by its white belly and shoulders and its extremely long tail. Magpies construct large, distinctive domed nests and are often heard giving their repetitive, harsh calls when alarmed.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

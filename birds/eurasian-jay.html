@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eurasian Jay | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "eurasian-magpie.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "eurasian-coot.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/EurasianJay1.jpg" alt="Eurasian Jay" loading = "lazy">
+
+<h2 class = "bird_site_headings">Eurasian Jay</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Garrulus glandarius</li>
+                <li><span class="fact-label">Family:</span> Corvidae</li>
+                <li><span class="fact-label">Size:</span> 32–35 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 167 g</li>
+                <li><span class="fact-label">Wingspan:</span> 52–58 cm</li>
+                <li><span class="fact-label">Diet:</span> Acorns, seeds, insects, fruits, eggs, nestlings, small animals, and carrion</li>
+                <li><span class="fact-label">Habitat:</span> Deciduous and mixed woodland, wooded farmland, parks, large gardens, and forest edges</li>
+                <li><span class="fact-label">Behaviour:</span> Intelligent, cautious, territorial, and well known for caching food such as acorns</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Cup-shaped nest built from twigs and lined with finer plant material, usually placed in a tree</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally March to July</li>
+                <li><span class="fact-label">Clutch Size:</span> 4–5 eggs</li>
+                <li><span class="fact-label">Call:</span> Loud, harsh, rasping alarm calls; also produces quieter calls and vocal imitations</li>
+                <li><span class="fact-label">Lifespan:</span> Typically around 4 years after reaching breeding age; maximum recorded age is over 16 years</li>
+                <li><span class="fact-label">Conservation Status:</span> Least Concern</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Normandy, Brittany, Île-de-France, and other wooded regions; Germany: Bavaria, Saxony, Hesse, and other forested areas; Spain: Catalonia, Galicia, and other wooded regions; Italy: Lombardy, Tuscany, Lazio, and other regions; Poland: Masovia, Lesser Poland, and other forested areas; Sweden: Götaland, Svealand, and southern Norrland; widespread across much of Europe and parts of western Asia and North Africa.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Eurasian Jay is a colorful member of the crow family, with pinkish-brown plumage, a black-and-white face, a pale rump, and a striking blue-and-black barred patch on the wings. It is primarily a woodland bird but also occurs in parks, large gardens, farmland, and other areas containing mature trees. Jays are intelligent and adaptable birds with a varied diet that includes acorns, insects, fruits, seeds, eggs, and small animals. They are particularly important in the dispersal of oak trees because they carry acorns away from parent trees and bury them for later use. Compared with the Eurasian Magpie, the Jay is shorter-tailed and more compact, with much more colorful brown, blue, and black plumage. It differs from the Western Jackdaw by its larger size, pinkish-brown body, and blue wing panel. Jays are often heard before they are seen because of their loud, harsh calls.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>

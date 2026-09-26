@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Northern Lapwing | J.T.K Birding</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Props/J.T.K_Birding_Favicon.png">
+</head>
+<body class = "body">
+<audio id = "birdAudio" src = "../Props/MyMusic6.mp3" autoplay muted loop ></audio>
+<button id = "muteButton" class = "audio_button">🔇</button>
+<div class="bird-info">
+<div class = "navbar2">
+<div style = "text-align:center">
+<a href = "../index.html">Home</a>
+&nbsp;&nbsp;
+<a href = "../about-us.html">About Us</a>
+&nbsp;&nbsp;
+<a href = "../CasinoGame.html">Casino</a>
+</div>
+</div>
+<a href = "oriental-darter.html" >
+<button class = "next_page" >
+Next Page
+</button>
+</a>
+<a href = "malabar-pied-hornbill.html">
+<button class = "previous_page">
+Previous Page
+</button>
+</a>
+<img src="../Images/NorthernLapwing1.jpg" alt="Northern Lapwing" loading = "lazy">
+
+<h2 class = "bird_site_headings">Northern Lapwing</h2>
+<section class="quick-facts">
+      <h2 class = "bird_site_headings">Quick Facts</h2>
+
+            <ul>
+                <li><span class="fact-label">Scientific name:</span> Vanellus vanellus</li>
+                <li><span class="fact-label">Family:</span> Charadriidae</li>
+                <li><span class="fact-label">Size:</span> 28–31 cm</li>
+                <li><span class="fact-label">Weight:</span> Approximately 250 g</li>
+                <li><span class="fact-label">Wingspan:</span> 67–72 cm</li>
+                <li><span class="fact-label">Diet:</span> Earthworms, insects, larvae, beetles, and other small invertebrates</li>
+                <li><span class="fact-label">Habitat:</span> Grassland, farmland, moorland, wetlands, mudflats, coastal fields, and open agricultural areas</li>
+                <li><span class="fact-label">Behaviour:</span> Often forms large flocks outside the breeding season and performs tumbling aerial displays during courtship</li>
+                <li><span class="fact-label">Activity:</span> Diurnal</li>
+                <li><span class="fact-label">Nesting:</span> Shallow scrape on the ground, usually placed in short vegetation</li>
+                <li><span class="fact-label">Breeding Season:</span> Generally March to July</li>
+                <li><span class="fact-label">Clutch Size:</span> Usually 4 eggs</li>
+                <li><span class="fact-label">Call:</span> Distinctive nasal 'pee-wit' calls, particularly during display flights</li>
+                <li><span class="fact-label">Lifespan:</span> Several years; individuals may survive considerably longer under favourable conditions</li>
+                <li><span class="fact-label">Conservation Status:</span> Near Threatened</li>
+                <li><span class="fact-label">Where to Find:</span> United Kingdom: England, Scotland, Wales, and Northern Ireland; Ireland; France: Normandy, Brittany, Hauts-de-France, and other regions; Germany: Lower Saxony, Bavaria, Brandenburg, and other open regions; Netherlands: Friesland, Groningen, and other provinces; Poland: Masovia, Greater Poland, and other regions; Sweden: Götaland and Svealand; Spain: Castilla y León, Aragón, and other suitable regions; also widespread across much of central and northern Europe and parts of western Asia.</li>
+            </ul>
+        </section>
+
+        <section class="about-bird">
+            <h2 class = "bird_site_headings">About the Bird</h2>
+
+            <p>The Northern Lapwing is a distinctive plover with glossy dark green-black upperparts, white underparts, broad rounded wings, and a long, thin crest. Its striking appearance is especially noticeable during the breeding season, when males perform spectacular tumbling display flights. It breeds mainly in open grassland, farmland, moorland, and other open habitats, while outside the breeding season it may gather in large flocks on wetlands, mudflats, coastal fields, and agricultural land. It feeds mainly on earthworms, insects, larvae, and other small invertebrates. Compared with the smaller Little Ringed Plover, the Northern Lapwing is much larger, has a long crest, broader wings, and a strongly contrasting black-and-white appearance. It can also be separated from the Red-wattled Lapwing by its shorter legs, darker glossy upperparts, and long crest. Changes in land management and increased predation have contributed to breeding declines in parts of Europe.</p>
+        </section>
+
+</div>
+</body>
+<script>
+const button = document.getElementById("muteButton")
+const audio = document.getElementById("birdAudio")
+
+button.addEventListener("click", function() {
+ audio.muted = !audio.muted;
+ 
+ if (audio.muted) {
+    button.textContent = "🔇";
+    } else {
+             audio.play();
+             button.textContent = "🔊";
+             }
+              });
+</script>
+</html>
