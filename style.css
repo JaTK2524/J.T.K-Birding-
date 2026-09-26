@@ -40,6 +40,7 @@ body {
 .bird-info img {
     width: 300px;
     height: auto;
+    
 }
 img {
     border-radius: 15px;
@@ -102,6 +103,7 @@ a{
                                     display: inline-block;
                                     padding: 15px 10px 15px 10px;
                                     text-align:center;
+                                    margin-bottom:20px;
                                      }
                                      button{
                                      width: 100px;
@@ -209,4 +211,50 @@ height:auto;
 display:flex;
 flex-direction: column;
 gap:10px;
+}
+.casino_layout{
+max-width: 1500px;
+height:auto;
+margin: auto;
+background-color: #E8DFC5;
+padding: 35px;
+border-radius: 15px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.70);
+display:flex;
+align-items:center;
+flex-direction: column;
+gap: 30px;
+}
+.casino_bet{
+width: 200px;
+height:auto;
+font-family:'Jost';
+font-size:19px;
+padding:10px;
+border-radius:15px;
+}
+.casino_result{
+max-width:800px;
+margin:auto;
+background-color:#F2E7A1;
+border-radius:25px;
+padding:25px;
+}
+.casino_guess{
+width:200px;
+height:auto;
+font-family:'Jost';
+font-size:19px;
+padding:10px;
+border-radius:15px;
+}
+.casino_playbutton{
+background-color:#A6CED3;
+}
+.casino_body{
+background-image:url("Props/casino_background.jpg");
+background-attachment:fixed;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;
 }
