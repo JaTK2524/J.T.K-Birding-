@@ -103,7 +103,19 @@ a{
                                      }
                                      .navbar2{
                                      margin-bottom:40px;
+                                     border:2px solid #A7A3AE;
+                                     display:inline-block;
+                                     padding:10px;
+                                     border-radius:20px;
+                                     text-align:center;
                                      }
+                                     .navbar2 a {
+                                    color:#A7A3AE;
+                                    }
+                                    .navbar2 a:hover{
+                                    color:#8A8593;
+                                    }
+
                                      
                                      button{
                                      width: 100px;
@@ -264,3 +276,4 @@ text-decoration:none;
 .bod_link{
 text-decoration:none;
 }
+
